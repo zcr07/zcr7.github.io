@@ -1,6 +1,6 @@
-# 妑妑🔭差 :link: http://9.zcr3.ddns-ip.net 
-### :page_facing_up: [1](http://9.zcr3.ddns-ip.net/tag.html) 
+# 妑妑🔭差 :link: https://z.zcr4.ip-ddns.com 
+### :page_facing_up: [1](https://z.zcr4.ip-ddns.com/tag.html) 
 ### :speech_balloon: 0 
 ### :hibiscus: 821 
-### :alarm_clock: 2025-05-03 16:09:43 
+### :alarm_clock: 2025-05-03 17:27:00 
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
