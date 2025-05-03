@@ -1,17 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sat, 03 May 2025 14:59:51 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>Tools</title><link>https://z.zcr4.ip-ddns.com/post/Tools.html</link><description>&lt;!DOCTYPE html&gt;
-&lt;html data-color-mode='light' data-dark-theme='dark_colorblind' data-light-theme='light' lang='zh-CN'&gt;
-&lt;head&gt;
-    &lt;meta content='text/html; charset=utf-8' http-equiv='content-type' /&gt;
-    &lt;meta name='viewport' content='width=device-width,initial-scale=1.0'&gt;
-    &lt;meta http-equiv='X-UA-Compatible' content='IE=edge'&gt;
-    &lt;link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' /&gt;
+<!DOCTYPE html>
+<html data-color-mode="light" data-dark-theme="dark_colorblind" data-light-theme="light" lang="zh-CN">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     
-    &lt;link rel='icon' href='https://cdn.jsdelivr.net/gh/zb9678/img@main/im7/04.17:20:30:30.png'&gt;&lt;script&gt;
-        let theme = localStorage.getItem('meek_theme') || 'light';
-        document.documentElement.setAttribute('data-color-mode', theme);
-    &lt;/script&gt;
-&lt;meta name='description' content='## git_cf
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/zb9678/img@main/im7/04.17:20:30:30.png"><script>
+        let theme = localStorage.getItem("meek_theme") || "light";
+        document.documentElement.setAttribute("data-color-mode", theme);
+    </script>
+<meta name="description" content="## git_cf
 
 
 🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛git_cf 🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛
@@ -82,7 +81,7 @@
 
 ===================https://panel4.serv00.com
 
-== https://mail.serv00.com/?_task=mail&amp;_mbox=INBOX
+== https://mail.serv00.com/?_task=mail&_mbox=INBOX
 
 1======4====F7===1@kevzcr.serv00.net
 
@@ -539,36 +538,3 @@ zcr25.x10.mx             zcr
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Tools.html</guid><pubDate>Sat, 03 May 2025 14:59:22 +0000</pubDate></item><item><title>限制单进程运行</title><link>https://z.zcr4.ip-ddns.com/post/xian-zhi-dan-jin-cheng-yun-xing.html</link><description>## 限制单进程运行
-
-```
-#SingleInstance Off
-;MsgBox, 4096,, % A_Now
-return
-
-	OnlyOne(flag='') 
-  {
-  	static init:=OnlyOne('001')
-  	DetectHiddenWindows, % (bak:=A_DetectHiddenWindows) ? 'On':'On'
-  	mypid:=DllCall('GetCurrentProcessId')
-  	flag:='Ahk_OnlyOne_Ahk&lt;&lt;' . flag . '&gt;&gt;'
-  	Gui, Ahk_OnlyOne_Ahk: Show, Hide, %flag%
-  	WinGet, list, List, %flag% ahk_class AutoHotkeyGUI
-  	Loop, % list
-  	IfWinExist, % 'ahk_id ' . list%A_Index%
-  {
-    	WinGet, pid, PID
-    	IfEqual, pid, %mypid%, Continue
-   	 WinClose, ahk_pid %pid% ahk_class AutoHotkey,, 3
-    	IfWinNotExist,,, Continue
-    	Process, Close, %pid%
-    	WinWaitClose
-  }
-
-  	WinGet, list, List, %flag% ahk_class AutoHotkeyGUI
-  	IfNotEqual, list, 1, ExitApp
-  	DetectHiddenWindows, %bak%
-  }
-
-;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ   限制单进程运行    ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 3-63
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/xian-zhi-dan-jin-cheng-yun-xing.html</guid><pubDate>Sat, 03 May 2025 07:43:48 +0000</pubDate></item></channel></rss>
