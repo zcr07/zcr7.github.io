@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html data-color-mode="light" data-dark-theme="dark_colorblind" data-light-theme="light" lang="zh-CN">
-<head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
-    
-    <link rel="icon" href="https://cdn.jsdelivr.net/gh/zb9678/img@main/im7/04.17:20:30:30.png"><script>
-        let theme = localStorage.getItem("meek_theme") || "light";
-        document.documentElement.setAttribute("data-color-mode", theme);
-    </script>
-<meta name="description" content="## git_cf
+
 
 
 🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛git_cf 🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛
