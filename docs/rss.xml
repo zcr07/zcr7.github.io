@@ -1,5 +1,121 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sat, 03 May 2025 15:02:04 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>Tools</title><link>https://z.zcr4.ip-ddns.com/post/Tools.html</link><description>&lt;!DOCTYPE html&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 04 May 2025 03:45:17 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>corn</title><link>https://z.zcr4.ip-ddns.com/post/corn.html</link><description>## corn
+
+- https://crontab.guru/examples.html
+
+
+每一分钟
+* * * * *
+then at 2025-05-04 11:05:00
+then at 2025-05-04 11:06:00
+then at 2025-05-04 11:07:00
+then at 2025-05-04 11:08:00
+then at 2025-05-04 11:09:00
+
+每3分钟
+*/3 * * * *
+then at 2025-05-04 11:06:00
+then at 2025-05-04 11:09:00
+then at 2025-05-04 11:12:00
+then at 2025-05-04 11:15:00
+then at 2025-05-04 11:18:00
+
+从1分到59分，每2分钟
+1-59/2 * * * *
+then at 2025-05-04 11:09:00
+then at 2025-05-04 11:11:00
+then at 2025-05-04 11:13:00
+then at 2025-05-04 11:15:00
+then at 2025-05-04 11:17:00
+
+
+从周一到周五的每一天的22:00 ​​​ 
+0 22 * * 1-5
+then at 2025-05-05 22:00:00
+then at 2025-05-06 22:00:00
+then at 2025-05-07 22:00:00
+then at 2025-05-08 22:00:00
+then at 2025-05-09 22:00:00
+vhen at 2025-05-12 22:00:00
+
+从第0分钟起，每1小时
+0 * * * *
+     at 2025-05-04 12:00:00
+then at 2025-05-04 13:00:00
+then at 2025-05-04 14:00:00
+then at 2025-05-04 15:00:00
+then at 2025-05-04 16:00:00
+
+从第0分钟起，每2小时
+0 */2 * * *
+     at 2025-05-04 12:00:00
+then at 2025-05-04 14:00:00
+then at 2025-05-04 16:00:00
+then at 2025-05-04 18:00:00
+then at 2025-05-04 20:00:00
+
+从9点到17点，每小时0分钟
+0 9-17 * * *
+
+在每个星期天的04:05 ​​​ 
+5 4 * * sun
+then at 2025-05-11 04:05:00
+then at 2025-05-18 04:05:00
+then at 2025-05-25 04:05:00
+then at 2025-06-01 04:05:00
+then at 2025-06-08 04:05:00
+
+每个月的8号到14号，每天04:00
+0 4 8-14 * *
+then at 2025-05-08 04:00:00
+then at 2025-05-09 04:00:00
+then at 2025-05-10 04:00:00
+then at 2025-05-11 04:00:00
+then at 2025-05-12 04:00:00
+then at 2025-05-13 04:00:00
+then at 2025-05-14 04:00:00
+
+每个月的1日,14:15
+15 14 1 * *
+ at 2025-06-01 14:15:00
+then at 2025-07-01 14:15:00
+then at 2025-08-01 14:15:00
+then at 2025-09-01 14:15:00
+then at 2025-10-01 14:15:00
+
+
+每年的 1月1日00:00
+0 0 1 1 *
+
+每6个月的 1日00:00
+0 0 1 */6 *
+
+每3个月的 1日00:00
+0 0 1 */3 *
+
+每个月的 1日00:00
+0 0 1 * * 
+
+每个周日00:00
+0 0 * * 0
+
+仅周末 即周六周天 00:00
+0 0 * * 6,0
+
+仅工作日 即周一到周五 00:00
+0 0 * * 1-5
+
+每天 00:00
+0 0 * * *
+     *at 2025-05-05 00:00:00
+then at 2025-05-06 00:00:00
+then at 2025-05-07 00:00:00
+then at 2025-05-08 00:00:00
+then at 2025-05-09 00:00:00
+ 
+
+
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/corn.html</guid><pubDate>Sun, 04 May 2025 03:44:47 +0000</pubDate></item><item><title>Tools</title><link>https://z.zcr4.ip-ddns.com/post/Tools.html</link><description>&lt;!DOCTYPE html&gt;
 &lt;html data-color-mode='light' data-dark-theme='dark_colorblind' data-light-theme='light' lang='zh-CN'&gt;
 &lt;head&gt;
     &lt;meta content='text/html; charset=utf-8' http-equiv='content-type' /&gt;
