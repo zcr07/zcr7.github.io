@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
   issues:
     types: [opened, edited]
-  # schedule:
-  #   - cron: "0 15 * * *"  # 可选：每天 00:00 UTC 自动构建一次
+   schedule:
+     - cron: "0 15 * * *"  # 可选：每天 00:00 UTC 自动构建一次
 
 jobs:
   build:
