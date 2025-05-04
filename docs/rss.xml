@@ -1,5 +1,47 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 04 May 2025 08:05:23 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>Gmeek.yml 中随写随上传代码部分</title><link>https://z.zcr4.ip-ddns.com/post/Gmeek.yml%20-zhong-sui-xie-sui-shang-chuan-dai-ma-bu-fen.html</link><description>## Gmeek.yml 中随写随上传代码部分
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 04 May 2025 08:08:25 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>单 新建文件夹 双 TxT文件  名为剪贴板</title><link>https://z.zcr4.ip-ddns.com/post/dan-%20-xin-jian-wen-jian-jia-%20-shuang-%20TxT-wen-jian-%20%20-ming-wei-jian-tie-ban.html</link><description>## 单 新建文件夹 双 TxT文件  名为剪贴板
+
+```
+ &gt;^b::
+if wincc_presses &gt; 0 ; SetTimer 已经启动, 所以我们记录键击.
+{
+    wincc_presses += 1
+    return
+}
+; 否则, 这是新开始系列中的首次按下. 把次数设为 1 并启动
+; 计时器：
+wincc_presses = 1
+SetTimer, Keywincc, 300 ; 在 400 毫秒内等待更多的键击.
+return
+
+Keywincc:
+SetTimer, Keywincc, off
+if wincc_presses = 1 ; 此键按下了一次.
+{
+   Click right
+sleep,200
+Send, wf
+Clipboard= %Clipboard%
+sleep,200
+send,{ctrl down}v{ctrl up}
+ClipWait
+send, {enter}
+}
+else if wincc_presses = 2 ; 此键按下了两次.
+{
+   Click right
+sleep,200
+Send, w{up 1}{enter}                                            ; 调整新建压缩包还是txt
+Clipboard= %Clipboard%
+sleep,200
+send,{ctrl down}v{ctrl up}
+ClipWait
+send, {enter}
+}
+wincc_presses = 0
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞ   &gt;^b  单 新建文件夹 双 TxT文件  名为剪贴板    ΞΞΞΞΞΞΞΞΞΞΞΞΞ 06-373
+```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/dan-%20-xin-jian-wen-jian-jia-%20-shuang-%20TxT-wen-jian-%20%20-ming-wei-jian-tie-ban.html</guid><pubDate>Sun, 04 May 2025 08:08:01 +0000</pubDate></item><item><title>Gmeek.yml 中随写随上传代码部分</title><link>https://z.zcr4.ip-ddns.com/post/Gmeek.yml%20-zhong-sui-xie-sui-shang-chuan-dai-ma-bu-fen.html</link><description>## Gmeek.yml 中随写随上传代码部分
 
 - https://github.com/zcr07/zcr7.github.io/blob/main/.github/workflows/Gmeek.yml
 
