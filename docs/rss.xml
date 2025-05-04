@@ -1,5 +1,111 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 04 May 2025 07:59:09 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>复制文件名 有后缀和无后缀</title><link>https://z.zcr4.ip-ddns.com/post/fu-zhi-wen-jian-ming-%20-you-hou-zhui-he-wu-hou-zhui.html</link><description>## 复制文件名 有后缀和无后缀
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 04 May 2025 08:03:01 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>Gmeek.yml 中随写随上传代码部分</title><link>https://z.zcr4.ip-ddns.com/post/Gmeek.yml%20-zhong-sui-xie-sui-shang-chuan-dai-ma-bu-fen.html</link><description>## Gmeek.yml 中随写随上传代码部分
+
+- https://github.com/zcr07/zcr7.github.io/blob/main/.github/workflows/Gmeek.yml
+
+```
+on:
+  push:
+    branches:
+      - main
+```
+
+### 完整代码
+
+```
+name: build Gmeek
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  issues:
+    types: [opened, edited]
+  schedule:
+    - cron: '0 15 * * *'
+    
+jobs:
+  build:
+    name: Generate blog
+    runs-on: ubuntu-24.04
+    if: ${{ github.event.repository.owner.id == github.event.sender.id || github.event_name == 'schedule' }}
+    permissions: write-all
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+
+      - name: Get config.json
+        run: |
+          echo '====== check config.josn file ======'
+          cat config.json
+          echo '====== check config.josn end  ======'
+          sudo apt-get install jq
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.8
+
+      - name: Clone source code
+        run: |
+          GMEEK_VERSION=$(jq -r '.GMEEK_VERSION' config.json)
+          git clone https://github.com/Meekdai/Gmeek.git /opt/Gmeek;
+          cd /opt/Gmeek/
+          lastTag=$(git describe --tags `git rev-list --tags --max-count=1`)
+          if [ $GMEEK_VERSION == 'last' ]; then git checkout $lastTag; else git checkout $GMEEK_VERSION; fi;
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r /opt/Gmeek/requirements.txt
+
+      - name: Generate new html
+        run: |
+          cp -r ./* /opt/Gmeek/
+          cd /opt/Gmeek/
+          python Gmeek.py ${{ secrets.GITHUB_TOKEN }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
+          cp -a /opt/Gmeek/docs ${{ github.workspace }} 
+          cp -a /opt/Gmeek/backup ${{ github.workspace }} 
+          cp /opt/Gmeek/blogBase.json ${{ github.workspace }} 
+          
+      - name: update html
+        run: |
+          git config --local user.email '$(jq -r '.email' config.json)'
+          git config --local user.name '${{ github.repository_owner }}'
+          git add .
+          git commit -a -m '🎉auto update by Gmeek action' || echo 'nothing to commit'
+          git push || echo 'nothing to push'
+          sleep 3
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'docs/.'
+          
+  deploy:
+    name: Deploy blog
+    runs-on: ubuntu-24.04
+    needs: build
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    concurrency:
+      group: 'pages'
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Gmeek.yml%20-zhong-sui-xie-sui-shang-chuan-dai-ma-bu-fen.html</guid><pubDate>Sun, 04 May 2025 08:02:35 +0000</pubDate></item><item><title>复制文件名 有后缀和无后缀</title><link>https://z.zcr4.ip-ddns.com/post/fu-zhi-wen-jian-ming-%20-you-hou-zhui-he-wu-hou-zhui.html</link><description>## 复制文件名 有后缀和无后缀
 
 ```
  &gt;^c::                                              
