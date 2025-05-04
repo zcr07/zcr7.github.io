@@ -1,5 +1,259 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 04 May 2025 03:45:46 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>corn</title><link>https://z.zcr4.ip-ddns.com/post/corn.html</link><description>## corn
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 04 May 2025 07:50:13 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>将选中N个文件的文件名复制到桌面的1.txt</title><link>https://z.zcr4.ip-ddns.com/post/jiang-xuan-zhong-N-ge-wen-jian-de-wen-jian-ming-fu-zhi-dao-zhuo-mian-de-1.txt.html</link><description>## 将选中N个文件的文件名复制到桌面的1.txt
+
+```
+&gt;^x:: 
+Clipboard := ''  ; 清空剪贴板
+Send, ^c         ; 复制选中文件的路径
+ClipWait, 1      ; 等待剪贴板更新
+
+if (Clipboard) {
+    FilePath := A_Desktop '\1.txt'
+    FileDelete, %FilePath%  ; 先删除旧文件
+    Loop, Parse, Clipboard, `n, `r  ; 按行解析剪贴板内容
+    {
+        SplitPath, A_LoopField, FileName  ; 获取文件名
+        FileAppend, %FileName%`n, *%FilePath%, UTF-8  ; 使用 UTF-8 编码追加到文件
+    }
+    ;MsgBox, 文件名已保存至 %FilePath%
+	Text=文件名已保存至 %FilePath%
+	btt(Text,300,400,,'Style3')
+	sleep, 2000
+	btt()​
+} else {
+    MsgBox, 未选中文件！
+}
+return
+
+;ΞΞΞΞΞΞΞΞΞ&gt;^x 将选中N个文件的文件名复制到桌面的1.txt  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 06-314
+```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/jiang-xuan-zhong-N-ge-wen-jian-de-wen-jian-ming-fu-zhi-dao-zhuo-mian-de-1.txt.html</guid><pubDate>Sun, 04 May 2025 07:48:03 +0000</pubDate></item><item><title>&gt;! 2345sdf复制wertxcv粘   ghjk剪 bnm粘</title><link>https://z.zcr4.ip-ddns.com/post/-%21%202345sdf-fu-zhi-wertxcv-zhan-%20%20%20ghjk-jian-%20bnm-zhan.html</link><description>## &gt;! 2345sdf复制  wertxcv 粘贴 ghjk剪 bnm,粘
+
+```
+#Persistent
+	Copy(clipboardID) 
+{
+	global 
+	local oldClipboard := ClipboardAll ; Save the (real) clipboard
+
+	Clipboard := '' 
+	SendInput {Ctrl Down}c{Ctrl Up}
+	ClipWait, 2, 1 
+if ErrorLevel 
+{
+	Clipboard := oldClipboard ; Restore old (real) clipboard
+	return
+}
+	ClipboardData%clipboardID% := Clipboard
+	Clipboard := oldClipboard ; Restore old (real) clipboard
+}
+Cut(clipboardID) 
+{
+	global ; All variables are global by default
+	local oldClipboard := ClipboardAll ; Save the (real) clipboard
+	Clipboard := '' ; Erase the clipboard first, or else ClipWait does nothing
+	SendInput {Ctrl Down}x{Ctrl Up}
+	ClipWait, 2, 1 ; Wait 1s until the clipboard contains any kind of data
+if ErrorLevel 
+{
+	Clipboard := oldClipboard ; Restore old (real) clipboard
+	return
+}
+	ClipboardData%clipboardID% := Clipboard
+	Clipboard := oldClipboard ; Restore old (real) clipboard
+}
+Paste(clipboardID) 
+{
+	global
+	local oldClipboard := ClipboardAll ; Save the (real) clipboard
+	Clipboard := '' ; Erase the clipboard first, or else ClipWait does nothing
+	Clipboard := ClipboardData%clipboardID%
+	ClipWait, 2, 1 ; Wait 1s until the clipboard contains any kind of data
+	SendRaw, % Clipboard ; Was having an issue with ^v
+	Clipboard := oldClipboard ; Restore old (real) clipboard
+}
+	return
+;---------------------------------------------------------------------------   copy
+ &gt;!2::Copy(1)
+ &gt;!3::Copy(2)
+ &gt;!4::Copy(3)
+ &gt;!5::Copy(4)
+ &gt;!s::Copy(5)
+ &gt;!d::Copy(6)
+ &gt;!f::Copy(7)
+ ;---------------------------------------------------------------------------   paste
+ &gt;!w::Paste(1)
+ &gt;!e::Paste(2)
+ &gt;!r::Paste(3)
+ &gt;!t::Paste(4)
+ &gt;!x::Paste(5)
+ &gt;!c::Paste(6)
+ &gt;!v::Paste(7)
+;-----------------------------------------------------------------------------   cut
+ &gt;!g::Cut(1)
+ &gt;!h::Cut(2)
+ &gt;!j::Cut(3)
+ &gt;!k::Cut(4)
+;---------------------------------------------------------------------------   paste
+ &gt;!b::Paste(1)                                 ;--------------&gt;! g 剪切    &gt;! b 粘贴
+ &gt;!n::Paste(2)
+ &gt;!m::Paste(3)
+ &gt;!,::Paste(4)
+;-----------------------------------------------------------------------------------
+return
+;ΞΞΞΞΞΞΞΞΞΞ &gt;! 2345sdf复制  wertxcv 粘贴 ghjk剪 bnm,粘 ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 05-295
+```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/-%21%202345sdf-fu-zhi-wertxcv-zhan-%20%20%20ghjk-jian-%20bnm-zhan.html</guid><pubDate>Sun, 04 May 2025 07:46:57 +0000</pubDate></item><item><title>批量复制粘贴工具&gt;!q</title><link>https://z.zcr4.ip-ddns.com/post/pi-liang-fu-zhi-zhan-tie-gong-ju--%21q.html</link><description>## 批量复制粘贴工具
+
+```
+global MyClipData
+global page
+*&gt;!q:: 批量复制粘贴工具()
+	#IfWinExist, 批量复制粘贴工具 ahk_class AutoHotkeyGUI
+$^c::
+	Clipboard:=''
+	Send ^c{Ctrl Up}
+	ClipWait, 3
+	s:=Clipboard
+	if (s='')
+	ToolTip,
+else
+	批量复制粘贴工具(s)
+	return
+1::
+	nume:=1
+	Gosub copytt(nume)
+	return
+2::
+	nume:=2
+	Gosub copytt(nume)
+	return
+3::
+	nume:=3
+	Gosub copytt(nume)
+	return
+4::
+	nume:=4
+	Gosub copytt(nume)
+	return
+5::
+	nume:=5
+	Gosub copytt(nume)
+	return
+6::
+	nume:=6
+	Gosub copytt(nume)
+	return
+7::
+	nume:=7
+	Gosub copytt(nume)
+	return
+8::
+	nume:=8
+	Gosub copytt(nume)
+	return
+9::
+	nume:=9
+	Gosub copytt(nume)
+	return
+copytt(nume):
+{
+	i:=nume
+	Clipboard:=MyClipData[i:=(page-1)*10+i]
+	Send ^v
+	return
+}
+0::
+	nume1:=0
+	Gosub copytt(nume1)
+	return
+copytt(nume1):
+{
+	i:=nume1
+	Clipboard:=MyClipData[i:=(page-1)*10+10+i]
+	Send ^v
+	return
+}
+#IfWinExist
+;-------- 下面是函数 --------
+批量复制粘贴工具(s:='', Cmd:='')
+{
+static
+  	if (Cmd='Move')
+{
+	if (A_GuiControl='')
+	SendMessage, 0xA1, 2
+	return
+}
+else if (Cmd='Click')
+{
+    	i:=SubStr(A_GuiControl, 3)
+    	if (i&gt;=1 and i&lt;=10)
+{
+      	s:=MyClipData[i:=(page-1)*10+i]
+      	if (s='')
+        	return
+      	if (!clear)
+{
+       	; Gui, MyClip: Hide
+        	; Gui, MyClip: Show, NA
+        	Clipboard:=s
+        	Send ^v
+        	Sleep, 200
+        	return
+}
+      	MyClipData.RemoveAt(i)
+      	if (MyClipData.length()&lt;(page-1)*10+1)
+        	page--
+}
+else if (i=11 and page&gt;1)
+	page--
+else if (i=13 and MyClipData.length()&gt;page*10)
+	page++
+else if (i=12)
+      	clear:=!clear
+}
+else if (Cmd='' and s!='')
+{
+    	MyClipData.InsertAt(1,s), page:=1, clear:=0
+}
+ 	 if !IsObject(MyClipData)
+{
+    MyClipData:=[], page:=1, clear:=0
+    Run:=Func(A_ThisFunc).Bind('','Click')
+    Gui, MyClip: Destroy
+    Gui, MyClip: +AlwaysOnTop +ToolWindow +E0x08000000
+    Gui, MyClip: Margin, 10, 10
+    Gui, MyClip: Color, f39bdc8
+    Gui, MyClip: Font, s11,c364f6b
+    Loop, 13
+    {
+      i:=A_Index, v:=(i=11 ? '&lt;&lt;' : i=13 ? '&gt;&gt;' : '')
+      j:=(i=1 ? 'w250 Left' : i=11 ? 'xm w75'
+        : i=12 ? 'x+0 w100' : i=13 ? 'x+0 w75' : 'y+0 wp Left')
+      Gui, MyClip: Add, Button, %j% vbt%i% Hwndid -Wrap, %v%
+      GuiControl, MyClip: +g, %id%, % Run
+    }
+    Gui, MyClip: Show, NA, %A_ThisFunc%
+    OnMessage(0x201, Func(A_ThisFunc).Bind('','Move'))
+    v:=Func(A_ThisFunc).Bind('','')
+    Menu, Tray, Add
+    Menu, Tray, Add, %A_ThisFunc%, %v%
+    Menu, Tray, Default, %A_ThisFunc%
+    Menu, Tray, Click, 1
+  }
+  Loop, 10
+  {    Menu, Tray, Click, 1
+
+    i:=A_Index, v:=MyClipData[(page-1)*10+i]
+    v:=(v='' ? v : '[' StrLen(v) '] ' SubStr(v,1,50))
+    v:=RegExReplace(v, 's+', ' ')
+    GuiControl, MyClip: , bt%i%, %v%
+  }
+  GuiControl, MyClip: , bt12, % clear ? '点选条目':'+删除条目+'
+  Gui, MyClip: Show, NA
+}
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ art+q 批量复制粘贴   ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 4-216
+```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/pi-liang-fu-zhi-zhan-tie-gong-ju--%21q.html</guid><pubDate>Sun, 04 May 2025 07:45:03 +0000</pubDate></item><item><title>corn</title><link>https://z.zcr4.ip-ddns.com/post/corn.html</link><description>## corn
 
 - https://crontab.guru/examples.html
 
