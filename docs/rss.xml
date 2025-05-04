@@ -1,5 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 04 May 2025 08:18:08 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>右键属性</title><link>https://z.zcr4.ip-ddns.com/post/you-jian-shu-xing.html</link><description>## 右键属性
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 04 May 2025 08:37:46 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>重启脚本</title><link>https://z.zcr4.ip-ddns.com/post/zhong-qi-jiao-ben.html</link><description>## 重启脚本
+
+```
+NumpadEnter::
+	KeyList := 'Shift|Ctrl|Alt|CapsLock|space|Appskey|win|F1|F2|F3|F4|F5|F6|F7|F8|F9' 
+Loop, Parse, KeyList, |
+      {
+    	If GetKeystate(A_Loopfield, 'P')   ; 如果你觉得某些按键像是“卡住了”，释放以上修饰键
+        	Send % '{' A_Loopfield ' Up}'
+      }
+
+; 如果你修改了桌面快捷方式或图标但图标没刷新 ⇒ 可能需要 ie4uinit.exe -ClearIconCache
+Run *RunAs C:\Windows\System32\ie4uinit.exe -ClearIconCache  
+
+sleep,1000
+	reload                   ; 如果你只是修改了脚本内容，想让新内容生效 ⇒ 只需要 reload
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  NumpadEnter 重启脚本 ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 000005-330
+```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zhong-qi-jiao-ben.html</guid><pubDate>Sun, 04 May 2025 08:37:21 +0000</pubDate></item><item><title>右键属性</title><link>https://z.zcr4.ip-ddns.com/post/you-jian-shu-xing.html</link><description>## 右键属性
 
 ```
 F1 &amp; y::
