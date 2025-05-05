@@ -1,13 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Mon, 05 May 2025 14:15:32 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>Bot</title><link>https://z.zcr4.ip-ddns.com/post/Bot.html</link><description>##  Bot
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Mon, 05 May 2025 14:26:50 +0000</lastBuildDate><managingEditor>妑妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑妑🔭差</webMaster><item><title>电报新建频道并添加 Bot</title><link>https://z.zcr4.ip-ddns.com/post/dian-bao-xin-jian-pin-dao-bing-tian-jia-%20Bot.html</link><description>##  Bot
+
+### 首先要在电报中添加2个帐号
+
+- VersaToolsBot
+
+- BotFather
+
+### 其次在电报中新建一个机器人，新建一个频道，并将此机器人添加为管理员
+
+具体如下：
 
 ### 新建 机器人tuchua_bot 并获取 Token  即 ：TG_BOT_TOKEN
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.05:21:56:51.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
-### 新建频道
+### 新建频道并添加机器人为管理员
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.05:22:05:08.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.05:22:21:01.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.05:22:21:50.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.05:22:22:44.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.05:22:24:07.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.05:22:24:54.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.05:22:25:44.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
 
 ### 新频道随便发条信息如 id
 
@@ -29,7 +52,7 @@
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Bot.html</guid><pubDate>Mon, 05 May 2025 14:15:04 +0000</pubDate></item><item><title>重启脚本</title><link>https://z.zcr4.ip-ddns.com/post/zhong-qi-jiao-ben.html</link><description>## 重启脚本
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/dian-bao-xin-jian-pin-dao-bing-tian-jia-%20Bot.html</guid><pubDate>Mon, 05 May 2025 14:15:04 +0000</pubDate></item><item><title>重启脚本</title><link>https://z.zcr4.ip-ddns.com/post/zhong-qi-jiao-ben.html</link><description>## 重启脚本
 
 ```
 NumpadEnter::
