@@ -43,7 +43,11 @@
 
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.05:22:13:25.png" style="width:400px;"></p><br>
 
+## 设置图床
 
+- https://tch.z85.myfw.us/ 
+- https://tun.zcr9.dedyn.io/
+- https://tu7.zcr25.dedyn.io/
 
 ## Fork CloudFlare-ImgBed
 
