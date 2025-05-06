@@ -1,5 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Mon, 05 May 2025 14:50:55 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>电报新建频道并添加 Bot</title><link>https://z.zcr4.ip-ddns.com/post/dian-bao-xin-jian-pin-dao-bing-tian-jia-%20Bot.html</link><description>##  电报新建频道并添加 Bot
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 06 May 2025 04:43:53 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>upgit.exe</title><link>https://z.zcr4.ip-ddns.com/post/upgit.exe.html</link><description>## upgit.exe
+
+```
+rename = 'im8/{month}.{day}:{hour}:{minute}:{second}{ext}'
+default_uploader = 'github'
+[replacements]
+'raw.githubusercontent.com' = 'cdn.jsdelivr.net/gh'
+'/main' = '@main'
+
+[output_formats]
+'bbcode' = '[img]{url}[/img]'
+'html' = '&lt;img src='{url}' /&gt;'
+'markdown' = '![]({url})'
+'ccc' = '&lt;p align='center'&gt;&lt;img src='{url}' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;'
+
+[uploaders.github]
+# 保存文件的分支，例如 master 或 main
+branch = 'main'
+pat = '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'
+repo = 'img'
+username = 'zb9678'
+
+
+```
+
+## 上传脚本
+
+```
+LWin::return
+#t::
+
+Run, 'D:\ahk1.0\Lib\0 tool\ScreenCapture\ScreenCapture.exe', , , pid    ; pid: 这是一个变量名，作用: 执行 kscrcap.exe 并将它的进程 ID 保存到变量 pid 中。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/upgit.exe.html</guid><pubDate>Tue, 06 May 2025 04:43:24 +0000</pubDate></item><item><title>电报新建频道并添加 Bot</title><link>https://z.zcr4.ip-ddns.com/post/dian-bao-xin-jian-pin-dao-bing-tian-jia-%20Bot.html</link><description>##  电报新建频道并添加 Bot
 
 ### 首先要在电报中添加2个帐号
 
