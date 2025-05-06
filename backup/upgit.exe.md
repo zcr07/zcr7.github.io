@@ -1,5 +1,9 @@
 ## upgit.exe
 
+- config.toml 配置文件如下
+
+- D:\ahk1.0\Lib\0 tool\picgo-croe\config.toml
+
 ```
 rename = "im8/{month}.{day}:{hour}:{minute}:{second}{ext}"
 default_uploader = "github"
