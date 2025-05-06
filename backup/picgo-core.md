@@ -2,6 +2,8 @@
 
 -  config.json 配置文件如下
 
+- C:\Users\z\.picgo\config.json
+
 ```
 {
   "picBed": {
