@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 07 May 2025 00:31:26 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>picgo-core</title><link>https://z.zcr4.ip-ddns.com/post/picgo-core.html</link><description>##  picgo-core
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 07 May 2025 06:23:54 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>picgo-core</title><link>https://z.zcr4.ip-ddns.com/post/picgo-core.html</link><description>##  picgo-core
 
 -  config.json 配置文件如下
 
@@ -1652,17 +1652,6 @@ return
 ============= zb25.x10.mx =================  zb9
 
 
-## 申请
-
-
-🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛域名 申请🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛 申请
-
-===========https://sitelutions.com/login
-
-==================zbb7001@gmail.com============  z8
-
-
-
 ##  dynv6
 
 
@@ -1735,23 +1724,64 @@ return
 
 
 
-
-## zone.id
-
-
-🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱 zone.id 🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱 05
-
-===========https://my.zone.id/subdomains/q0iq1q1iq/dns_record
-
-=========F7========zcr5.zone.id    26.4.11== zcr071225@gmail.com
-
-===========https://my.zone.id/subdomains/a1ipceiq/dns_record
-
-=========F7========zb70.zone.id    26.4.13== zbb7001@gmail.com
-
-
-
 📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢 📢📢
+
+## x10
+
+
+=============================== 双向解析 zcr  2025-03-30
+https://x10hosting.com/panel/services/152028
+zcr071225@gmail.comF7
+
+zb25.elementfx.com        kev
+
+zb25.x10.bz              zyy
+
+zb25.x10.mx              zb9
+=============================== 双向解析 7001  2025-03-23
+https://x10hosting.com/panel/services/152028
+zbb7001@gmail.comF7
+
+zcr25.x10.bz             7001
+
+zcr25.elementfx.com      ng
+	
+zcr25.x10.mx             zcr
+
+
+## xx.kg
+
+======================zcr======================20260506
+zcr07.dpdns.org
+zbb07.dpdns.org
+zb9.dpdns.org
+zcr07.xx.kg
+
+======================zb9======================20260506
+z07.dpdns.org
+r08.dpdns.org
+k07.dpdns.org
+zcr5.qzz.io
+
+======================kev======================20260506
+v07.dpdns.org
+n06.dpdns.org
+xn--whqv54a8q5b.dpdns.org
+
+======================ng======================20260506
+j07.dpdns.org
+u07.dpdns.org
+
+======================zyy======================20260506
+zc08.dpdns.org
+zcr5.xx.kg
+zcr7.xx.kg
+
+======================7001======================20260506
+w07.dpdns.org
+y07.dpdns.org
+h07.dpdns.org
+zcr25.xx.kg
 
 📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢 
 
