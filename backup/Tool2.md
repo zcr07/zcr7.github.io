@@ -374,7 +374,12 @@ zcr25.elementfx.com      ng
 zcr25.x10.mx             zcr
 
 
+📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢 📢📢
+
+
 ## xx.kg
+
+==============https://dash.domain.digitalplat.org/auth/login
 
 ======================zcr======================20260506
 zcr07.dpdns.org
@@ -591,8 +596,8 @@ zcr25.x10.mx             zcr
 
 ## 订阅
 
-
 ================================= 速度快
+
 https://65.r07.cloudns.be/150a
 
 https://65.r07.cloudns.be/150b
@@ -606,7 +611,9 @@ https://65.r07.cloudns.be/150e
 https://65.r07.cloudns.be/150f
 
 https://65.r07.cloudns.be/150g
+
 ================================= 节转订 慢
+
 https://65.r07.cloudns.be/v01
 
 https://65.r07.cloudns.be/v02
@@ -614,20 +621,27 @@ https://65.r07.cloudns.be/v02
 https://65.r07.cloudns.be/t01
 
 https://65.r07.cloudns.be/t02
+
+
 =================================
 
 https://gob64.topmarco.tech
+
 ================================= 参数
+
 https://github.com/zcr07/am-cf-tunnel/blob/main/ipUrl.txt
 https://raw.githubusercontent.com/zcr07/am-cf-tunnel/refs/heads/main/ipUS.txt 删除红色
 https://raw.githubusercontent.com/zcr07/am-cf-tunnel/main/ipUrl.txt
+
 &IP_URL=https://raw.githubusercontent.com/zcr07/am-cf-tunnel/main/ipUrl.txt
 &IP_URL=https://raw.githubusercontent.com/zb9678/am-cf-tunnel/main/ipUrl.txt
 &IP_URL=https://raw.githubusercontent.com/zbb07/am-cf-tunnel/main/ipUrl.txt
 &IP_URL=https://raw.githubusercontent.com/kevzcr/am-cf-tunnel/main/ipUrl.txt
 &IP_URL=https://raw.githubusercontent.com/zyy200712/am-cf-tunnel/main/ipUrl.txt
 &IP_URL=https://raw.githubusercontent.com/zbb7001/am-cf-tunnel/main/ipUrl.txt
+
 =================================01 zcr  Torjan
+
 ant.zbb07.dpdns.org
 ant.zcr07.dpdns.org
 ant.zb9.dpdns.org
@@ -652,6 +666,7 @@ singbox订阅地址:  点击复制订阅地址
 https://ant.zbb25.filegear-sg.me/zbb?singbox
 
 =================================02 zcr  vless
+
 am.zb9.dpdns.org
 am.zc23.cc.ua
 am.r07.cloudns.be
@@ -679,6 +694,7 @@ singbox订阅地址:  点击复制订阅地址
 https://am.zcr4.ip-ddns.com/88f67d70-5a4f-4485-b983-c9caad714a48?singbox
 
 =================================03 zb9  Torjan
+
 tr.z9678.dynv6.net
 tr.z9678.rr.nu
 tr.z9678.v6.army
@@ -707,7 +723,9 @@ https://tr.z9678.dynv6.net/zbb?singbox
 https://tr.z9678.rr.nu/zbb?sub
 https://tr.z9678.v6.army/zbb?sub
 
+
 =================================04 zb9   vless
+
 v.zcr07.dynv6.net
 v.zcr07.rr.nu
 v.zcr07.v6.army
@@ -728,7 +746,9 @@ https://v.zcr07.dynv6.net/72433d51-dc63-4ffe-a5e4-a97f0d87c764?clash
 singbox订阅地址:  点击复制订阅地址 
 https://v.zcr07.dynv6.net/72433d51-dc63-4ffe-a5e4-a97f0d87c764?singbox
 
-=================================05 kev   Torjan https://dash.cloudflare.com/9e27b7387c208a2ad54e44ada4e24423/pages/view/idele-siekls-kevamtr/domains 
+=================================05 kev   Torjan 
+
+https://dash.cloudflare.com/9e27b7387c208a2ad54e44ada4e24423/pages/view/idele-siekls-kevamtr/domains 
 idele-siekls-kevamtr
 tk.zcr9.dedyn.io
 tk.zcr25.dedyn.io
@@ -758,6 +778,7 @@ singbox订阅地址:  点击复制订阅地址
 https://tk.z07.isgre.at/zbb?singbox
 
 =================================06 kev   vless
+
 vk.zcr9.dedyn.io
 vk.c08.rr.nu
 vk.r9678.rr.nu
@@ -783,6 +804,7 @@ singbox订阅地址:  点击复制订阅地址
 https://vk.c08.rr.nu/85cd6780-0b78-4deb-b11c-c07a10eb04fd?singbox
 
 =================================07 ng   Torjan  
+
 tn.zcr25.dedyn.io
 tn.zcr25.netlib.re
 tn.zcr25.rr.nu
@@ -803,7 +825,9 @@ https://tn.zcr25.rr.nu/zbb?clash
 
 singbox订阅地址:  点击复制订阅地址 
 https://tn.zcr25.rr.nu/zbb?singbox
+
 =================================08 ng   vless
+
 vn.zcr9.dedyn.io
 vn.zcr25.dedyn.io
 vn.c08.rr.nu
@@ -829,6 +853,7 @@ singbox订阅地址:  点击复制订阅地址
 https://vn.zcr25.netlib.re/dcabc1ad-9713-4c32-9559-597308a8f635?singbox
 
 =================================09 zyy   Torjan 
+
 t.c08.rr.nu
 t.zc5.rr.nu
 t.zcr25.dedyn.io
@@ -854,6 +879,7 @@ singbox订阅地址:  点击复制订阅地址
 https://t.zc5.rr.nu/zbb?singbox
 
 =================================10 zyy   vless
+
 vy.c08.rr.nu
 vy.zcr25.dedyn.io
 vy.zcr25.hidns.co
@@ -878,6 +904,7 @@ singbox订阅地址:  点击复制订阅地址
 https://vy.zcr25.dedyn.io/6392b959-8e97-4f33-9ff6-665bfafdc1f0?singbox
 
 =================================11 7001   Torjan
+
 trj.zcr5.ddns-ip.net
 trj.zzzzz.dns-dynamic.net
 trj.zcr25.x10.bz
@@ -905,6 +932,7 @@ singbox订阅地址:  点击复制订阅地址
 https://trj.zcr5.ddns-ip.net/zbb?singbox
 
 =================================12 7001   vless
+
 v7.c08.rr.nu
 v7.zcr25.dedyn.io
 v7.zcr25.hidns.co
