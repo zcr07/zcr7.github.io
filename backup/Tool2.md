@@ -197,19 +197,19 @@ https://da.zcr4.ip-ddns.com/
 
 ============================= https://outlook.live.com/mail/0
 
-01=====Zb6666=====zb9678@gmail.com
+01=====zyy=====zb9678@gmail.com========= F7y
 
-02=====Zb8=====zcr74@outlook.com========= zcr8.ddns-ip.net
+02============zcr74@outlook.com========= zcr8.ddns-ip.net
 
-03=====Zb6666=====zcr76@outlook.com====== zcr7.ggff.net
+03============zcr76@outlook.com========= zcr7.ggff.net
 
-04=====Zb6666=====zcr55@outlook.com
+04============zcr55@outlook.com
 
-05=====Zb6666=====zcr57@outlook.com========= zc25.ip-ddns.com
+05============zcr57@outlook.com========= zc25.ip-ddns.com
 
-06=====Zb6666=====zbb102@outlook.com
+06============zbb102@outlook.com
 
-07=====Zb6666=====zcr102@outlook.com
+07============zcr102@outlook.com
 
 🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱 ip-ddns🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱 10
 
@@ -229,19 +229,19 @@ https://da.zcr4.ip-ddns.com/
 
 ============================= https://outlook.live.com/mail/0
 
-01====F7=======zcr071225@gmail.com
+01====700=======zcr071225@gmail.com===========F7
 
-02====F7=======zcr0711@outlook.com
+02=============zcr0711@outlook.com
 
-03====F7=======zcr0712@outlook.com===========zcr6.ddns-ip.net
+03=============zcr0712@outlook.com===========zcr6.ddns-ip.net
 
-04====F7=======zcr0713@outlook.com
+04=============zcr0713@outlook.com
 
-05====F7=======zcr07145@outlook.com
+05=============zcr07145@outlook.com
 
-06====F7=======zcr0715@outlook.com
+06=============zcr0715@outlook.com
 
-07====F7=======zcr1225@outlook.com========== zcr4.ip-ddns.com
+07=============zcr1225@outlook.com========== zcr4.ip-ddns.com
 
 
 ## cloudns.be
