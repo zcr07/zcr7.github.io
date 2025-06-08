@@ -512,13 +512,13 @@ zcr25.x10.mx             zcr
 
 ## zabc
 
-----------------https://zoneabc.net/dashboard/domains
+-------------------------- https://zoneabc.net/dashboard/domains
 
--------------------------------https://hostry.com/orders/
+--------------------------- https://hostry.com/orders/
 
-==============zcr5.zabc.net======================zcr F6
+===== F6========= zcr5.zabc.net ================== zcr 
 
-==============zbb7001.zabc.net===================700 F6
+===== F6========= zbb7001.zabc.net =============== 700
 
 
 📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢
