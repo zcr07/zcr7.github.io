@@ -456,10 +456,12 @@ zcr25.xx.kg
 
 ## duia.eu
 
-======================https://www.duiadns.net/account/change-a.html
+======================https://www.duiadns.net/account/change-a.html==F6+666
 
 
-======================zcr7.duia.eu======================F6+666
+====================== zcr7.duia.eu  ======================cf6bMZYiWVQuJe
+
+====================== zcr7.duia.ro  ======================cf6bMZYiWVQuJe
 
 
 📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢📢 
