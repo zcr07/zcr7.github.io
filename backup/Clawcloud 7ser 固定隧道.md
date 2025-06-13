@@ -1,3 +1,5 @@
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.13:17:03:19.png" style="width:400px;"></p><br>
+
 ## 采用固定隧道和非固定隧道各有利弊
 
 非固定隧道
