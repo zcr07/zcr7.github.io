@@ -6,6 +6,8 @@
 
 好处是，有时节点不太好，重启后会换一批节点。
 
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.13:16:58:58.png" style="width:400px;"></p><br>
+
 固定隧道
 
 重启不受影响。
