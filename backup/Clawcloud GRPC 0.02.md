@@ -51,6 +51,27 @@ https://kjgx668.blogspot.com/2025/04/freevps-freenodes-youtube4k-tikotok-chatgpt
 
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.14:12:13:05.png" style="width:400px;"></p><br>
 
+## 添加GRPC节点
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.14:12:18:09.png" style="width:400px;"></p><br>
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.14:12:21:16.png" style="width:400px;"></p><br>
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.14:12:22:17.png" style="width:400px;"></p><br>
+
+## 修改GRPC节点
+
+注：不修改测速值为-1
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.14:12:25:08.png" style="width:400px;"></p><br>
+
+## 完成
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.14:12:26:08.png" style="width:400px;"></p><br>
+
+
+
+
 
 
 
