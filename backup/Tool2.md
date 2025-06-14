@@ -1,3 +1,7 @@
+## 导航
+
+[杷杷瓷伎](https://da.zcr25.x10.mx/) 
+
 ## 图床
 
 `zcrzbb`   https://tu7.zcr25.dedyn.io/
