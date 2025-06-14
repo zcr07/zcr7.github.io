@@ -1,3 +1,13 @@
+## 图床
+
+`zcrzbb`   https://tu7.zcr25.dedyn.io/
+
+`zcrzbb`   https://tch.zcr5.xx.kg/
+
+https://tc.r07.cloudns.be/zbb
+
+`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`      https://picx.xpoet.cn/#/          
+
 ## 博客
 
 [妑🔭差](https://z.zcr4.ip-ddns.com/  )
@@ -15,6 +25,14 @@ https://github.com/zcr07/git-blog-share/tree/main/posts
 [🌚筢筢🔭嬨](https://hx.zcr25.dedyn.io/)
 
 https://github.com/zcr07/hexo/tree/main/source/_posts
+
+[叭叭粢 🔭](https://z.zcr25.x10.mx/)
+
+https://github.com/zcr07/zcr07.github.io/tree/master/_posts
+
+[袙袙斯](https://bo.h07.dpdns.org/)
+
+7001      https://github.com/zbb7001/zb.github.io/tree/master/z            
 
 🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓 常用
 
