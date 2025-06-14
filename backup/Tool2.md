@@ -16,13 +16,19 @@ https://github.com/zcr07/git-blog-share/tree/main/posts
 
 https://github.com/zcr07/hexo/tree/main/source/_posts
 
-🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓
+🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓 常用
 
 https://idx.google.com/z517-99013236
+
+https://colab.research.google.com/drive/1uQONtCVACeAWip1dzQolGJsAptjEf8Pn#scrollTo=egU0obRUq7mZ
+
+https://www.doubao.com/chat/drive/7214596584651266?tab=myUpload
 
 https://www.terabox.com/main?category=all
 
 https://da.zcr4.ip-ddns.com/
+
+https://zh.zcr4.ip-ddns.com/https://z.zcr4.ip-ddns.com/Tool2.html#desec.io
 
 🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓    节点
 
