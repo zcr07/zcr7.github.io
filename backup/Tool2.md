@@ -1,3 +1,22 @@
+## 博客
+
+[妑🔭差](https://z.zcr4.ip-ddns.com/  )
+
+https://github.com/zcr07/zcr7.github.io/issues/new
+
+ [舥舥🔭兹](https://bg.zcr4.ip-ddns.com/)
+
+https://github.com/zcr07/git-blog-share/tree/main/posts
+
+[帊帊🔭瓷](https://as.zcr25.dedyn.io/)          
+
+ https://as.zcr25.dedyn.io/admin
+
+[🌚筢筢🔭嬨](https://hx.zcr25.dedyn.io/)
+
+https://github.com/zcr07/hexo/tree/main/source/_posts
+
+🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓
 
 https://idx.google.com/z517-99013236
 
