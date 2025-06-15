@@ -1,5 +1,79 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sat, 14 Jun 2025 15:06:41 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>Clawcloud GRPC 0.02</title><link>https://z.zcr4.ip-ddns.com/post/Clawcloud%20GRPC%200.02.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 15 Jun 2025 04:17:38 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>nat.freecloud</title><link>https://z.zcr4.ip-ddns.com/post/nat.freecloud.html</link><description>
+[教程](https://www.youtube.com/watch?v=C-oF1bszGMM)
+
+nat.freecloud VPS：[https://nat.freecloud.ltd/](https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbTQ0UWtONnBQcjRBUU9MM1ktMk5fa3RPZmFhZ3xBQ3Jtc0tuc01kR2V1MDI5MUJWSE9mUzZjZDJfeGZoTzh1Q1NXTkJZdDdJbFhCLTVyX3gwSk0wWEFrT2hXX2ZFRmEwRnZsX1MwVG04R3hGTDdHRnRtVzVZRVVJd0I2Ri1ab1dGUExVbUlvWVE1UnZqUXZ4bHlVSQ&amp;q=https%3A%2F%2Fnat.freecloud.ltd%2F&amp;v=C-oF1bszGMM)
+
+FinalShell：[https://www.hostbuf.com/t/988.html](https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbHc3endFRmJzMGxMQjFvWkt5V09xM2lmWE45QXxBQ3Jtc0trbjhOcVZZcmtEbC1QYTFVdkdCZXVKYXlGcWphMldHNTRFNzFYcUFjRFc0VWk0emp0cjdBY2FNaUh1UFNQQlZGN3JGT1ZiRXZpQXhJcFVRaHV0bXVzdFA5enRVMG1JTllxNV9GV2xzMVo2T1Bmaml3TQ&amp;q=https%3A%2F%2Fwww.hostbuf.com%2Ft%2F988.html&amp;v=C-oF1bszGMM)
+
+老王一键Argo隧道脚本：[https://github.com/eooce/xray-2go](https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbDJSOFpaQ3YtSWREUGdwYU12bkluTmRFZ0Q1Z3xBQ3Jtc0trR3piUTBiQ2ZMbzVSLWwwWE1SRzl4M1h2S3ZSV3ByLXFVaXNmcXRYRnBsMGttMjFfSzRXTXRyU0JrQTVHWUYzTFg0WE8zVHc0UU1tZ0Itd3NJZ1hzOV9KYlh1LUJTallVV3hBRWFoWXdtRFExaE1DQQ&amp;q=https%3A%2F%2Fgithub.com%2Feooce%2Fxray-2go&amp;v=C-oF1bszGMM)
+
+
+## 设置
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:11:55:28.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:11:57:13.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:11:58:49.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:11:59:41.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:00:24.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 开机
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:01:18.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:02:06.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:02:43.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:04:01.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:06:03.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 节点布署
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:08:41.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:08:03.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+`bash &lt;(curl -Ls https://github.com/eooce/xray-2go/raw/main/xray_2go.sh)`
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:09:42.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:10:52.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 获得4个节点，其中2个不能用
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:11:24.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 设置 CDN
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:13:38.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:15:45.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.15:12:16:57.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/nat.freecloud.html</guid><pubDate>Sun, 15 Jun 2025 04:17:11 +0000</pubDate></item><item><title>Clawcloud GRPC 0.02</title><link>https://z.zcr4.ip-ddns.com/post/Clawcloud%20GRPC%200.02.html</link><description>
 [教程](https://www.youtube.com/watch?v=K4fowx-8zP8)
 
 https://kjgx668.blogspot.com/2025/04/freevps-freenodes-youtube4k-tikotok-chatgpt-clawcloud.html
