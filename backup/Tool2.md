@@ -30,7 +30,7 @@ https://github.com/zcr07/git-blog-share/tree/main/posts
 
 https://github.com/zcr07/hexo/tree/main/source/_posts
 
-[叭叭粢 🔭](https://z.zcr25.x10.mx/)
+[叭叭粢 🔭](https://pap.zb9.dpdns.org/)
 
 https://github.com/zcr07/zcr07.github.io/tree/master/_posts
 
