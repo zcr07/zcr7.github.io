@@ -1,5 +1,219 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 15 Jun 2025 14:58:22 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>nat.freecloud</title><link>https://z.zcr4.ip-ddns.com/post/nat.freecloud.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 18 Jun 2025 01:48:40 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>github图床私库 gitLab备份</title><link>https://z.zcr4.ip-ddns.com/post/github-tu-chuang-si-ku-%20gitLab-bei-fen.html</link><description>## github图床  私库 gitLab备份
+
+[教程](https://www.youtube.com/watch?v=eRqIpeeo9SA)
+
+## Token
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:08:39:48.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+[Token](https://github.com/settings/tokens/new)
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:08:42:49.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## cloudflare 新建workers 
+
+[cloudflare](https://dash.cloudflare.com/9e27b7387c208a2ad54e44ada4e24423/workers/services/edit/img1/production)
+
+```
+addEventListener('fetch', event =&gt; {
+  event.respondWith(handleRequest(event.request))
+})
+
+async function handleRequest(request) {
+  const url = new URL(request.url)
+  const path = url.pathname
+  
+  // 定义环境变量 GITHUB_USERNAME 和 GITHUB_PAT
+  const GITHUB_USERNAME = 'zbb07' // 替换为你的 GitHub 用户名
+  const GITHUB_PAT = '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' // 替换为你的 GitHub PAT，只开放 repo 权限即可
+  
+  // 构建 GitHub raw 内容的 URL
+  const githubUrl = `https://raw.githubusercontent.com/${GITHUB_USERNAME}${path}`
+  
+  // 创建新的请求，添加必要的头部
+  const modifiedRequest = new Request(githubUrl, {
+    method: request.method,
+    headers: {
+      ...request.headers,
+      'Authorization': `token ${GITHUB_PAT}`,
+      'Accept': 'application/vnd.github.v3.raw'
+    }
+  })
+  
+  // 发送请求并返回响应
+  try {
+    const response = await fetch(modifiedRequest)
+    
+    // 如果响应不成功，抛出错误
+    if (!response.ok) {
+      throw new Error(`GitHub API responded with ${response.status}: ${response.statusText}`)
+    }
+    
+    // 创建新的响应，保留原始内容但移除敏感头部
+    const newResponse = new Response(response.body, response)
+    newResponse.headers.delete('Authorization')
+    
+    return newResponse
+  } catch (error) {
+    return new Response(`Error: ${error.message}`, { status: 500 })
+  }
+}
+
+```
+## 测试  显示 # img1
+
+https://img1.kev071225.workers.dev/img1/main/README.md
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:08:54:09.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 设置自定义域名 tt.n06.dpdns.org
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:08:56:31.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 设置PicGo
+
+### 插件设置 安装compress-next 1.5.2
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:08:59:20.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## tinypng 申请 Token
+
+https://tinypng.com/
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:05:45.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:06:33.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:07:24.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+6RLd8v72LsrYHn3TpsZQ0Hjx00TFBbyk
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:08:17.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:10:01.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:10:42.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## PicGo设置
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:12:09.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 图床设置   GitHub
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:13:39.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:17:27.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+图床配置名  sikuimg1
+设定仓库名  zcr07/img1
+设定分支名  main
+设定Token   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
+设定存储路径 siku/
+设定自定义域名 https://tt.zb9.dpdns.org/img1/main
+
+## 上传一张图片测试
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:20:09.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:18:56.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## github中已经上传成功
+
+https://github.com/zbb07/img1/tree/main/img11
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:21:33.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 备份到gitLab
+
+https://gitlab.com/
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:25:38.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+只需要命名 img11  和github上一样就行了
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:27:19.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:29:10.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:31:03.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:31:47.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+glpat-bRVj5zf6DyKpc4gJXRU_
+
+## 回到Github
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:34:31.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+https://github.com/zbb07/img1/settings/secrets/actions
+
+GITLAB_USERNAME	Gitlab 用户名                  zcr071225
+GITLAB_REPO	Gitlab 上创建的项目名          img11
+GITLAB_PAT	上面生成的 Gitlab 项目的 PAT   glpat-bRVj5zf6DyKpc4gJXRU_
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:36:48.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:37:33.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:38:18.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 新增文件
+
+`.github/workflows/sync-to-gitlab.yml`
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:39:39.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:43:17.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+```
+name: Sync to GitLab
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    env:
+      GITLAB_USERNAME: ${{ secrets.GITLAB_USERNAME }}
+      GITLAB_REPO: ${{ secrets.GITLAB_REPO }}
+      GITLAB_PAT: ${{ secrets.GITLAB_PAT }}
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4.1.1
+      with:
+        fetch-depth: 0
+
+    - name: Set up Git
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+
+    - name: Add GitLab remote
+      run: git remote add gitlab https://${{ env.GITLAB_USERNAME }}:${{ env.GITLAB_PAT }}@gitlab.com/${{ env.GITLAB_USERNAME }}/${{ env.GITLAB_REPO }}.git
+
+    - name: Force push to GitLab
+      run: git push gitlab main --force
+
+```
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:41:40.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:43:55.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 同步已成功 查看gitLab
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:45:08.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:47:47.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+已成功备份到了gitLab上了。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/github-tu-chuang-si-ku-%20gitLab-bei-fen.html</guid><pubDate>Wed, 18 Jun 2025 01:48:13 +0000</pubDate></item><item><title>nat.freecloud</title><link>https://z.zcr4.ip-ddns.com/post/nat.freecloud.html</link><description>
 [教程](https://www.youtube.com/watch?v=C-oF1bszGMM)
 
 nat.freecloud VPS：[https://nat.freecloud.ltd/](https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbTQ0UWtONnBQcjRBUU9MM1ktMk5fa3RPZmFhZ3xBQ3Jtc0tuc01kR2V1MDI5MUJWSE9mUzZjZDJfeGZoTzh1Q1NXTkJZdDdJbFhCLTVyX3gwSk0wWEFrT2hXX2ZFRmEwRnZsX1MwVG04R3hGTDdHRnRtVzVZRVVJd0I2Ri1ab1dGUExVbUlvWVE1UnZqUXZ4bHlVSQ&amp;q=https%3A%2F%2Fnat.freecloud.ltd%2F&amp;v=C-oF1bszGMM)
