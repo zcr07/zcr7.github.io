@@ -1,5 +1,118 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 18 Jun 2025 01:48:40 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>github图床私库 gitLab备份</title><link>https://z.zcr4.ip-ddns.com/post/github-tu-chuang-si-ku-%20gitLab-bei-fen.html</link><description>## github图床  私库 gitLab备份
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Thu, 19 Jun 2025 02:09:53 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>建立私库图床</title><link>https://z.zcr4.ip-ddns.com/post/jian-li-si-ku-tu-chuang.html</link><description>
+[教程](https://www.youtube.com/watch?v=eRqIpeeo9SA)
+
+## Github
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:09:40:22.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:09:45:33.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+[获取Token](https://github.com/settings/tokens)
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:09:42:23.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:09:43:51.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+`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`
+
+## CloudFlare
+
+新建worker
+
+```
+addEventListener('fetch', event =&gt; {
+  event.respondWith(handleRequest(event.request))
+})
+
+async function handleRequest(request) {
+  const url = new URL(request.url)
+  const path = url.pathname
+  
+  // 定义环境变量 GITHUB_USERNAME 和 GITHUB_PAT
+  const GITHUB_USERNAME = 'zbb7001' // 替换为你的 GitHub 用户名
+  const GITHUB_PAT = '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' // 替换为你的 GitHub PAT，只开放 repo 权限即可
+  
+  // 构建 GitHub raw 内容的 URL
+  const githubUrl = `https://raw.githubusercontent.com/${GITHUB_USERNAME}${path}`
+  
+  // 创建新的请求，添加必要的头部
+  const modifiedRequest = new Request(githubUrl, {
+    method: request.method,
+    headers: {
+      ...request.headers,
+      'Authorization': `token ${GITHUB_PAT}`,
+      'Accept': 'application/vnd.github.v3.raw'
+    }
+  })
+  
+  // 发送请求并返回响应
+  try {
+    const response = await fetch(modifiedRequest)
+    
+    // 如果响应不成功，抛出错误
+    if (!response.ok) {
+      throw new Error(`GitHub API responded with ${response.status}: ${response.statusText}`)
+    }
+    
+    // 创建新的响应，保留原始内容但移除敏感头部
+    const newResponse = new Response(response.body, response)
+    newResponse.headers.delete('Authorization')
+    
+    return newResponse
+  } catch (error) {
+    return new Response(`Error: ${error.message}`, { status: 500 })
+  }
+}
+
+```
+
+注意：如有问题看一下是否为main
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:09:53:27.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+`img7/main/README.md` 测试
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:09:54:53.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:09:57:16.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+`https://tt.y07.dpdns.org/`
+
+## PicGo
+
+### 插件设置
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:09:59:04.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:09:59:39.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+`scHQZ2CmlQDdRJnMQ9SjXKVfByCwY3YD`
+
+### PicGo设置
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:10:01:20.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+### 图床设置   GitHub
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:10:02:20.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:10:05:48.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+```
+图床配置名             img7
+设定仓库名             zbb7001/img7
+设定分支名             main
+设定Token              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
+设定存储路径          ku/
+设定自定义域名       https://tt.y07.dpdns.org/img7/main 
+```
+### 上传
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:10:08:48.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:10:09:25.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/jian-li-si-ku-tu-chuang.html</guid><pubDate>Thu, 19 Jun 2025 02:09:28 +0000</pubDate></item><item><title>github图床私库 gitLab备份</title><link>https://z.zcr4.ip-ddns.com/post/github-tu-chuang-si-ku-%20gitLab-bei-fen.html</link><description>## github图床  私库 gitLab备份
 
 [教程](https://www.youtube.com/watch?v=eRqIpeeo9SA)
 
