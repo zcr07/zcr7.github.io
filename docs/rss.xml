@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Thu, 19 Jun 2025 02:09:53 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>建立私库图床</title><link>https://z.zcr4.ip-ddns.com/post/jian-li-si-ku-tu-chuang.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Thu, 19 Jun 2025 02:13:57 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>建立私库图床</title><link>https://z.zcr4.ip-ddns.com/post/jian-li-si-ku-tu-chuang.html</link><description>
 [教程](https://www.youtube.com/watch?v=eRqIpeeo9SA)
 
 ## Github
@@ -112,7 +112,10 @@ async function handleRequest(request) {
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:10:08:48.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.19:10:09:25.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/jian-li-si-ku-tu-chuang.html</guid><pubDate>Thu, 19 Jun 2025 02:09:28 +0000</pubDate></item><item><title>github图床私库 gitLab备份</title><link>https://z.zcr4.ip-ddns.com/post/github-tu-chuang-si-ku-%20gitLab-bei-fen.html</link><description>## github图床  私库 gitLab备份
+
+## 重要
+
+后期如果上传失败，则需更新Token，共需修改2处。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/jian-li-si-ku-tu-chuang.html</guid><pubDate>Thu, 19 Jun 2025 02:09:28 +0000</pubDate></item><item><title>github图床私库 gitLab备份</title><link>https://z.zcr4.ip-ddns.com/post/github-tu-chuang-si-ku-%20gitLab-bei-fen.html</link><description>## github图床  私库 gitLab备份
 
 [教程](https://www.youtube.com/watch?v=eRqIpeeo9SA)
 
