@@ -300,10 +300,15 @@ return</p>
 
 造成这样的结果的原因，111  连续输入1，第2个1会成为第3个1的起始。所以看起来从第3个1开始，只需要输入一个1就能起到11的作用。
 
+</code></pre>
+<p>:B0*:11::<br>
+SendInput xx<br>
+return</p>
+<pre class="notranslate"><code class="notranslate">
+- 输入1111  输出
+11xx11
 
-
-
-
+？ : 即使此热字串在另一个单词中也会被触发。所以没有？，第3个1输入时，它会受前面的11xx的影响，从而不会激活输出。
 </code></pre></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
