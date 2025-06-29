@@ -54,7 +54,11 @@
 ::bbb::by the way 
 ```
 
-## 超长替换
+
+====================================================
+
+
+## 超长替换  [Text 模式]
 
 ```
 ::bbb::
@@ -134,7 +138,11 @@ return
 ::bbb::by the way 
 ```
 
-## 超长替换
+
+====================================================
+
+
+## 超长替换  [Text 模式]
 
 ```
 ::bbb::
@@ -271,7 +279,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 ::bbb::by the way 
 </code></pre>
-<h2>超长替换</h2>
+<p>====================================================</p>
+<h2>超长替换  [Text 模式]</h2>
 <pre class="notranslate"><code class="notranslate">::bbb::
 (
 What happened?
@@ -335,6 +344,77 @@ return
 xxxx11</li>
 </ul>
 <p>B0 : 不进行自动退格来擦除您输入的缩写，即如果没有B0参数，输入11按下空格会激活输出xx，但会自动退格删除11。得到xx，而不是11xx 。</p>
+<p>====================================================</p>
+<h2>X</h2>
+<p>X : 执行. 取代替换文本, hotstring 接受一个<strong>命令</strong>或<strong>表达式</strong>来执行.</p>
+<pre class="notranslate"><code class="notranslate">:X:bbb::MsgBox, 4096
+</code></pre>
+<ul>
+<li></li>
+<li>输入bbb  输出</li>
+</ul>
+<p align="center"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8fa10d0e16849595f32b149e5ff3db6598d4d3c65cf023d0a09b5a81abee679e/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f7a62393637382f696d67406d61696e2f696d382f30362e32393a31333a30313a35372e706e67"><img src="https://camo.githubusercontent.com/8fa10d0e16849595f32b149e5ff3db6598d4d3c65cf023d0a09b5a81abee679e/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f7a62393637382f696d67406d61696e2f696d382f30362e32393a31333a30313a35372e706e67" data-canonical-src="https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.29:13:01:57.png" style="max-width: 100%;"></a></p><br>
+<p>如果没有 X 参数</p>
+<pre class="notranslate"><code class="notranslate">::bbb::MsgBox, 4096
+</code></pre>
+<ul>
+<li>输入bbb  输出<br>
+MsgBox, 4096</li>
+</ul>
+<p>====================================================</p>
+<h4>T</h4>
+<p>T : 发送替换文本的[原始文本], 不会将字符转换成按键如回车等。</p>
+<pre class="notranslate"><code class="notranslate">:t:bbb::{Enter}
+</code></pre>
+<ul>
+<li>输入bbb  输出<br>
+{Enter}</li>
+</ul>
+<pre class="notranslate"><code class="notranslate">::bbb::{Enter}
+</code></pre>
+<ul>
+<li>输入bbb  输出<br>
+回车</li>
+</ul>
+<p>====================================================</p>
+<h4>R</h4>
+<p>R: 发送替换文本的[原始文本]; 即准确地按照原样发送, 而不把 {Enter} 转换成 Enter, 把 ^c 转换成 Control+C, 等等. 此选项在含[延续片段]热字串中自动生效.</p>
+<pre class="notranslate"><code class="notranslate">:R:bbb::{Enter}
+</code></pre>
+<ul>
+<li>输入bbb  输出<br>
+{Enter}</li>
+</ul>
+<pre class="notranslate"><code class="notranslate">::bbb::{Enter}
+</code></pre>
+<ul>
+<li>输入bbb  输出<br>
+回车</li>
+</ul>
+<p>====================================================</p>
+<h2>[Text 模式]更可靠. R 选项和 T 选项是相互排斥的.</h2>
+<pre class="notranslate"><code class="notranslate">::bbb::
+(
+{Enter}
+)
+</code></pre>
+<p>====================================================</p>
+<h2>O</h2>
+<p>O: 进行替换时忽略[自动替换热字串]的终止符.如空格、回车等</p>
+<pre class="notranslate"><code class="notranslate">:o:ar::aristocrat
+</code></pre>
+<ul>
+<li>输入ar  输出<br>
+aristocrat                末尾没有空格等终止符</li>
+</ul>
+<pre class="notranslate"><code class="notranslate">::ar::aristocrat
+</code></pre>
+<ul>
+<li>输入ar  输出<br>
+aristocrat                 字符的最后有一个空格或回车等终止符</li>
+</ul>
+<h2>终止符</h2>
+<p>除非使用了[星号选项], 否则您必须在热字串的缩写后输入 终止符 才能触发它. 终止符最开始由以下内容组成: -()[]{}':;"/,.?!<code class="notranslate">n </code>t(注意 <code class="notranslate">n 是 Enter, </code>t 是 Tab, 且在它们之间还有一个原义的空格).</p>
 <p>====================================================</p></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
