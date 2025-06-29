@@ -415,6 +415,49 @@ aristocrat                 字符的最后有一个空格或回车等终止符</
 </ul>
 <h2>终止符</h2>
 <p>除非使用了[星号选项], 否则您必须在热字串的缩写后输入 终止符 才能触发它. 终止符最开始由以下内容组成: -()[]{}':;"/,.?!<code class="notranslate">n </code>t(注意 <code class="notranslate">n 是 Enter, </code>t 是 Tab, 且在它们之间还有一个原义的空格).</p>
+<p>====================================================</p>
+<h2>C</h2>
+<p>C : 区分大小写: 当您输入缩写时, 它必须准确匹配脚本中定义的大小写形式.</p>
+<pre class="notranslate"><code class="notranslate">:c*:bbb::john@somedomain.com
+</code></pre>
+<ul>
+<li>输入bbb  输出<br>
+<a href="mailto:john@somedomain.com">john@somedomain.com</a></li>
+</ul>
+<p>Bbb bbB BbB 无效，只有输入bbb才会激活转换。</p>
+<p>====================================================</p>
+<h2>c1</h2>
+<ul>
+<li>C1: 不受输入的大小写形式所影响.。 即无论输入的是大写还是小写，输出的都不变。</li>
+</ul>
+<pre class="notranslate"><code class="notranslate">:?*:bbb::john
+</code></pre>
+<ul>
+<li>
+<p>全小字  输入bbb  输出<br>
+john</p>
+</li>
+<li>
+<p>首大写  输入Bbb  输出<br>
+John</p>
+</li>
+<li>
+<p>全大写  输入BBB  输出<br>
+JOHN</p>
+</li>
+</ul>
+<pre class="notranslate"><code class="notranslate">:?*c1:bbb::john
+</code></pre>
+<ul>
+<li>输入bbb  输入BBB 输入Bbb 输出的都是<br>
+john</li>
+</ul>
+<pre class="notranslate"><code class="notranslate">:?*c1:bbb::John
+</code></pre>
+<ul>
+<li>输入bbb  输入BBB 输入Bbb 输出的都是<br>
+John</li>
+</ul>
 <p>====================================================</p></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
