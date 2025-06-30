@@ -458,7 +458,22 @@ john</li>
 <li>输入bbb  输入BBB 输入Bbb 输出的都是<br>
 John</li>
 </ul>
-<p>====================================================</p></div>
+<p>====================================================</p>
+<h2>表达时间</h2>
+<h3>24小时制</h3>
+<pre class="notranslate"><code class="notranslate">:*:dd::  
+FormatTime, CurrentDateTime,, M.d H:mm
+SendInput %CurrentDateTime%
+return
+</code></pre>
+<p>6.30 11:48</p>
+<h3>12小时制</h3>
+<pre class="notranslate"><code class="notranslate">:*:dd::  
+FormatTime, CurrentDateTime,, M.d h:mm tt
+SendInput %CurrentDateTime%
+return
+</code></pre>
+<p>6.30 11:48 上午</p></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
 </div>
