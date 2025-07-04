@@ -38,6 +38,16 @@ https://github.com/zcr07/zcr07.github.io/tree/master/_posts
 
 7001      https://github.com/zbb7001/zb.github.io/tree/master/z            
 
+🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓gitlab🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓
+
+--------------------------------https://gitlab.com/users/sign_in/
+
+01=====zcr=====F7=====https://gitlab.com/zcr071225
+
+02=====zb9=====F7=====https://gitlab.com/zb9678
+
+03=====7001=====F7=====https://gitlab.com/zbb2
+
 🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓 常用
 
 https://idx.google.com/z517-99013236
