@@ -38,15 +38,15 @@ https://github.com/zcr07/zcr07.github.io/tree/master/_posts
 
 7001      https://github.com/zbb7001/zb.github.io/tree/master/z            
 
-🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓gitlab🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓
+🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓 gitlab 🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓
 
 --------------------------------https://gitlab.com/users/sign_in/
 
-01=====zcr=====F7=====https://gitlab.com/zcr071225
+01=====zcr=====F7=====https://gitlab.com/zcr071225=================zcr
 
-02=====zb9=====F7=====https://gitlab.com/zb9678
+02=====zb9=====F7=====https://gitlab.com/zb9678==================zb9
 
-03=====7001=====F7=====https://gitlab.com/zbb2
+03=====7001=====F7=====https://gitlab.com/zbb2===================7001
 
 🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓🐓 常用
 
@@ -139,26 +139,23 @@ https://zh.zcr4.ip-ddns.com/https://z.zcr4.ip-ddns.com/Tool2.html#desec.io
 06========================  F8 ======= zbb7001@gmail.com
 
 
-## serv00
+## zb9 图床
 
 
-🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛serv00 邮箱🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛
+🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛zb9 图床🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛🚛github-gitlab备份
 
-===================https://panel4.serv00.com
 
-== https://mail.serv00.com/?_task=mail&_mbox=INBOX
+----------   https://gitlab.com/zb9678/node-1/-/tree/main/images?ref_type=heads
 
-1======4====F7===1@kevzcr.serv00.net
+====================   https://github.com/zb9678/node-1/tree/main/images
 
-2======9=========2@zb7.serv00.net
+----------   https://gitlab.com/zb9678/node-2/-/tree/main/images?ref_type=heads
 
-3======8=========3@z07.serv00.net
+=====================  https://github.com/zb9678/node-2/tree/main/images
 
-4======8=========4@z88.serv00.net
+----------   https://gitlab.com/zb9678/node-3/-/tree/main/images?ref_type=heads
 
-5======0=========6@z11.serv00.net
-
-6======0=========9@z99.serv00.net
+=====================   https://github.com/zb9678/node-3/tree/main/images
 
 
 ## rr.nu 
