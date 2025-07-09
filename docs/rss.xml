@@ -1,5 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sat, 05 Jul 2025 15:04:21 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>热字串</title><link>https://z.zcr4.ip-ddns.com/post/re-zi-chuan.html</link><description>## 热字串
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 09 Jul 2025 14:50:06 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>如何在官网下载win10系统</title><link>https://z.zcr4.ip-ddns.com/post/ru-he-zai-guan-wang-xia-zai-win10-xi-tong.html</link><description>## 如何在官网下载win10系统
+
+- https://www.microsoft.com/zh-cn/software-download/windows10
+
+正常打开为下方
+
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/07.09:22:42:24.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+- 在当前页面按下 F12  点选右上角  显示/隐藏工具栏 小图标
+
+- 左上角位置调整    尺寸: Nest Hub Max
+
+- 50%
+ 
+ctrl+R  刷新页面，页面出现 `ISO文件` 字样
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/07.09:22:43:41.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/ru-he-zai-guan-wang-xia-zai-win10-xi-tong.html</guid><pubDate>Wed, 09 Jul 2025 14:49:26 +0000</pubDate></item><item><title>热字串</title><link>https://z.zcr4.ip-ddns.com/post/re-zi-chuan.html</link><description>## 热字串
 
 - 每个热字串缩写的长度不能超过 40 个字符. 超出此长度后程序会向您提出警告. 
 
