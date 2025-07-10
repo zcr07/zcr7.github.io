@@ -1,5 +1,68 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 09 Jul 2025 15:02:53 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>如何在官网下载win10系统</title><link>https://z.zcr4.ip-ddns.com/post/ru-he-zai-guan-wang-xia-zai-win10-xi-tong.html</link><description>## 如何在官网下载win10系统
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Thu, 10 Jul 2025 10:50:22 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>config.toml  7.10</title><link>https://z.zcr4.ip-ddns.com/post/config.toml%20%207.10.html</link><description>## config.toml
+
+###  私库
+
+```
+rename = 'images/{month}.{day}:{hour}:{minute}:{second}{ext}'
+default_uploader = 'github'
+[replacements]
+'raw.githubusercontent.com' = 'node1.zcr3.ddns-ip.net'
+
+# 'raw.githubusercontent.com' = 'node1.k07.dpdns.org'
+# 'raw.githubusercontent.com' = 'node1.r08.dpdns.org'
+# 'raw.githubusercontent.com' = 'node1.z07.cloudns.be'
+# 'raw.githubusercontent.com' = 'node1.z07.dpdns.org'
+# 'raw.githubusercontent.com' = 'node1.zb25.x10.mx'
+# 'raw.githubusercontent.com' = 'node1.zb9.ip-ddns.com'
+# 'raw.githubusercontent.com' = 'node1.zbb06.filegear-sg.me'
+# 'raw.githubusercontent.com' = 'node1.zcr3.ddns-ip.net'
+# 'raw.githubusercontent.com' = 'node1.zcr5.qzz.io'
+
+[output_formats]
+'ccc' = '&lt;p align='center'&gt;&lt;img src='{url}' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;'
+
+[uploaders.github]
+# 保存文件的分支，例如 master 或 main
+branch = 'main'
+pat = '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'
+repo = 'node-1'
+username = 'zb9678'
+
+
+```
+
+### 公开库
+
+```
+rename = 'im1/{month}.{day}:{hour}:{minute}:{second}{ext}'
+default_uploader = 'github'
+[replacements]
+'raw.githubusercontent.com' = 'cdn.jsdelivr.net/gh'
+'/main' = '@main'
+
+[output_formats]
+'bbcode' = '[img]{url}[/img]'
+'html' = '&lt;img src='{url}' /&gt;'
+'markdown' = '![]({url})'
+'ccc' = '&lt;p align='center'&gt;&lt;img src='{url}' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;'
+
+[uploaders.github]
+# 保存文件的分支，例如 master 或 main
+branch = 'main'
+pat = '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'
+repo = 'img9'
+username = 'zb9678'
+
+
+```
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/config.toml%20%207.10.html</guid><pubDate>Thu, 10 Jul 2025 10:40:19 +0000</pubDate></item><item><title>如何在官网下载win10系统</title><link>https://z.zcr4.ip-ddns.com/post/ru-he-zai-guan-wang-xia-zai-win10-xi-tong.html</link><description>## 如何在官网下载win10系统
 
 - https://www.microsoft.com/zh-cn/software-download/windows10
 
