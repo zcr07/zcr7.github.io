@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Fri, 11 Jul 2025 02:30:12 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>config.json  7.10</title><link>https://z.zcr4.ip-ddns.com/post/config.json%20%207.10.html</link><description>## config.json
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Fri, 11 Jul 2025 02:38:34 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>config.json  7.10</title><link>https://z.zcr4.ip-ddns.com/post/config.json%20%207.10.html</link><description>## config.json
 
-- 如果自定义域名失效，应更换 `CloudFlare` 的Token    
+- 如果自定义域名失效（图片已上传至github中了，但在浏览器中打不开），应更换 `CloudFlare` 的worker.js  中的第12行中的 Token    
 
 CF位置
 
@@ -9,7 +9,14 @@ CF位置
 
 - https://dash.cloudflare.com/67409d2d85f857acbae76bd86edbe9fc/workers/services/edit/billowing-morning-node123/production
 
-- 如果上传后，剪贴板中无内容，应更换 `config.json` 中的 Token  
+
+===================================================================
+
+
+###  如果上传后，剪贴板中无内容
+
+- 则应更换 `config.json` 中的 Token  
+
 
 ### picgo core
 

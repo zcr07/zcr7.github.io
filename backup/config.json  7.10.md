@@ -1,6 +1,6 @@
 ## config.json
 
-- 如果自定义域名失效，应更换 `CloudFlare` 的Token    
+- 如果自定义域名失效（图片已上传至github中了，但在浏览器中打不开），应更换 `CloudFlare` 的worker.js  中的第12行中的 Token    
 
 CF位置
 
@@ -8,7 +8,14 @@ CF位置
 
 - https://dash.cloudflare.com/67409d2d85f857acbae76bd86edbe9fc/workers/services/edit/billowing-morning-node123/production
 
-- 如果上传后，剪贴板中无内容，应更换 `config.json` 中的 Token  
+
+===================================================================
+
+
+###  如果上传后，剪贴板中无内容
+
+- 则应更换 `config.json` 中的 Token  
+
 
 ### picgo core
 
