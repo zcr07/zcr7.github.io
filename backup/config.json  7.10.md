@@ -12,6 +12,8 @@ CF位置
 
 - https://github.com/zcr07/zcr7.github.io/issues/39
 
+<p align='center'><img src="https://node1.zcr5.qzz.io/images/20250711105632.png" style='width:400px;'><br><br>
+
 ===================================================================
 
 
