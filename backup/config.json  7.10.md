@@ -1,6 +1,8 @@
 ## config.json
 
-- 如果自定义域名失效（图片已上传至github中了，但在浏览器中打不开），应更换 `CloudFlare` 的worker.js  中的第12行中的 Token    
+### 如果图片已上传至github中了，但在浏览器中打不开
+
+即剪贴板中已显示有链接，但此链接却打开错误。应更换 `CloudFlare` 的worker.js  中的第12行中的 Token    
 
 CF位置
 
