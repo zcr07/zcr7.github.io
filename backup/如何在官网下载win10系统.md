@@ -45,6 +45,6 @@ ctrl+R  刷新页面，页面出现 `ISO文件` 字样
 
 - https://www.microsoft.com/zh-cn/software-download/windows11
 
-<p align="center"><img src="https://node1.zcr3.ddns-ip.net/images/07.10:19:03:50.png" style="width:400px;"></p><br>
+
 
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.10:19:16:21.png" style="width:400px;"></p><br>
