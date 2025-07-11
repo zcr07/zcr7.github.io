@@ -8,6 +8,9 @@ CF位置
 
 - https://dash.cloudflare.com/67409d2d85f857acbae76bd86edbe9fc/workers/services/edit/billowing-morning-node123/production
 
+注：具体脚本在  `config.json 7.10  补充worker.js`
+
+- https://github.com/zcr07/zcr7.github.io/issues/39
 
 ===================================================================
 
