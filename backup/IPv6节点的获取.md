@@ -22,3 +22,19 @@
 - https://www.lddgo.net/network/randomip
 
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.12:00:01:38.png" style="width:400px;"></p><br>
+
+======================================================
+
+##  IPv4节点的获取
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.12:00:08:38.png" style="width:400px;"></p><br>
+
+104.16.238.56
+
+搜索范围
+
+104.16.238.000
+
+104.16.238.255
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.12:00:10:24.png" style="width:400px;"></p><br>
