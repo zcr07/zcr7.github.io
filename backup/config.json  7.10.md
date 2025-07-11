@@ -1,5 +1,15 @@
 ## config.json
 
+- 如果自定义域名失效，应更换 `CloudFlare` 的Token    
+
+CF位置
+
+- zb9  billowing-morning-node123
+
+- https://dash.cloudflare.com/67409d2d85f857acbae76bd86edbe9fc/workers/services/edit/billowing-morning-node123/production
+
+- 如果上传后，剪贴板中无内容，应更换 `config.json` 中的 Token  
+
 ### picgo core
 
 - C:\Users\z\.picgo\config.json
