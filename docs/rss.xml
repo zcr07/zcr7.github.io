@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Fri, 11 Jul 2025 03:03:55 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>config.json 7.10  补充worker.js</title><link>https://z.zcr4.ip-ddns.com/post/config.json%207.10%20%20-bu-chong-worker.js.html</link><description>## config.json 7.10  补充worker.js
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Fri, 11 Jul 2025 03:08:13 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>config.json 7.10  补充worker.js</title><link>https://z.zcr4.ip-ddns.com/post/config.json%207.10%20%20-bu-chong-worker.js.html</link><description>## config.json 7.10  补充worker.js
 
 ###  `worker.js ` 内容如下
 
@@ -767,9 +767,9 @@ export default {
         '欢迎来到文件托管集群！(File Hosting Cluster)\n' +
         '这是一个分布式存储集群项目，旨在提供高效的文件存储和管理服务。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/config.json%207.10%20%20-bu-chong-worker.js.html</guid><pubDate>Fri, 11 Jul 2025 02:39:16 +0000</pubDate></item><item><title>config.json  7.10</title><link>https://z.zcr4.ip-ddns.com/post/config.json%20%207.10.html</link><description>## config.json
 
-### 如果图片已上传至github中了，但在浏览器中打不开
+### 如剪贴板中已显示有链接，但此链接却打开错误
 
-即剪贴板中已显示有链接，但此链接却打开错误。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/config.json%20%207.10.html</guid><pubDate>Thu, 10 Jul 2025 10:54:30 +0000</pubDate></item><item><title>config.toml  7.10</title><link>https://z.zcr4.ip-ddns.com/post/config.toml%20%207.10.html</link><description>## config.toml
+- 有链接显示，证明图片已上传至Github，链接打开显示错误则证明cloufare中的worker.js中的Token出了问题 。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/config.json%20%207.10.html</guid><pubDate>Thu, 10 Jul 2025 10:54:30 +0000</pubDate></item><item><title>config.toml  7.10</title><link>https://z.zcr4.ip-ddns.com/post/config.toml%20%207.10.html</link><description>## config.toml
 
 ###  私库
 

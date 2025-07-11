@@ -1,8 +1,10 @@
 ## config.json
 
-### 如果图片已上传至github中了，但在浏览器中打不开
+### 如剪贴板中已显示有链接，但此链接却打开错误
 
-即剪贴板中已显示有链接，但此链接却打开错误。应更换 `CloudFlare` 的worker.js  中的第12行中的 Token    
+- 有链接显示，证明图片已上传至Github，链接打开显示错误则证明cloufare中的worker.js中的Token出了问题 。
+  
+- 应更换 `CloudFlare` 的worker.js  中的第12行中的 Token 。   
 
 CF位置
 
