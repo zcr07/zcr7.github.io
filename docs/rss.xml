@@ -1,5 +1,771 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Fri, 11 Jul 2025 02:38:34 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>config.json  7.10</title><link>https://z.zcr4.ip-ddns.com/post/config.json%20%207.10.html</link><description>## config.json
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Fri, 11 Jul 2025 02:39:46 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>config.json 7.10  补充worker.js</title><link>https://z.zcr4.ip-ddns.com/post/config.json%207.10%20%20-bu-chong-worker.js.html</link><description>## config.json 7.10  补充worker.js
+
+###  `worker.js ` 内容如下
+
+```
+// 用户配置区域开始 =================================
+
+// GitLab 节点配置
+const GITLAB_CONFIGS = [
+  { name: 'node-1', id: '71381429', token: 'glpat-DvQYzt_RBnpiQGh5Htk9' },  // GitLab 账户1
+  { name: 'node-2', id: '71381417', token: 'glpat-iWkNqYGpENmcdL3mej8C' },  // GitLab 账户2
+  { name: 'node-3', id: '71381378', token: 'glpat-6ngs_eoSyK7YZt9cN6XH' },  // GitLab 账户3
+];
+
+// GitHub 配置，仓库名与 GitLab 的相同，故创建仓库时需要注意一定要对称
+const GITHUB_USERNAME = 'zb9678';  // GitHub 用户名
+const GITHUB_PAT = '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';  // GitHub 个人访问令牌
+
+// R2 存储配置，没有可以留空不填，但不要删除
+const R2_CONFIGS = [
+  {
+    name: '',  // 帐户1 ID
+    accountId: '',  // 帐户1 访问密钥 ID
+    accessKeyId: '',  // 帐户1 机密访问密钥
+    secretAccessKey: '',  // 帐户1 机密访问密钥
+    bucket: '' // 帐户1 R2 存储桶名称
+  },
+  {
+    name: '',  // 帐户2 ID
+    accountId: '',  // 帐户2 访问密钥 ID
+    accessKeyId: '',  // 帐户2 机密访问密钥
+    secretAccessKey: '',  // 帐户2 机密访问密钥
+    bucket: '' // 帐户2 R2 存储桶名称
+  },
+  // 可以添加更多 R2 配置
+];
+
+// B2 存储配置，没有可以留空不填，但不要删除
+const B2_CONFIGS = [
+  {
+    name: 'zcr071225@gmail.com',  // 帐户1 名
+    endPoint: 's3.us-east-005.backblazeb2.com',  // 账户1 Endpoint
+    keyId: '005171e1ce22c070000000006',  // 账户1 keyID
+    applicationKey: 'K005eVKFoFB9rhcd60PYp2flle/Elp4',  // 账户1 applicationKey
+    bucket: 'kevzcr1'  // 账户1桶名 bucketName
+  },
+  {
+    name: 'zbb7001@gmail.com',  // 帐户2 名
+    endPoint: 's3.us-east-005.backblazeb2.com',  // 账户2 Endpoint
+    keyId: '005a798057f86250000000001',  // 账户2 keyID
+    applicationKey: 'K005n7cwUFP5CLKsTfT0xgw0pJuwSaI',  // 账户2 applicationKey
+    bucket: 'kevzcr2'  // 账户2桶名 bucketName
+  },
+  {
+    name: 'ngro1031@gmail.com',  // 帐户3 名
+    endPoint: 's3.us-east-005.backblazeb2.com',  // 账户2 Endpoint
+    keyId: '005e634d18d70550000000001',  // 账户2 keyID
+    applicationKey: 'K005bV0nxzCqoS8WO4Ajj54CZZ8jRvk',  // 账户2 applicationKey
+    bucket: 'kevzcr3'  // 账户2桶名 bucketName
+  },
+  // 可以添加更多 B2 配置
+];
+
+// 定义集群访问目录
+const DIR = '';
+
+// 定义集群里全部节点连接状态的密码验证，区分大小写（优先使用自定义密码，若为空则使用 GITHUB_PAT）
+const CHECK_PASSWORD = 'zbb' || GITHUB_PAT;
+
+// GitHub 备份策略
+const STRATEGY = 'size'  // 可选 [size (默认) | quantity | 指定节点]; size: 选择容量最少的仓库来存储文件; quantity: 选择文件最少的仓库来存储文件; 指定节点: 比如  pic1 或者 pic2
+const DELETE = 'true'  // 可选 [true (默认) | false]，已复制到 GitHub 的文件，是否从 R2 删除
+
+// 用户配置区域结束 =================================
+
+// 检查配置是否有效
+function hasValidConfig() {
+  // 检查 GitHub 配置
+  const hasGithub = GITHUB_PAT &amp;&amp; GITHUB_USERNAME &amp;&amp; GITLAB_CONFIGS &amp;&amp;
+                    GITLAB_CONFIGS.length &gt; 0 &amp;&amp;
+                    GITLAB_CONFIGS.some(config =&gt; config.name &amp;&amp; config.id &amp;&amp; config.token);
+
+  // 检查 GitLab 配置
+  const hasGitlab = GITLAB_CONFIGS &amp;&amp;
+                    GITLAB_CONFIGS.length &gt; 0 &amp;&amp;
+                    GITLAB_CONFIGS.some(config =&gt; config.name &amp;&amp; config.id &amp;&amp; config.token);
+
+  // 检查 R2 配置
+  const hasR2 = R2_CONFIGS &amp;&amp;
+                R2_CONFIGS.length &gt; 0 &amp;&amp;
+                R2_CONFIGS.some(config =&gt;
+                  config.name &amp;&amp;
+                  config.accountId &amp;&amp;
+                  config.accessKeyId &amp;&amp;
+                  config.secretAccessKey &amp;&amp;
+                  config.bucket
+                );
+
+  // 检查 B2 配置
+  const hasB2 = B2_CONFIGS &amp;&amp;
+                B2_CONFIGS.length &gt; 0 &amp;&amp;
+                B2_CONFIGS.some(config =&gt;
+                  config.name &amp;&amp;
+                  config.endPoint &amp;&amp;
+                  config.keyId &amp;&amp;
+                  config.applicationKey &amp;&amp;
+                  config.bucket
+                );
+
+  return {
+    github: hasGithub,
+    gitlab: hasGitlab,
+    r2: hasR2,
+    b2: hasB2
+  };
+}
+
+// AWS SDK 签名相关函数开始 =================================
+
+// 获取签名URL
+async function getSignedUrl(config, method, path, queryParams = {}) {
+  const region = config.endPoint ? config.endPoint.split('.')[1] : 'auto';
+  const service = 's3';
+  const host = config.endPoint || `${config.accountId}.r2.cloudflarestorage.com`;
+  const accessKeyId = config.endPoint ? config.keyId : config.accessKeyId;
+  const secretKey = config.endPoint ? config.applicationKey : config.secretAccessKey;
+  const datetime = new Date().toISOString().replace(/[:-]|\.\d{3}/g, '');
+  const date = datetime.substr(0, 8);
+
+  // 确保路径正确编码，但保留斜杠
+  const encodedPath = path.split('/')
+    .map(segment =&gt; encodeURIComponent(segment))
+    .join('/');
+
+  // 构建规范请求
+  const canonicalHeaders = `host:${host}\nx-amz-content-sha256:UNSIGNED-PAYLOAD\nx-amz-date:${datetime}\n`;
+  const signedHeaders = 'host;x-amz-content-sha256;x-amz-date';
+
+  // 按字母顺序排序查询参数
+  const sortedParams = Object.keys(queryParams).sort().reduce((acc, key) =&gt; {
+    acc[key] = queryParams[key];
+    return acc;
+  }, {});
+
+  const canonicalQueryString = Object.entries(sortedParams)
+    .map(([key, value]) =&gt; `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
+    .join('&amp;');
+
+  const canonicalRequest = [
+    method,
+    '/' + encodedPath,
+    canonicalQueryString,
+    canonicalHeaders,
+    signedHeaders,
+    'UNSIGNED-PAYLOAD'
+  ].join('\n');
+
+  const stringToSign = [
+    'AWS4-HMAC-SHA256',
+    datetime,
+    `${date}/${region}/${service}/aws4_request`,
+    await sha256(canonicalRequest)
+  ].join('\n');
+
+  const signature = await getSignature(
+    secretKey,
+    date,
+    region,
+    service,
+    stringToSign
+  );
+
+  const authorization = [
+    `AWS4-HMAC-SHA256 Credential=${accessKeyId}/${date}/${region}/${service}/aws4_request`,
+    `SignedHeaders=${signedHeaders}`,
+    `Signature=${signature}`
+  ].join(', ');
+
+  const url = `https://${host}/${encodedPath}${canonicalQueryString ? '?' + canonicalQueryString : ''}`;
+
+  return {
+    url,
+    headers: {
+      'Authorization': authorization,
+      'x-amz-content-sha256': 'UNSIGNED-PAYLOAD',
+      'x-amz-date': datetime,
+      'Host': host
+    }
+  };
+}
+
+// SHA256 哈希函数
+async function sha256(message) {
+  const msgBuffer = new TextEncoder().encode(message);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+  return Array.from(new Uint8Array(hashBuffer))
+    .map(b =&gt; b.toString(16).padStart(2, '0'))
+    .join('');
+}
+
+// HMAC-SHA256 函数
+async function hmacSha256(key, message) {
+  const keyBuffer = key instanceof ArrayBuffer ? key : new TextEncoder().encode(key);
+  const messageBuffer = new TextEncoder().encode(message);
+
+  const cryptoKey = await crypto.subtle.importKey(
+    'raw',
+    keyBuffer,
+    { name: 'HMAC', hash: 'SHA-256' },
+    false,
+    ['sign']
+  );
+
+  const signature = await crypto.subtle.sign(
+    'HMAC',
+    cryptoKey,
+    messageBuffer
+  );
+
+  return signature;
+}
+
+// 获取签名
+async function getSignature(secret, date, region, service, stringToSign) {
+  const kDate = await hmacSha256('AWS4' + secret, date);
+  const kRegion = await hmacSha256(kDate, region);
+  const kService = await hmacSha256(kRegion, service);
+  const kSigning = await hmacSha256(kService, 'aws4_request');
+  const signature = await hmacSha256(kSigning, stringToSign);
+
+  return Array.from(new Uint8Array(signature))
+    .map(b =&gt; b.toString(16).padStart(2, '0'))
+    .join('');
+}
+
+// AWS SDK 签名相关函数结束 =================================
+
+// 检查服务函数
+async function getGitHubUsername(pat) {
+  const url = 'https://api.github.com/user';
+  try {
+    const response = await fetch(url, {
+      headers: {
+        'Authorization': `token ${pat}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'Cloudflare Worker'
+      }
+    });
+
+    if (response.status === 200) {
+      const data = await response.json();
+      return data.login;
+    } else {
+      console.error('GitHub API Error:', response.status);
+      return 'Unknown';
+    }
+  } catch (error) {
+    console.error('GitHub request error:', error);
+    return 'Error';
+  }
+}
+
+// 修改文件路径处理函数
+function getFilePath(basePath, requestPath) {
+  // 移除开头的斜杠
+  const cleanRequestPath = requestPath.replace(/^\//, '');
+
+  // 如果没有设置 basePath，直接返回请求路径
+  if (!basePath) return cleanRequestPath;
+
+  // 组合基础路径和请求路径
+  return `${basePath}/${cleanRequestPath}`;
+}
+
+// 检查 GitHub 仓库
+async function checkGitHubRepo(owner, repo, pat) {
+  const repoUrl = `https://api.github.com/repos/${owner}/${repo}`;
+
+  const headers = {
+    'Authorization': `token ${pat}`,
+    'Accept': 'application/vnd.github.v3+json',
+    'User-Agent': 'Cloudflare Worker'
+  };
+
+  try {
+    // 获取仓库信息，确定默认分支
+    const repoResponse = await fetch(repoUrl, { headers });
+    const repoData = await repoResponse.json();
+
+    if (repoResponse.status!== 200) {
+      throw new Error(`Repository error: ${repoData.message}`);
+    }
+
+    const defaultBranch = repoData.default_branch;
+    const contentsUrl = `https://api.github.com/repos/${owner}/${repo}/git/trees/${defaultBranch}?recursive=1`;
+
+    // 获取文件树信息
+    const contentsResponse = await fetch(contentsUrl, { headers });
+    if (contentsResponse.status!== 200) {
+      const contentsErrorData = await contentsResponse.json();
+      throw new Error(`Contents error: ${contentsErrorData.message}`);
+    }
+
+    const contentsData = await contentsResponse.json();
+
+    let fileCount = 0;
+    let totalSize = 0;
+
+    if (contentsData.tree) {
+      for (const item of contentsData.tree) {
+        // 检查是否是文件
+        if (item.type === 'blob' &amp;&amp; (DIR === '' || item.path.startsWith(DIR + '/'))) {
+          fileCount++;
+          totalSize += item.size || 0;
+        }
+      }
+    }
+
+    return [
+      `working (${repoData.private ? 'private' : 'public'})`,
+      fileCount,
+      totalSize
+    ];
+
+  } catch (error) {
+    console.error(`Error checking GitHub repo ${repo}:`, error);
+    return [`error: ${error.message}`, 0, 0];
+  }
+}
+
+// 检查 GitLab 项目
+async function checkGitLabProject(projectId, pat) {
+  const projectUrl = `https://gitlab.com/api/v4/projects/${projectId}`;
+  const treeUrl = `https://gitlab.com/api/v4/projects/${projectId}/repository/tree?recursive=true&amp;per_page=100&amp;path=${DIR}`;
+
+  try {
+    const [projectResponse, treeResponse] = await Promise.all([
+      fetch(projectUrl, {
+        headers: { 'PRIVATE-TOKEN': pat }
+      }),
+      fetch(treeUrl, {
+        headers: { 'PRIVATE-TOKEN': pat }
+      })
+    ]);
+
+    if (projectResponse.status === 200) {
+      const projectData = await projectResponse.json();
+      let fileCount = 0;
+
+      if (treeResponse.status === 200) {
+        const treeData = await treeResponse.json();
+        // 只计算文件，不计算目录
+        fileCount = treeData.filter(item =&gt; item.type === 'blob').length;
+      }
+
+      return [
+        `working (${projectData.visibility})`,
+        projectData.owner.username,
+        fileCount
+      ];
+    } else if (projectResponse.status === 404) {
+      return ['not found', 'Unknown', 0];
+    } else {
+      return ['disconnect', 'Unknown', 0];
+    }
+  } catch (error) {
+    console.error('GitLab project check error:', error);
+    return ['disconnect', 'Error', 0];
+  }
+}
+
+// 检查 R2 存储
+async function checkR2Storage(r2Config) {
+  try {
+    // 列出所有文件
+    const listRequest = await getSignedUrl(r2Config, 'GET', r2Config.bucket, {
+      'list-type': '2',
+      'prefix': DIR ? `${DIR}/` : ''  // 添加目录前缀筛选
+    });
+
+    const response = await fetch(listRequest.url, {
+      headers: {
+        ...listRequest.headers,
+        'Host': `${r2Config.accountId}.r2.cloudflarestorage.com`
+      }
+    });
+
+    let fileCount = 0;
+    let totalSize = 0;
+
+    if (response.ok) {
+      const data = await response.text();
+
+      // 使用正则表达式匹配所有文件信息
+      const contents = data.match(/&lt;Contents&gt;[\s\S]*?&lt;\/Contents&gt;/g) || [];
+
+      for (const content of contents) {
+        const keyMatch = content.match(/&lt;Key&gt;([^&lt;]+)&lt;\/Key&gt;/);
+        const sizeMatch = content.match(/&lt;Size&gt;(\d+)&lt;\/Size&gt;/);
+
+        if (keyMatch &amp;&amp; sizeMatch) {
+          const key = keyMatch[1];
+          // 只计算文件，不计算目录
+          if (!key.endsWith('/')) {
+            fileCount++;
+            totalSize += parseInt(sizeMatch[1]);
+          }
+        }
+      }
+    }
+
+    return [
+      'working',
+      r2Config.name,
+      r2Config.bucket,
+      fileCount,
+      formatSize(totalSize)
+    ];
+  } catch (error) {
+    console.error('R2 Storage error:', error);
+    return ['error', r2Config.name, 'connection failed', 0, '0 B'];
+  }
+}
+
+// 检查 B2 存储
+async function checkB2Storage(b2Config) {
+  try {
+    // 构建列出文件的请求，移除 delimiter 参数以获取所有子目录
+    const signedRequest = await getSignedUrl(b2Config, 'GET', b2Config.bucket, {
+      'prefix': DIR ? `${DIR}/` : ''
+    });
+
+    const response = await fetch(signedRequest.url, {
+      headers: {
+        ...signedRequest.headers,
+        'Host': b2Config.endPoint
+      }
+    });
+
+    let fileCount = 0;
+    let totalSize = 0;
+
+    if (response.ok) {
+      const data = await response.text();
+      // 使用正则表达式匹配所有文件信息
+      const keyRegex = /&lt;Key&gt;([^&lt;]+)&lt;\/Key&gt;/g;
+      const sizeRegex = /&lt;Size&gt;(\d+)&lt;\/Size&gt;/g;
+
+      let keyMatch;
+      while ((keyMatch = keyRegex.exec(data)) !== null) {
+        const key = keyMatch[1];
+        // 只计算文件，不计算目录，并确保文件在指定目录下
+        if (!key.endsWith('/') &amp;&amp; (!DIR || key.startsWith(DIR + '/'))) {
+          fileCount++;
+          // 获取对应的文件大小
+          const sizeMatch = /&lt;Size&gt;(\d+)&lt;\/Size&gt;/g.exec(data.slice(keyMatch.index));
+          if (sizeMatch) {
+            totalSize += parseInt(sizeMatch[1]);
+          }
+        }
+      }
+
+      return [
+        'working',
+        b2Config.name,
+        b2Config.bucket,
+        fileCount,
+        formatSize(totalSize)
+      ];
+    } else {
+      throw new Error(`Failed to list bucket: ${response.status} ${response.statusText}`);
+    }
+
+  } catch (error) {
+    console.error('B2 Storage error:', error);
+    return ['error', b2Config.name, b2Config.bucket, 0, '0 B'];
+  }
+}
+
+// 删除 GitHub 仓库中的文件
+async function deleteGitHubFile(repo, filePath, pat) {
+  // 构建完整的文件路径，包含 DIR
+  const fullPath = DIR ? `${DIR}/${filePath.replace(/^\/+/, '')}` : filePath.replace(/^\/+/, '');
+  const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${repo}/contents/${fullPath}`;
+
+  try {
+    // 先检查文件是否存在
+    const getResponse = await fetch(url, {
+      headers: {
+        'Authorization': `token ${pat}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'Cloudflare Worker'
+      }
+    });
+
+    if (getResponse.status === 404) {
+      return '文件不存在';
+    }
+
+    if (!getResponse.ok) {
+      const errorData = await getResponse.json();
+      return `删除失败：(${errorData.message})`;
+    }
+
+    const fileData = await getResponse.json();
+
+    // 执行删除操作
+    const deleteResponse = await fetch(url, {
+      method: 'DELETE',
+      headers: {
+        'Authorization': `token ${pat}`,
+        'Accept': 'application/vnd.github.v3+json',
+        'User-Agent': 'Cloudflare Worker'
+      },
+      body: JSON.stringify({
+        message: `Delete ${fullPath}`,
+        sha: fileData.sha
+      })
+    });
+
+    if (deleteResponse.ok) {
+      return '删除成功';
+    } else {
+      const errorData = await deleteResponse.json();
+      return `删除失败：(${errorData.message})`;
+    }
+  } catch (error) {
+    console.error('GitHub delete error:', error);
+    return `删除失败：(${error.message})`;
+  }
+}
+
+// 删除 GitLab 项目中的文件
+async function deleteGitLabFile(projectId, filePath, pat) {
+  // 构建完整的文件路径，包含 DIR
+  const fullPath = DIR ? `${DIR}/${filePath.replace(/^\/+/, '')}` : filePath.replace(/^\/+/, '');
+  const encodedPath = encodeURIComponent(fullPath);
+  const url = `https://gitlab.com/api/v4/projects/${projectId}/repository/files/${encodedPath}`;
+
+  try {
+    // 执行删除操作
+    const deleteResponse = await fetch(url, {
+      method: 'DELETE',
+      headers: {
+        'PRIVATE-TOKEN': pat,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        branch: 'main',
+        commit_message: 'Delete file: ' + fullPath
+      })
+    });
+
+    // 获取响应数据
+    const errorData = await deleteResponse.json().catch(() =&gt; ({}));
+
+    // 处理文件不存在的所有可能情况
+    if (deleteResponse.status === 404 ||
+      errorData.message === 'A file with this name doesn\'t exist' ||
+      errorData.message?.includes('file does not exist') ||
+      errorData.message?.includes('File not found')) {
+      return '文件不存在';
+    }
+
+    // 处理删除成功的情况
+    if (deleteResponse.ok ||
+      errorData.message?.includes('reference update') ||
+      errorData.message?.includes('reference does not point')) {
+      return '删除成功';
+    }
+
+    return `删除失败：(${errorData.message || '未知错误'})`;
+  } catch (error) {
+    console.error('GitLab delete error:', error);
+    if (error.message?.includes('file') &amp;&amp; error.message?.includes('exist')) {
+      return '文件不存在';
+    }
+    return `删除失败：(${error.message})`;
+  }
+}
+
+// 删除 R2 存储中的文件
+async function deleteR2File(r2Config, filePath) {
+  // 构建完整的文件路径，包含 DIR
+  const fullPath = DIR ? `${DIR}/${filePath.replace(/^\/+/, '')}` : filePath.replace(/^\/+/, '');
+
+  try {
+    // 1. 首先列出所有文件
+    const listRequest = await getSignedUrl(r2Config, 'GET', r2Config.bucket, {
+      'list-type': '2',
+      'prefix': fullPath  // 使用精确的前缀匹配
+    });
+
+    const listResponse = await fetch(listRequest.url, {
+      headers: {
+        ...listRequest.headers,
+        'Host': `${r2Config.accountId}.r2.cloudflarestorage.com`
+      }
+    });
+
+    if (!listResponse.ok) {
+      throw new Error(`Failed to list objects: ${listResponse.statusText}`);
+    }
+
+    // 解析响应
+    const listData = await listResponse.text();
+    const contents = listData.match(/&lt;Contents&gt;[\s\S]*?&lt;\/Contents&gt;/g) || [];
+    let fileExists = false;
+
+    // 精确匹配文件路径
+    for (const content of contents) {
+      const keyMatch = content.match(/&lt;Key&gt;([^&lt;]+)&lt;\/Key&gt;/);
+      if (keyMatch &amp;&amp; keyMatch[1] === fullPath) {
+        fileExists = true;
+        break;
+      }
+    }
+
+    if (!fileExists) {
+      return '文件不存在';
+    }
+
+    // 2. 删除文件
+    const deleteRequest = await getSignedUrl(r2Config, 'DELETE', `${r2Config.bucket}/${fullPath}`);
+
+    const deleteResponse = await fetch(deleteRequest.url, {
+      method: 'DELETE',
+      headers: {
+        ...deleteRequest.headers,
+        'Host': `${r2Config.accountId}.r2.cloudflarestorage.com`
+      }
+    });
+
+    if (!deleteResponse.ok) {
+      const deleteResponseText = await deleteResponse.text();
+      throw new Error(`Failed to delete: ${deleteResponse.status} - ${deleteResponseText}`);
+    }
+
+    return '删除成功';
+  } catch (error) {
+    console.error('R2 delete error:', error);
+    return `删除失败：(${error.message})`;
+  }
+}
+
+// 删除 B2 存储中的文件
+async function deleteB2File(b2Config, filePath) {
+  // 构建完整的文件路径，包含 DIR
+  const fullPath = DIR ? `${DIR}/${filePath.replace(/^\/+/, '')}` : filePath.replace(/^\/+/, '');
+
+  try {
+    // 1. 首先列出所有文件
+    const listObjectsRequest = await getSignedUrl(b2Config, 'GET', b2Config.bucket, {
+      'list-type': '2',
+      'prefix': fullPath
+    });
+
+    const listResponse = await fetch(listObjectsRequest.url, {
+      headers: {
+        ...listObjectsRequest.headers,
+        'Host': b2Config.endPoint
+      }
+    });
+
+    if (!listResponse.ok) {
+      throw new Error(`Failed to list objects: ${listResponse.statusText}`);
+    }
+
+    // 解析 XML 响应
+    const listData = await listResponse.text();
+    const keyRegex = /&lt;Key&gt;([^&lt;]+)&lt;\/Key&gt;/g;
+    const fileExists = Array.from(listData.matchAll(keyRegex))
+      .some(match =&gt; match[1] === fullPath);
+
+    if (!fileExists) {
+      return '文件不存在';
+    }
+
+    // 2. 获取文件的版本信息
+    const versionsRequest = await getSignedUrl(b2Config, 'GET', b2Config.bucket, {
+      'versions': '',
+      'prefix': fullPath,
+      'list-type': '2'
+    });
+
+    const versionsResponse = await fetch(versionsRequest.url, {
+      headers: {
+        ...versionsRequest.headers,
+        'Host': b2Config.endPoint,
+        'x-amz-date': versionsRequest.headers['x-amz-date'],
+        'Authorization': versionsRequest.headers['Authorization']
+      }
+    });
+
+    if (!versionsResponse.ok) {
+      const responseText = await versionsResponse.text();
+      console.error('Version listing response:', responseText);
+      throw new Error(`Failed to list versions: ${versionsResponse.status} - ${responseText}`);
+    }
+
+    const versionsData = await versionsResponse.text();
+
+    // 解析版本信息
+    const versionMatch = versionsData.match(/&lt;Version&gt;[\s\S]*?&lt;VersionId&gt;([^&lt;]+)&lt;\/VersionId&gt;[\s\S]*?&lt;\/Version&gt;/);
+    if (!versionMatch) {
+      throw new Error('No version information found');
+    }
+
+    const versionId = versionMatch[1];
+
+    // 3. 删除指定版本的文件
+    const deleteRequest = await getSignedUrl(b2Config, 'DELETE', `${b2Config.bucket}/${fullPath}`, {
+      'versionId': versionId
+    });
+
+    const deleteResponse = await fetch(deleteRequest.url, {
+      method: 'DELETE',
+      headers: {
+        ...deleteRequest.headers,
+        'Host': b2Config.endPoint,
+        'x-amz-date': deleteRequest.headers['x-amz-date'],
+        'Authorization': deleteRequest.headers['Authorization']
+      }
+    });
+
+    if (!deleteResponse.ok) {
+      const deleteResponseText = await deleteResponse.text();
+      throw new Error(`Failed to delete: ${deleteResponse.status} - ${deleteResponseText}`);
+    }
+
+    return '删除成功';
+  } catch (error) {
+    console.error('B2 delete error:', error);
+    return `删除失败：(${error.message})`;
+  }
+}
+
+// 文件大小格式化函数
+function formatSize(sizeInBytes) {
+  if (sizeInBytes &gt;= 1024 * 1024 * 1024) {
+    return `${(sizeInBytes / (1024 * 1024 * 1024)).toFixed(2)} GB`;
+  } else if (sizeInBytes &gt;= 1024 * 1024) {
+    return `${(sizeInBytes / (1024 * 1024)).toFixed(2)} MB`;
+  } else {
+    return `${(sizeInBytes / 1024).toFixed(2)} kB`;
+  }
+}
+
+export default {
+  async fetch(request, env, ctx) {
+    // 获取请求 URL 对象
+    const url = new URL(request.url);
+
+    // 从 URL 的查询参数中获取 'from' 参数并转换为小写
+    const from = url.searchParams.get('from')?.toLowerCase();
+
+    // 检查是否有有效的配置，调用 `hasValidConfig()` 函数
+    const validConfigs = hasValidConfig();
+
+    // 获取请求路径并解码（对 URL 编码进行解码）
+    const requestPath = decodeURIComponent(url.pathname);
+
+    // 添加根路径项目介绍
+    if (requestPath === '/') {
+      return new Response(
+        '欢迎来到文件托管集群！(File Hosting Cluster)\n' +
+        '这是一个分布式存储集群项目，旨在提供高效的文件存储和管理服务。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/config.json%207.10%20%20-bu-chong-worker.js.html</guid><pubDate>Fri, 11 Jul 2025 02:39:16 +0000</pubDate></item><item><title>config.json  7.10</title><link>https://z.zcr4.ip-ddns.com/post/config.json%20%207.10.html</link><description>## config.json
 
 - 如果自定义域名失效（图片已上传至github中了，但在浏览器中打不开），应更换 `CloudFlare` 的worker.js  中的第12行中的 Token    
 
