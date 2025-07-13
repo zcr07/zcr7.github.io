@@ -1,5 +1,466 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 13 Jul 2025 07:20:11 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>关闭CapsLock键的声音</title><link>https://z.zcr4.ip-ddns.com/post/guan-bi-CapsLock-jian-de-sheng-yin.html</link><description>## 关闭CapsLock键的声音
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 13 Jul 2025 07:41:26 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>Ahk1.1.ahk  老版  1_1</title><link>https://z.zcr4.ip-ddns.com/post/Ahk1.1.ahk%20%20-lao-ban-%20%201_1.html</link><description>```
+#Requires AutoHotkey v1.1.36
+Menu, Tray, Icon, %A_ScriptDir%\Lib\0\Library.ico  ; 自定义托盘图标
+Menu, Tray, Tip, Ahk1.1                                    ; 托盘提示
+
+#NoEnv                                                             ; 不使用旧环境变量
+#SingleInstance Force                                      ; 防止重复运行
+SendMode Input                                              ; 更快的发送方式
+#WinActivateForce                                           ; 强制激活窗口
+#ClipboardTimeout -1                                      ; 剪贴板永不超时
+SetWorkingDir, %A_ScriptDir%                        ; 以脚本目录为工作目录
+SetTitleMatchMode, 2                                      ; 设置窗口标题匹配为“包含”
+DetectHiddenWindows, On                             ; 可以操作隐藏窗口
+
+; 以下性能优化设置请根据需求决定是否保留
+;SetBatchLines, 10ms                                        ; -1 为最大性能（高CPU）
+;Process, Priority,, High                                     ; 设置脚本为高优先级
+#HotkeyModifierTimeout 0                             ; 修饰键粘滞问题修复（可选）
+
+#Persistent                                                       ; 让脚本保持常驻
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 1-19
+global scrollLines := 0  
+WinSet, Transparent, 240, ahk_class Shell_TrayWnd			        ; 210  0-255 任务栏透明度
+
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 2-29
+
+#include *i %A_ScriptDir%\Lib\ImagePut.ahk%A_TrayMenu%.ahk
+#Include *i %A_ScriptDir%\Lib\ImagePut.ahk
+#Include *i %A_ScriptDir%\Lib\BTT.ahk
+#Include *i %A_ScriptDir%\Lib\Gdip_All.ahk
+#Include *i %A_ScriptDir%\Lib\NonNull.ahk
+#Include *i %A_ScriptDir%\Lib\TrayIcon.ahk
+#Include *i %A_ScriptDir%\Lib\StdOutToVar.ahk
+#Include *i %A_ScriptDir%\Lib\ahk777.ahk
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 2-29
+
+#SingleInstance Off
+;MsgBox, 4096,, % A_Now
+return
+
+	OnlyOne(flag='') 
+  {
+  	static init:=OnlyOne('001')
+  	DetectHiddenWindows, % (bak:=A_DetectHiddenWindows) ? 'On':'On'
+  	mypid:=DllCall('GetCurrentProcessId')
+  	flag:='Ahk_OnlyOne_Ahk&lt;&lt;' . flag . '&gt;&gt;'
+  	Gui, Ahk_OnlyOne_Ahk: Show, Hide, %flag%
+  	WinGet, list, List, %flag% ahk_class AutoHotkeyGUI
+  	Loop, % list
+  	IfWinExist, % 'ahk_id ' . list%A_Index%
+  {
+    	WinGet, pid, PID
+    	IfEqual, pid, %mypid%, Continue
+   	 WinClose, ahk_pid %pid% ahk_class AutoHotkey,, 3
+    	IfWinNotExist,,, Continue
+    	Process, Close, %pid%
+    	WinWaitClose
+  }
+
+  	WinGet, list, List, %flag% ahk_class AutoHotkeyGUI
+  	IfNotEqual, list, 1, ExitApp
+  	DetectHiddenWindows, %bak%
+  }
+
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ   限制单进程运行    ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 3-63
+
+;🎫🎫🎫🎫🎫🎫🎫🎫🎫🎫    基本   设置   🎫🎫🎫🎫🎫🎫🎫🎫🎫🎫🎫
+;🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁    复制   粘贴   🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁
+global MyClipData
+global page
+*&gt;!q:: 批量复制粘贴工具()
+	#IfWinExist, 批量复制粘贴工具 ahk_class AutoHotkeyGUI
+$^c::
+	Clipboard:=''
+	Send ^c{Ctrl Up}
+	ClipWait, 3
+	s:=Clipboard
+	if (s='')
+	ToolTip,
+else
+	批量复制粘贴工具(s)
+	return
+1::
+	nume:=1
+	Gosub copytt(nume)
+	return
+2::
+	nume:=2
+	Gosub copytt(nume)
+	return
+3::
+	nume:=3
+	Gosub copytt(nume)
+	return
+4::
+	nume:=4
+	Gosub copytt(nume)
+	return
+5::
+	nume:=5
+	Gosub copytt(nume)
+	return
+6::
+	nume:=6
+	Gosub copytt(nume)
+	return
+7::
+	nume:=7
+	Gosub copytt(nume)
+	return
+8::
+	nume:=8
+	Gosub copytt(nume)
+	return
+9::
+	nume:=9
+	Gosub copytt(nume)
+	return
+copytt(nume):
+{
+	i:=nume
+	Clipboard:=MyClipData[i:=(page-1)*10+i]
+	Send ^v
+	return
+}
+0::
+	nume1:=0
+	Gosub copytt(nume1)
+	return
+copytt(nume1):
+{
+	i:=nume1
+	Clipboard:=MyClipData[i:=(page-1)*10+10+i]
+	Send ^v
+	return
+}
+#IfWinExist
+;-------- 下面是函数 --------
+批量复制粘贴工具(s:='', Cmd:='')
+{
+static
+  	if (Cmd='Move')
+{
+	if (A_GuiControl='')
+	SendMessage, 0xA1, 2
+	return
+}
+else if (Cmd='Click')
+{
+    	i:=SubStr(A_GuiControl, 3)
+    	if (i&gt;=1 and i&lt;=10)
+{
+      	s:=MyClipData[i:=(page-1)*10+i]
+      	if (s='')
+        	return
+      	if (!clear)
+{
+       	; Gui, MyClip: Hide
+        	; Gui, MyClip: Show, NA
+        	Clipboard:=s
+        	Send ^v
+        	Sleep, 200
+        	return
+}
+      	MyClipData.RemoveAt(i)
+      	if (MyClipData.length()&lt;(page-1)*10+1)
+        	page--
+}
+else if (i=11 and page&gt;1)
+	page--
+else if (i=13 and MyClipData.length()&gt;page*10)
+	page++
+else if (i=12)
+      	clear:=!clear
+}
+else if (Cmd='' and s!='')
+{
+    	MyClipData.InsertAt(1,s), page:=1, clear:=0
+}
+ 	 if !IsObject(MyClipData)
+{
+    MyClipData:=[], page:=1, clear:=0
+    Run:=Func(A_ThisFunc).Bind('','Click')
+    Gui, MyClip: Destroy
+    Gui, MyClip: +AlwaysOnTop +ToolWindow +E0x08000000
+    Gui, MyClip: Margin, 10, 10
+    Gui, MyClip: Color, f39bdc8
+    Gui, MyClip: Font, s11,c364f6b
+    Loop, 13
+    {
+      i:=A_Index, v:=(i=11 ? '&lt;&lt;' : i=13 ? '&gt;&gt;' : '')
+      j:=(i=1 ? 'w250 Left' : i=11 ? 'xm w75'
+        : i=12 ? 'x+0 w100' : i=13 ? 'x+0 w75' : 'y+0 wp Left')
+      Gui, MyClip: Add, Button, %j% vbt%i% Hwndid -Wrap, %v%
+      GuiControl, MyClip: +g, %id%, % Run
+    }
+    Gui, MyClip: Show, NA, %A_ThisFunc%
+    OnMessage(0x201, Func(A_ThisFunc).Bind('','Move'))
+    v:=Func(A_ThisFunc).Bind('','')
+    Menu, Tray, Add
+    Menu, Tray, Add, %A_ThisFunc%, %v%
+    Menu, Tray, Default, %A_ThisFunc%
+    Menu, Tray, Click, 1
+  }
+  Loop, 10
+  {    Menu, Tray, Click, 1
+
+    i:=A_Index, v:=MyClipData[(page-1)*10+i]
+    v:=(v='' ? v : '[' StrLen(v) '] ' SubStr(v,1,50))
+    v:=RegExReplace(v, 's+', ' ')
+    GuiControl, MyClip: , bt%i%, %v%
+  }
+  GuiControl, MyClip: , bt12, % clear ? '点选条目':'+删除条目+'
+  Gui, MyClip: Show, NA
+}
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ art+q 批量复制粘贴   ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 4-216
+
+;#Persistent
+	Copy(clipboardID) 
+{
+	global 
+	local oldClipboard := ClipboardAll ; Save the (real) clipboard
+
+	Clipboard := '' 
+	SendInput {Ctrl Down}c{Ctrl Up}
+	ClipWait, 2, 1 
+if ErrorLevel 
+{
+	Clipboard := oldClipboard ; Restore old (real) clipboard
+	return
+}
+	ClipboardData%clipboardID% := Clipboard
+	Clipboard := oldClipboard ; Restore old (real) clipboard
+}
+Cut(clipboardID) 
+{
+	global ; All variables are global by default
+	local oldClipboard := ClipboardAll ; Save the (real) clipboard
+	Clipboard := '' ; Erase the clipboard first, or else ClipWait does nothing
+	SendInput {Ctrl Down}x{Ctrl Up}
+	ClipWait, 2, 1 ; Wait 1s until the clipboard contains any kind of data
+if ErrorLevel 
+{
+	Clipboard := oldClipboard ; Restore old (real) clipboard
+	return
+}
+	ClipboardData%clipboardID% := Clipboard
+	Clipboard := oldClipboard ; Restore old (real) clipboard
+}
+Paste(clipboardID) 
+{
+	global
+	local oldClipboard := ClipboardAll ; Save the (real) clipboard
+	Clipboard := '' ; Erase the clipboard first, or else ClipWait does nothing
+	Clipboard := ClipboardData%clipboardID%
+	ClipWait, 2, 1 ; Wait 1s until the clipboard contains any kind of data
+	SendRaw, % Clipboard ; Was having an issue with ^v
+	Clipboard := oldClipboard ; Restore old (real) clipboard
+}
+	return
+;---------------------------------------------------------------------------   copy
+ &gt;!2::Copy(1)
+ &gt;!3::Copy(2)
+ &gt;!4::Copy(3)
+ &gt;!5::Copy(4)
+ &gt;!s::Copy(5)
+ &gt;!d::Copy(6)
+ &gt;!f::Copy(7)
+ ;---------------------------------------------------------------------------   paste
+ &gt;!w::Paste(1)
+ &gt;!e::Paste(2)
+ &gt;!r::Paste(3)
+ &gt;!t::Paste(4)
+ &gt;!x::Paste(5)
+ &gt;!c::Paste(6)
+ &gt;!v::Paste(7)
+;-----------------------------------------------------------------------------   cut
+ &gt;!g::Cut(1)
+ &gt;!h::Cut(2)
+ &gt;!j::Cut(3)
+ &gt;!k::Cut(4)
+;---------------------------------------------------------------------------   paste
+ &gt;!b::Paste(1)                                 ;--------------&gt;! g 剪切    &gt;! b 粘贴
+ &gt;!n::Paste(2)
+ &gt;!m::Paste(3)
+ &gt;!,::Paste(4)
+;-----------------------------------------------------------------------------------
+return
+;ΞΞΞΞΞΞΞΞΞΞ &gt;! 2345sdf复制  wertxcv 粘贴 ghjk剪 bnm,粘 ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 05-295
+
+;➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿
+
+ &gt;^x:: 
+Clipboard := ''  ; 清空剪贴板
+Send, ^c         ; 复制选中文件的路径
+ClipWait, 1      ; 等待剪贴板更新
+
+if (Clipboard) {
+    FilePath := A_Desktop '\1.txt'
+    FileDelete, %FilePath%  ; 先删除旧文件
+    Loop, Parse, Clipboard, `n, `r  ; 按行解析剪贴板内容
+    {
+        SplitPath, A_LoopField, FileName  ; 获取文件名
+        FileAppend, %FileName%`n, *%FilePath%, UTF-8  ; 使用 UTF-8 编码追加到文件
+    }
+    ;MsgBox, 文件名已保存至 %FilePath%
+	Text=文件名已保存至 %FilePath%
+	btt(Text,300,400,,'Style3')
+	sleep, 2000
+	btt()​
+} else {
+    MsgBox, 未选中文件！
+}
+return
+
+;ΞΞΞΞΞΞΞΞΞ&gt;^x 将选中N个文件的文件名复制到桌面的1.txt  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 06-314
+
+ &gt;^c::                                              
+	send, {f2}^a                                            ; ------复制文件名（包含后缀）
+sleep, 10
+	send, ^c{esc} 
+sleep, 10
+	Send, {F2}                                                ; -------------触发重命名操作
+sleep, 10
+	Send, ^c{esc}                                          ;-----再一次获取无后缀文件名
+ClipWait, 1                                                           ; -------等待剪贴板内容准备好
+	return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  &gt;^c 复制文件名 有后缀和无后缀  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 06-326
+
+ &gt;^v::
+	send, {F2}
+	sleep, 20
+	send, {ctrl down}v{ctrl up}{enter}
+	return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  &gt;^v 对文件夹文件粘贴文件名  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 06-333
+
+ &gt;^b::
+if wincc_presses &gt; 0 ; SetTimer 已经启动, 所以我们记录键击.
+{
+    wincc_presses += 1
+    return
+}
+; 否则, 这是新开始系列中的首次按下. 把次数设为 1 并启动
+; 计时器：
+wincc_presses = 1
+SetTimer, Keywincc, 300 ; 在 400 毫秒内等待更多的键击.
+return
+
+Keywincc:
+SetTimer, Keywincc, off
+if wincc_presses = 1 ; 此键按下了一次.
+{
+   Click right
+sleep,200
+Send, wf
+Clipboard= %Clipboard%
+sleep,200
+send,{ctrl down}v{ctrl up}
+ClipWait
+send, {enter}
+}
+else if wincc_presses = 2 ; 此键按下了两次.
+{
+   Click right
+sleep,200
+Send, w{up 1}{enter}                                            ; 调整新建压缩包还是txt
+Clipboard= %Clipboard%
+sleep,200
+send,{ctrl down}v{ctrl up}
+ClipWait
+send, {enter}
+}
+wincc_presses = 0
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞ   &gt;^b  单 新建文件夹 双 TxT文件  名为剪贴板    ΞΞΞΞΞΞΞΞΞΞΞΞΞ 06-373
+
+ &gt;^z::   
+send ^c
+sleep,200
+clipboard=%clipboard%
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ&gt;^z 复制文件路径  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 06-380
+
+F1 &amp; y::
+send,&lt;!{Enter}
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  F1 &amp; y 右键属性    ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 0001-653
+
+;➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿➿
+
+NumpadEnter::
+	KeyList := 'Shift|Ctrl|Alt|CapsLock|space|Appskey|win|F1|F2|F3|F4|F5|F6|F7|F8|F9' 
+Loop, Parse, KeyList, |
+      {
+    	If GetKeystate(A_Loopfield, 'P')   ; 如果你觉得某些按键像是“卡住了”，释放以上修饰键
+        	Send % '{' A_Loopfield ' Up}'
+      }
+; 如果你修改了桌面快捷方式或图标但图标没刷新 ⇒ 可能需要 ie4uinit.exe -ClearIconCache
+Run *RunAs C:\Windows\System32\ie4uinit.exe -ClearIconCache  
+
+sleep,1000
+	reload                   ; 如果你只是修改了脚本内容，想让新内容生效 ⇒ 只要 reload
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  NumpadEnter 重启脚本 ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 000005-330
+
+;🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁    复制   操作   🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁🍁
+;🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆    截图   操作   🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆🎆
+
+;ImagePutFile(Image)             ; 将图片存为文件
+;ImagePutClipboard(Image)   ; 将图片存入剪贴板
+;ImagePutWindow(Image)     ; 将图片显示出来
+;ImageShow(Image)               ; 将图片显示出来（无标题栏）
+;ImagePutDesktop(Image)     ; 将图片放在桌面壁纸前、桌面图标后的位置
+
+insert::
+Appskey &amp; 1::
+Run, nircmd  savescreenshot 'C:\Users\z\Desktop\~$currdate.yyyyMMdd$-~$currtime.HHmmss$.png'  
+return                                                                   ;-----------------------截全屏
+;ImagePutClipboard(ImagePutFile('A', 'C:\Users\z\Desktop\'))        ;-- 只截窗口 存剪
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ Appskey &amp; 1  全屏截存桌面选格式   ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 001-331
+
+Appskey &amp; 2::
+	Run 'D:\ahk1.0\Lib\0 tool\窗口隐藏工具\窗口隐藏工具.exe'
+	Run c:\3\4\Gif123.exe
+	return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  Appskey &amp; 2  录屏gif    ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 003-405
+
+Appskey &amp; 3::
+	Run 'D:\ahk1.0\Lib\0 tool\窗口隐藏工具\窗口隐藏工具.exe'
+	Run c:\3\9ZDSoftScnRec\ScnRecPortable.exe
+	return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  Appskey &amp; 3 录屏MP4    ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 004-343
+
+Appskey &amp; 4::
+file := ImagePutFile(clip, 'C:\Users\z\Desktop\' )
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞ  Appskey &amp; 4  剪贴板中截图保存于desktop  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 005-348
+
+Appskey &amp; 5::                                ;---- 后台截图　4000 为间隔4秒  共运行3 次 
+run, nircmd  loop 30000 2000 savescreenshot 'C:\Users\z\Desktop\aa\~$currtime.HHmm_ss$ ~$loopcount$.png'
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ Appskey &amp; 5  后台间隔截图 全屏  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 008-353
+
+Appskey &amp; 6::
+Imageshow('a')                                                                      ;------------------截图并贴图
+ImagePutFile(Image)                                           ;----------- 将图片存入剪贴板
+ImagePutClipboard(ImagePutFile('A', 'C:\Users\z\Desktop'))     ; 存desktop
+return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ Appskey &amp; 6 当前窗口 截图并贴图   ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 002-360
+
+/*
+b100(timeout = 400)                                           ; timeout 表示按键的超时时间，默认为 400 毫秒
+{
+    tout := timeout / 1000                                     ; 将 timeout 转换为秒，用于后面的 KeyWait
+    key := RegExReplace(A_ThisHotKey, '[\*\~\$\#\+\!\^]')        ; A_ThisHotKey 是 AutoHotkey 内置变量，表示触发当前脚本的热键
+    Loop                         ; 变量 key  从当前热键（A_ThisHotKey）中移除修饰符（如 *, ~, #, +, !, ^ 等）
+    {
+        t := A_TickCount                                          ; 记录当前的时间戳（单位：毫秒），用于计算按键按住的时长
+        KeyWait %key%                                           ; 等待按键 key 被释放,   阻塞代码运行，直到用户松开按键
+        Pattern .= A_TickCount - t &gt; timeout          ; 检测按住的时间是否超过 timeout, 如果按住时长大于 timeout，则 Pattern 添加一个 1。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Ahk1.1.ahk%20%20-lao-ban-%20%201_1.html</guid><pubDate>Sun, 13 Jul 2025 07:40:59 +0000</pubDate></item><item><title>关闭CapsLock键的声音</title><link>https://z.zcr4.ip-ddns.com/post/guan-bi-CapsLock-jian-de-sheng-yin.html</link><description>## 关闭CapsLock键的声音
 
 1.打开控制面板  轻松使用
 
