@@ -110,7 +110,25 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <h2>管理员运行power shell</h2>
 <pre class="notranslate"><code class="notranslate">$manifest = (Get-AppxPackage Microsoft.WindowsNotepad).InstallLocation + '\AppxManifest.xml' ; Add-AppxPackage -DisableDevelopmentMode -Register $manifest
 </code></pre>
-<p>这条 PowerShell 命令的作用是 重新注册并修复 Windows 记事本（Notepad）应用。</p></div>
+<p>这条 PowerShell 命令的作用是 重新注册并修复 Windows 记事本（Notepad）应用。</p>
+<p><code class="notranslate">Get-AppxPackage Microsoft.WindowsNotepad</code><br>
+获取当前用户安装的 Notepad 应用的包信息（这是 UWP 应用的一种）。</p>
+<p><code class="notranslate">.InstallLocation</code><br>
+获取该应用的安装目录路径。</p>
+<p><code class="notranslate">+ '\AppxManifest.xml'</code><br>
+在该目录下拼接出 AppxManifest.xml 的完整路径。这个 XML 是 UWP 应用的配置清单，定义了应用的元数据、权限等。</p>
+<h2>作用：使用应用清单重新注册记事本程序，让它恢复到正常状态。常用于：</h2>
+<ul>
+<li>
+<p>记事本无法启动</p>
+</li>
+<li>
+<p>记事本图标丢失</p>
+</li>
+<li>
+<p>系统应用损坏</p>
+</li>
+</ul></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
 </div>
