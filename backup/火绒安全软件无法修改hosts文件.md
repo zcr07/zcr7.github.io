@@ -8,4 +8,4 @@
 $manifest = (Get-AppxPackage Microsoft.WindowsNotepad).InstallLocation + '\AppxManifest.xml' ; Add-AppxPackage -DisableDevelopmentMode -Register $manifest
 ```
 
-OK  !!!
+这条 PowerShell 命令的作用是 重新注册并修复 Windows 记事本（Notepad）应用。
