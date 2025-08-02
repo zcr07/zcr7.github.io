@@ -1,5 +1,111 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 27 Jul 2025 16:06:56 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>火绒安全软件无法修改hosts文件</title><link>https://z.zcr4.ip-ddns.com/post/huo-rong-an-quan-ruan-jian-wu-fa-xiu-gai-hosts-wen-jian.html</link><description>##  火绒安全软件无法修改hosts文件
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sat, 02 Aug 2025 07:54:33 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>使用python脚本发送邮件</title><link>https://z.zcr4.ip-ddns.com/post/shi-yong-python-jiao-ben-fa-song-you-jian.html</link><description>## 使用python脚本发送邮件
+
+  [教程](https://www.youtube.com/watch?v=hfx7ywW0QR4)
+
+## 邮件服务  resend.com
+
+-  https://resend.com/domains
+
+### 创建API
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:15:43:22.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+###  添加域名如下
+
+- zcr9.qzz.io
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:15:41:41.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:15:39:55.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+### 托管到CF
+
+- https://resend.com/domains/b95e9d84-fa80-487b-b64d-2ce267537f8a
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:15:38:34.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+MX             send            feedback-smtp.ap-northeast-1.amazonses.com             10  
+
+TXT             send            v=spf1 include:amazonses.com ~all 
+
+TXT            resend._domainkey          p=MIGfMA0GCSqGSIb3DQEBAQUAA4
+
+### 将以上3条填入CF的DNS记录中
+
+- https://dash.cloudflare.com/5e13acfeb51991ab52af94da59e959a2/zcr9.qzz.io/dns/records
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:15:37:32.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 编写python脚本
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:15:47:02.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:15:48:48.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+### 脚本修改如下  send.py
+
+```
+import resend
+
+resend.api_key = 're_btprifPM_GKtJH6v9fA7uNt5pEECUwrw8'
+
+params: resend.Emails.SendParams = {
+  'from': '1@zcr9.qzz.io',
+  'to': ['zyy7031@gmail.com'],
+  'subject': '好吧',
+  'html': '&lt;p&gt;我一会儿就回&lt;/p&gt;'
+}
+
+email = resend.Emails.send(params)
+print(email)
+
+```
+
+## 利用ahk脚本发送邮件
+
+```
+F1 &amp; p:: 
+           Run, python 'D:\ahk1.0\send.py', , Hide
+return
+
+```
+
+## 编辑 send.py
+
+```
+F1 &amp; s::
+	o=D:\ahk1.0\Lib\0 tool\EmEditor-24.5.3-x64\EmEditor.exe
+
+	1=D:\ahk1.0\Lib\0 tool\picgo-croe\config.toml
+	2=C:\Users\z\.picgo\config.json
+	3=D:\ahk1.0\Lib\ahk777.ahk
+	4=D:\ahk1.0\Ahk3.ahk
+        5=D:\ahk1.0\send.py
+
+	Run,%o% '%1%' '%2%' '%3%' '%4%' '%5%'
+return
+```
+
+##  收到的邮件
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:15:51:34.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+=========================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/shi-yong-python-jiao-ben-fa-song-you-jian.html</guid><pubDate>Sat, 02 Aug 2025 07:54:05 +0000</pubDate></item><item><title>火绒安全软件无法修改hosts文件</title><link>https://z.zcr4.ip-ddns.com/post/huo-rong-an-quan-ruan-jian-wu-fa-xiu-gai-hosts-wen-jian.html</link><description>##  火绒安全软件无法修改hosts文件
 
 - https://bbs.huorong.cn/forum.php?mod=viewthread&amp;action=printable&amp;tid=141158
 
