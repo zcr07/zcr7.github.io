@@ -1,6 +1,7 @@
 ##  火绒安全软件无法修改hosts文件
 
-- https://bbs.huorong.cn/forum.php?mod=viewthread&action=printable&tid=141158
+
+- 点击<a href="https://bbs.huorong.cn/forum.php?mod=viewthread&action=printable&tid=141158">这里</a>查看原帖。
 
 ## 管理员运行power shell
 
