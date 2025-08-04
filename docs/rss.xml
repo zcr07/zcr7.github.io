@@ -1,11 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Mon, 04 Aug 2025 15:05:32 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>查看windows11 序列号</title><link>https://z.zcr4.ip-ddns.com/post/cha-kan-windows11%20-xu-lie-hao.html</link><description>## 查看windows11 序列号
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Mon, 04 Aug 2025 15:17:35 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>查看windows11 序列号</title><link>https://z.zcr4.ip-ddns.com/post/cha-kan-windows11%20-xu-lie-hao.html</link><description>## 查看windows11 序列号
 
 打开regedit 打开如下位置
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.04:23:04:12.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-kan-windows11%20-xu-lie-hao.html</guid><pubDate>Mon, 04 Aug 2025 15:05:05 +0000</pubDate></item><item><title>给邮件设置过滤</title><link>https://z.zcr4.ip-ddns.com/post/gei-you-jian-she-zhi-guo-lv.html</link><description>## 给邮件设置过滤
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.04:23:04:12.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+
+ (Get-WmiObject –query ‘select * from SoftwareLicensingService’).OA3xOriginalProductKey。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-kan-windows11%20-xu-lie-hao.html</guid><pubDate>Mon, 04 Aug 2025 15:05:05 +0000</pubDate></item><item><title>给邮件设置过滤</title><link>https://z.zcr4.ip-ddns.com/post/gei-you-jian-she-zhi-guo-lv.html</link><description>## 给邮件设置过滤
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.04:11:12:31.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
