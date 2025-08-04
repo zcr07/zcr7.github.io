@@ -49,7 +49,7 @@ params: resend.Emails.SendParams = {
   'to': ['zyy7031@gmail.com', 'zcr071@jhb.edu.kg', 'kevinzh@zmkk.edu.kg', 'zcr007@zmkk.edu.kg'],
   'subject': '例子（28）',
   'html': '''
-        <h2>以下是代码内容：</h2>       
+        <h2>以下是邮件内容：7行星号：</h2>       
              
         <pre>
 
@@ -78,9 +78,11 @@ print(email)
 ```
 
 
+## 注意：
 
+'''   邮件内容中要加 \    \'\'\'
 
-
+<xxx>                             &lt;xxx&gt;
 
 
 
@@ -133,7 +135,7 @@ params: resend.Emails.SendParams = {
   'to': ['zyy7031@gmail.com', 'zcr071@jhb.edu.kg', 'kevinzh@zmkk.edu.kg', 'zcr007@zmkk.edu.kg'],
   'subject': '例子（28）',
   'html': '''
-        <h2>以下是代码内容：</h2>       
+        <h2>以下是邮件内容：7行星号：</h2>       
              
         <pre>
 
@@ -162,9 +164,11 @@ print(email)
 ```
 
 
+## 注意：
 
+'''   邮件内容中要加 \    \'\'\'
 
-
+<xxx>                             &lt;xxx&gt;
 
 
 
@@ -277,7 +281,7 @@ params: resend.Emails.SendParams = {
   "to": ["zyy7031@gmail.com", "zcr071@jhb.edu.kg", "kevinzh@zmkk.edu.kg", "zcr007@zmkk.edu.kg"],
   "subject": "例子（28）",
   "html": """
-        &lt;h2&gt;以下是代码内容：&lt;/h2&gt;       
+        &lt;h2&gt;以下是邮件内容：7行星号：&lt;/h2&gt;       
              
         &lt;pre&gt;
 
@@ -303,7 +307,10 @@ params: resend.Emails.SendParams = {
 email = resend.Emails.send(params)
 print(email)
 
-</code></pre></div>
+</code></pre>
+<h2>注意：</h2>
+<p>"""   邮件内容中要加 \    """</p>
+<p>                             &lt;xxx&gt;</p></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
 </div>

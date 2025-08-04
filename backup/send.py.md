@@ -37,7 +37,7 @@ params: resend.Emails.SendParams = {
   "to": ["zyy7031@gmail.com", "zcr071@jhb.edu.kg", "kevinzh@zmkk.edu.kg", "zcr007@zmkk.edu.kg"],
   "subject": "例子（28）",
   "html": """
-        <h2>以下是代码内容：</h2>       
+        <h2>以下是邮件内容：7行星号：</h2>       
              
         <pre>
 
@@ -66,9 +66,11 @@ print(email)
 ```
 
 
+## 注意：
 
+"""   邮件内容中要加 \    \"\"\"
 
-
+<xxx>                             &lt;xxx&gt;
 
 
 

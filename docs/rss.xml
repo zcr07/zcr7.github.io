@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Mon, 04 Aug 2025 03:05:47 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>直接在第52秒打开油管视频的方法</title><link>https://z.zcr4.ip-ddns.com/post/zhi-jie-zai-di-52-miao-da-kai-you-guan-shi-pin-de-fang-fa.html</link><description>##  直接在第52秒打开油管视频的方法
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Mon, 04 Aug 2025 03:08:43 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>直接在第52秒打开油管视频的方法</title><link>https://z.zcr4.ip-ddns.com/post/zhi-jie-zai-di-52-miao-da-kai-you-guan-shi-pin-de-fang-fa.html</link><description>##  直接在第52秒打开油管视频的方法
 
 - https://www.youtube.com/watch?v=hfx7ywW0QR4
 
@@ -48,7 +48,7 @@ params: resend.Emails.SendParams = {
   'to': ['zyy7031@gmail.com', 'zcr071@jhb.edu.kg', 'kevinzh@zmkk.edu.kg', 'zcr007@zmkk.edu.kg'],
   'subject': '例子（28）',
   'html': '''
-        &lt;h2&gt;以下是代码内容：&lt;/h2&gt;       
+        &lt;h2&gt;以下是邮件内容：7行星号：&lt;/h2&gt;       
              
         &lt;pre&gt;
 
@@ -77,9 +77,11 @@ print(email)
 ```
 
 
+## 注意：
 
+'''   邮件内容中要加 \    \'\'\'
 
-
+&lt;xxx&gt;                             &amp;lt;xxx&amp;gt;
 
 
 
