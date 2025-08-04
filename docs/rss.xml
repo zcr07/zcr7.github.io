@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 03 Aug 2025 16:09:02 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>直接在第52秒打开油管视频的方法</title><link>https://z.zcr4.ip-ddns.com/post/zhi-jie-zai-di-52-miao-da-kai-you-guan-shi-pin-de-fang-fa.html</link><description>##  直接在第52秒打开油管视频的方法
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Mon, 04 Aug 2025 03:05:47 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>直接在第52秒打开油管视频的方法</title><link>https://z.zcr4.ip-ddns.com/post/zhi-jie-zai-di-52-miao-da-kai-you-guan-shi-pin-de-fang-fa.html</link><description>##  直接在第52秒打开油管视频的方法
 
 - https://www.youtube.com/watch?v=hfx7ywW0QR4
 
@@ -44,15 +44,54 @@ import resend
 resend.api_key = 're_btprifPM_GKtJH6v9fA7uNt5pEECUwrw8'
 
 params: resend.Emails.SendParams = {
-  'from': '1@zcr9.qzz.io',
-  'to': ['zyy7031@gmail.com'],
-  'subject': '例子（11）',
-    'html': '''
-        &lt;h2&gt;以下是示例代码：&lt;/h2&gt;
+  'from': 'tt@zcr9.qzz.io',
+  'to': ['zyy7031@gmail.com', 'zcr071@jhb.edu.kg', 'kevinzh@zmkk.edu.kg', 'zcr007@zmkk.edu.kg'],
+  'subject': '例子（28）',
+  'html': '''
+        &lt;h2&gt;以下是代码内容：&lt;/h2&gt;       
+             
         &lt;pre&gt;
-为什么这样写？
 
-&amp;lt;pre&amp;gt; ... &amp;lt;/pre&amp;gt;：会保留空格、缩进、换行，非常适合展示代码。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/send.py.html</guid><pubDate>Sun, 03 Aug 2025 11:20:44 +0000</pubDate></item><item><title>使用python脚本发送邮件</title><link>https://z.zcr4.ip-ddns.com/post/shi-yong-python-jiao-ben-fa-song-you-jian.html</link><description>## 使用python脚本发送邮件
+⭐ 创建电报机器人获取Bot_Token：@BotFather
+
+⭐ 发送命令：/newbot
+
+⭐ 获取创建的频道Chat_ID：@VersaToolsBot
+
+⭐ 环境变量名称：TG_Bot_Token
+
+⭐ 环境变量值：您在@BotFather获取到的Bot_Token
+
+⭐ 环境变量名称：TG_Chat_ID
+
+⭐ 环境变量值：您在@VersaToolsBot获取到的CHAT_ID
+
+        &lt;/pre&gt;
+        
+              '''
+}
+
+email = resend.Emails.send(params)
+print(email)
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/send.py.html</guid><pubDate>Sun, 03 Aug 2025 11:20:44 +0000</pubDate></item><item><title>使用python脚本发送邮件</title><link>https://z.zcr4.ip-ddns.com/post/shi-yong-python-jiao-ben-fa-song-you-jian.html</link><description>## 使用python脚本发送邮件
 
   [教程](https://www.youtube.com/watch?v=hfx7ywW0QR4)
 

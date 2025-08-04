@@ -33,29 +33,31 @@ import resend
 resend.api_key = "re_btprifPM_GKtJH6v9fA7uNt5pEECUwrw8"
 
 params: resend.Emails.SendParams = {
-  "from": "1@zcr9.qzz.io",
-  "to": ["zyy7031@gmail.com"],
-  "subject": "例子（11）",
-    "html": """
-        <h2>以下是示例代码：</h2>
+  "from": "tt@zcr9.qzz.io",
+  "to": ["zyy7031@gmail.com", "zcr071@jhb.edu.kg", "kevinzh@zmkk.edu.kg", "zcr007@zmkk.edu.kg"],
+  "subject": "例子（28）",
+  "html": """
+        <h2>以下是代码内容：</h2>       
+             
         <pre>
-为什么这样写？
 
-&lt;pre&gt; ... &lt;/pre&gt;：会保留空格、缩进、换行，非常适合展示代码。
-    
-    <!-- <pre> ... </pre>：会保留空格、缩进、换行，非常适合展示代码。 -->
+⭐ 创建电报机器人获取Bot_Token：@BotFather
 
-    "from": "dddddd@zcr9.qzz.io",
-    
-    "to": ["zyy7031@gmail.com"],
-    
-    "subject": "ok",
-    
-    "html": \"\"\"
-    
-    点击<a href="https://chatgpt.com/c/688f348d-701c-8325-ac7e-d4a85681f421">这里</a>查看更多。
+⭐ 发送命令：/newbot
+
+⭐ 获取创建的频道Chat_ID：@VersaToolsBot
+
+⭐ 环境变量名称：TG_Bot_Token
+
+⭐ 环境变量值：您在@BotFather获取到的Bot_Token
+
+⭐ 环境变量名称：TG_Chat_ID
+
+⭐ 环境变量值：您在@VersaToolsBot获取到的CHAT_ID
+
         </pre>
-            """
+        
+              """
 }
 
 email = resend.Emails.send(params)
