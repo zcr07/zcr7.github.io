@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Mon, 04 Aug 2025 03:16:15 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>给邮件设置过滤</title><link>https://z.zcr4.ip-ddns.com/post/gei-you-jian-she-zhi-guo-lv.html</link><description>## 给邮件设置过滤
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Mon, 04 Aug 2025 14:11:32 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>给邮件设置过滤</title><link>https://z.zcr4.ip-ddns.com/post/gei-you-jian-she-zhi-guo-lv.html</link><description>## 给邮件设置过滤
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.04:11:12:31.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
@@ -2779,13 +2779,7 @@ return
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.22:23:55:04.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zheng-ze-%20-xuan-zhong-pin-yin.html</guid><pubDate>Sun, 22 Jun 2025 15:56:09 +0000</pubDate></item><item><title>一次性二维码</title><link>https://z.zcr4.ip-ddns.com/post/yi-ci-xing-er-wei-ma.html</link><description>## 一次性二维码
 
-即二维码只能扫描一次
-
-https://olk.zcr07.dpdns.org/zbb
-
-## 具体操作
-
-把一个网址 `https://olk.zcr07.dpdns.org/zbb` ，用二维码的形式分享给他人，希望对方扫描一次后，二维码即失效。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/yi-ci-xing-er-wei-ma.html</guid><pubDate>Sun, 22 Jun 2025 07:48:45 +0000</pubDate></item><item><title>建立私库图床</title><link>https://z.zcr4.ip-ddns.com/post/jian-li-si-ku-tu-chuang.html</link><description>
+即二维码在第一次扫描时，会正常打开网页，而从第二次扫描开始，你虽然可以成功扫描出链接，但链接打开后显示404。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/yi-ci-xing-er-wei-ma.html</guid><pubDate>Sun, 22 Jun 2025 07:48:45 +0000</pubDate></item><item><title>建立私库图床</title><link>https://z.zcr4.ip-ddns.com/post/jian-li-si-ku-tu-chuang.html</link><description>
 [教程](https://www.youtube.com/watch?v=eRqIpeeo9SA)
 
 ## Github
