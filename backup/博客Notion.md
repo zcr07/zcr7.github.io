@@ -93,10 +93,16 @@ NEXT_PUBLIC_THEME      next
 
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:19:24:58.png" style="width:400px;"></p><br>
 
+- https://r.zcr05.dynv6.net/
+
+- https://r.zb9.dpdns.org/
+
 ## netlify
 
 - https://app.netlify.com/projects/notionnext2/deploys
 
 https://77.zcr5.xx.kg/
+
+https://77.zcr7.qzz.io/
 
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:21:15:52.png" style="width:400px;"></p><br>
