@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 06 Aug 2025 10:32:30 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>博客Notion</title><link>https://z.zcr4.ip-ddns.com/post/bo-ke-Notion.html</link><description>## 博客Notion
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 06 Aug 2025 11:26:10 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>博客Notion</title><link>https://z.zcr4.ip-ddns.com/post/bo-ke-Notion.html</link><description>## 博客Notion
 
 [教程](https://www.youtube.com/watch?v=ZuXamAhSFeQ&amp;t=1249s)
 
@@ -35,13 +35,72 @@
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:31:08.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:34:18.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:37:27.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 复制URL
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:39:19.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+https://congruous-society-b5c.notion.site/2474eb899cc3806cae57c85d0bf0dff6?v=2474eb899cc381d98f3b000c280804ca&amp;source=copy_link
+
+## 得到 ID   NOTION_PAGE_ID
+
+2474eb899cc3806cae57c85d0bf0dff6
+
+## 托管到 vercel
+
+- https://vercel.com/zcr07s-projects
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:44:31.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:42:29.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+##  相关环境变量配置：
+
+NOTION_PAGE_ID         2474eb899cc3806cae57c85d0bf0dff6
+NEXT_PUBLIC_THEME      next
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:48:21.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:45:14.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 选择模板
+
+- https://preview.tangly1024.com/
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:52:17.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:53:02.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+##  添加自定义域
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:54:59.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:57:41.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:58:48.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:18:59:31.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:19:00:05.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 自定义域名
+
+- https://r.zcr25.dedyn.io/
+
+## 此处一定要关闭小黄云，否则打开网站
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:19:24:58.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
 
 
 
-相关环境变量配置：
-NOTION_PAGE_ID 
-NEXT_PUBLIC_THEME。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/bo-ke-Notion.html</guid><pubDate>Wed, 06 Aug 2025 10:32:04 +0000</pubDate></item><item><title>查看windows11 序列号</title><link>https://z.zcr4.ip-ddns.com/post/cha-kan-windows11%20-xu-lie-hao.html</link><description>## 查看windows11 序列号
+
+
+
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/bo-ke-Notion.html</guid><pubDate>Wed, 06 Aug 2025 10:32:04 +0000</pubDate></item><item><title>查看windows11 序列号</title><link>https://z.zcr4.ip-ddns.com/post/cha-kan-windows11%20-xu-lie-hao.html</link><description>## 查看windows11 序列号
 
 VK7JG-NPHTM-C97JM-9MPGT-3V66T
 DNH2Q-2FBYM-RJCVH-XDP3D-JHVRX
