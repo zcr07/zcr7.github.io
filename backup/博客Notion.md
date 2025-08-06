@@ -93,9 +93,11 @@ NEXT_PUBLIC_THEME      next
 
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:19:24:58.png" style="width:400px;"></p><br>
 
+## netlify
 
+- https://app.netlify.com/projects/notionnext2/deploys
 
-
+https://77.zcr5.xx.kg/
 
 
 
