@@ -73,10 +73,20 @@ print(email)
 `  <xxx>  `                                     `&lt;xxx&gt;`
 
 
+## 获取 re_btprifPM_GKtJH6v9fA7uNt5pEECUwrw8
 
 
+resend.api_key = "re_btprifPM_GKtJH6v9fA7uNt5pEECUwrw8"
 
+- https://resend.com/api-keys
 
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.10:18:58:49.png" style="width:400px;"></p><br>
+
+## 添加自定义域
+
+- https://resend.com/domains
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.10:18:57:08.png" style="width:400px;"></p><br>
 
 
 
