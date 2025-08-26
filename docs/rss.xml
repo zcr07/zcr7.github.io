@@ -1,5 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 13 Aug 2025 11:24:57 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>博客Notion</title><link>https://z.zcr4.ip-ddns.com/post/bo-ke-Notion.html</link><description>## 博客Notion
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 26 Aug 2025 03:33:02 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>系统用户 添加环境变量 批处理文件</title><link>https://z.zcr4.ip-ddns.com/post/xi-tong-yong-hu-%20-tian-jia-huan-jing-bian-liang-%20-pi-chu-li-wen-jian.html</link><description>
+## 变量名(N)：zf5 变量值(V): 0712 变量名(N)：zf6 变量值(V): @Zb8506 变量名(N)：zf7 变量值(V): Zb8506 变量名(N)：zf8 变量值(V): @zb8506 
+
+将以上内容添加到系统变量的bat文件AddCustomSystemVars.bat
+
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.26:11:23:15.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+
+### AddCustomSystemVars.bat
+
+```
+@echo off
+:: 必须以管理员身份运行
+echo === 正在写入系统环境变量 ===
+
+setx zf5 '0712' /M
+setx zf6 '@Zb8506' /M
+setx zf7 'Zb8506' /M
+setx zf8 '@zb8506' /M
+
+echo.
+echo [成功] 已写入以下系统变量：
+echo   zf5=0712
+echo   zf6=@Zb8506
+echo   zf7=Zb8506
+echo   zf8=@zb8506
+echo.
+echo 你需要重新打开 CMD 或 PowerShell 才能使用这些变量。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/xi-tong-yong-hu-%20-tian-jia-huan-jing-bian-liang-%20-pi-chu-li-wen-jian.html</guid><pubDate>Tue, 26 Aug 2025 03:32:36 +0000</pubDate></item><item><title>博客Notion</title><link>https://z.zcr4.ip-ddns.com/post/bo-ke-Notion.html</link><description>## 博客Notion
 
 [教程](https://www.youtube.com/watch?v=ZuXamAhSFeQ&amp;t=1249s)
 
