@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 31 Aug 2025 12:47:05 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>合并N个 txt 文件</title><link>https://z.zcr4.ip-ddns.com/post/he-bing-N-ge-%20txt%20-wen-jian.html</link><description>## 合并N个 txt 文件
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 31 Aug 2025 12:57:26 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>合并N个 txt 文件</title><link>https://z.zcr4.ip-ddns.com/post/he-bing-N-ge-%20txt%20-wen-jian.html</link><description>## 合并N个 txt 文件
 
 shift+右键文件夹  选 PowerShell
 
@@ -10,7 +10,13 @@ shift+右键文件夹  选 PowerShell
 
 ## 如果文件比较大，建议：
 
-`Get-Content *.txt -Raw | Out-File 111.txt -Encoding utf8`。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/he-bing-N-ge-%20txt%20-wen-jian.html</guid><pubDate>Sun, 31 Aug 2025 12:46:36 +0000</pubDate></item><item><title>系统用户 添加环境变量 批处理文件</title><link>https://z.zcr4.ip-ddns.com/post/xi-tong-yong-hu-%20-tian-jia-huan-jing-bian-liang-%20-pi-chu-li-wen-jian.html</link><description>
+`Get-Content *.txt -Raw | Out-File 111.txt -Encoding utf8`
+
+===================================================
+
+##  批处理文件
+
+- 合并txt.bat  放到txt文件夹中。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/he-bing-N-ge-%20txt%20-wen-jian.html</guid><pubDate>Sun, 31 Aug 2025 12:46:36 +0000</pubDate></item><item><title>系统用户 添加环境变量 批处理文件</title><link>https://z.zcr4.ip-ddns.com/post/xi-tong-yong-hu-%20-tian-jia-huan-jing-bian-liang-%20-pi-chu-li-wen-jian.html</link><description>
 ## 变量名(N)：zf5 变量值(V): 0712 变量名(N)：zf6 变量值(V): @Zb8506 变量名(N)：zf7 变量值(V): Zb8506 变量名(N)：zf8 变量值(V): @zb8506 
 
 将以上内容添加到系统变量的bat文件AddCustomSystemVars.bat
