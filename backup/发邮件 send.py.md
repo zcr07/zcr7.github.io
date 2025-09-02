@@ -10,9 +10,13 @@
 
 `re_NmeuQ3z2_CzwXAgo9fCEH2r2c7PRwoBQL`
 
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/09.02:22:43:50.png" style="width:400px;"></p><br>
+
 ## Domains
 
 添加  `zcr7.xx.kg`
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/09.02:22:44:43.png" style="width:400px;"></p><br>
 
 cF中设置完，记着点击 I've .....
 
@@ -27,12 +31,18 @@ TXT send   v=spf1 include:amazonses.com ~all
 TXT resend._domainkey  
 p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwkcyBszlJzCJ7HDLY26BOr66tYpKoTo9RToVigIPqgqSy262B78WHW5pVvVmSIEN4fxJISUSMXTwT5EjIkWBMS3NeaJl5+lFKy7TuvngBy2FvcQABOM0j/0IeerTbnbtqfamCnbw1i8cbqlLv/P/NEBLbpKaKkoGL3HVM/bOffQIDAQAB
 
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/09.02:22:48:03.png" style="width:400px;"></p><br>
+
+
 ## resend.com的设置
 
 Emails
 右上角  </> API
 
-send.py文件内容如下 
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/09.02:22:46:59.png" style="width:400px;"></p><br>
+
+
+send.py 文件内容如下 
 
 ```
 import resend
