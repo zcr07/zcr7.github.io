@@ -1,5 +1,71 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Mon, 01 Sep 2025 15:23:26 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>注册表法 禁用系统组合键 win+x</title><link>https://z.zcr4.ip-ddns.com/post/zhu-ce-biao-fa-%20-jin-yong-xi-tong-zu-he-jian-%20win%2Bx.html</link><description>## 注册表法 禁用系统组合键 win+x
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 02 Sep 2025 14:43:34 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>发邮件 send.py</title><link>https://z.zcr4.ip-ddns.com/post/fa-you-jian-%20send.py.html</link><description>## 发邮件send.py
+
+- https://www.youtube.com/watch?v=hfx7ywW0QR4
+
+## resend.com的设置如下 
+
+- https://resend.com/api-keys
+
+## API Keys
+
+`re_NmeuQ3z2_CzwXAgo9fCEH2r2c7PRwoBQL`
+
+## Domains
+
+添加  `zcr7.xx.kg`
+
+cF中设置完，记着点击 I've .....
+
+## CF 设置
+
+- https://dash.cloudflare.com/5e13acfeb51991ab52af94da59e959a2/zcr7.xx.kg/dns/records
+
+DNS设置
+
+MX  send   feedback-smtp.ap-northeast-1.amazonses.com   10
+TXT send   v=spf1 include:amazonses.com ~all
+TXT resend._domainkey  
+p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwkcyBszlJzCJ7HDLY26BOr66tYpKoTo9RToVigIPqgqSy262B78WHW5pVvVmSIEN4fxJISUSMXTwT5EjIkWBMS3NeaJl5+lFKy7TuvngBy2FvcQABOM0j/0IeerTbnbtqfamCnbw1i8cbqlLv/P/NEBLbpKaKkoGL3HVM/bOffQIDAQAB
+
+## resend.com的设置
+
+Emails
+右上角  &lt;/&gt; API
+
+send.py文件内容如下 
+
+```
+import resend
+resend.api_key = 're_NmeuQ3z2_CzwXAgo9fCEH2r2c7PRwoBQL'
+params: resend.Emails.SendParams = {
+  'from': 'tt@zcr7.xx.kg',
+  'to': ['zcr071225@gmail.com', 'zkkev53@gmail.com'],
+  'subject': '例子（1）',
+  'html': '''
+        &lt;h2&gt;以下是代码内容：&lt;/h2&gt;                 
+        &lt;pre&gt;
+⭐ 发送命令：/newbot
+        &lt;/pre&gt;        
+              '''
+}
+email = resend.Emails.send(params)
+print(email)
+
+```
+
+## 注意：需要安装python
+
+- 微软商店安装 
+
+
+## 进入CMD  安装依赖
+
+`pip install resend `                                       
+
+##说明：
+
+tt@zcr7.xx.kg   因为zcr7.xx.kg被添加到了自定义域，所以名字为任意  比如：qwfasdfahh@zcr7.xx.kg 也可以。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/fa-you-jian-%20send.py.html</guid><pubDate>Tue, 02 Sep 2025 14:43:06 +0000</pubDate></item><item><title>注册表法 禁用系统组合键 win+x</title><link>https://z.zcr4.ip-ddns.com/post/zhu-ce-biao-fa-%20-jin-yong-xi-tong-zu-he-jian-%20win%2Bx.html</link><description>## 注册表法 禁用系统组合键 win+x
 
 
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
