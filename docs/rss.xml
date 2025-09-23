@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 23 Sep 2025 03:53:17 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>立体化文字</title><link>https://z.zcr4.ip-ddns.com/post/li-ti-hua-wen-zi.html</link><description>## 立体化文字
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 23 Sep 2025 15:14:24 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>立体化文字</title><link>https://z.zcr4.ip-ddns.com/post/li-ti-hua-wen-zi.html</link><description>## 立体化文字
 
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.23:10:42:56.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
@@ -563,7 +563,65 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtecti
 ` (Get-WmiObject –query ‘select * from SoftwareLicensingService’).OA3xOriginalProductKey  `
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.04:23:19:32.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-kan-windows11%20-xu-lie-hao.html</guid><pubDate>Mon, 04 Aug 2025 15:05:05 +0000</pubDate></item><item><title>给邮件设置过滤</title><link>https://z.zcr4.ip-ddns.com/post/gei-you-jian-she-zhi-guo-lv.html</link><description>## 给邮件设置过滤
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-kan-windows11%20-xu-lie-hao.html</guid><pubDate>Mon, 04 Aug 2025 15:05:05 +0000</pubDate></item><item><title>给邮箱添加新帐号</title><link>https://z.zcr4.ip-ddns.com/post/gei-you-xiang-tian-jia-xin-zhang-hao.html</link><description>## 给邮箱添加新帐号
+
+[教程](https://www.youtube.com/watch?v=sPXzi0SyYmA)
+
+- https://kjgx668.blogspot.com/2024/07/00cloudfarepostfixwebmaildocker.html
+
+- https://dash.cloudflare.com/5e13acfeb51991ab52af94da59e959a2/zcr9.qzz.io/email/routing/routes
+
+## 创建地址  1@zcr9.qzz.io
+
+- https://dash.cloudflare.com/5e13acfeb51991ab52af94da59e959a2/zcr9.qzz.io/email/routing/routes
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.04:12:25:44.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 获取google密码
+
+- https://myaccount.google.com/apppasswords
+
+  `  lrzn xgkh eqdu iwwy `
+
+
+` smtp.gmail.com `
+
+## 邮箱设置 添加新帐号
+
+名称：1
+电子邮件地址：1@zcr9.qzz.io
+视为别名  √
+回复地址：1@zcr9.qzz.io
+
+SMTP服务器：smtp.gmail.com
+用户名：zyy7081@gmail.com
+密码：lrzn xgkh eqdu iwwy
+
+�点击 添加帐号
+�点击 关闭窗口
+新打开一个邮箱窗口 验证
+重要： 选择  用此相同地址回复
+
+=====================================================700
+
+3@zcr25.xx.kg
+
+qnax gpsl rioi hsao
+
+zbb70081@gmail.com
+
+=====================================================zcr
+
+2@zcr25.x10.mx
+
+dmgo rcze peac ikbl
+
+zcr0712925@gmail.com
+
+
+
+
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/gei-you-xiang-tian-jia-xin-zhang-hao.html</guid><pubDate>Mon, 04 Aug 2025 04:19:33 +0000</pubDate></item><item><title>给邮件设置过滤</title><link>https://z.zcr4.ip-ddns.com/post/gei-you-jian-she-zhi-guo-lv.html</link><description>## 给邮件设置过滤
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.04:11:12:31.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
@@ -694,7 +752,68 @@ resend.api_key = 're_btprifPM_GKtJH6v9fA7uNt5pEECUwrw8'
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/send.py.html</guid><pubDate>Sun, 03 Aug 2025 11:20:44 +0000</pubDate></item><item><title>使用python脚本发送邮件</title><link>https://z.zcr4.ip-ddns.com/post/shi-yong-python-jiao-ben-fa-song-you-jian.html</link><description>## 使用python脚本发送邮件
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/send.py.html</guid><pubDate>Sun, 03 Aug 2025 11:20:44 +0000</pubDate></item><item><title>域名续费提醒</title><link>https://z.zcr4.ip-ddns.com/post/yu-ming-xu-fei-ti-xing.html</link><description>## 域名续费提醒
+
+- https://invi.zcr7.xx.kg/   zcrzb
+
+[教程](https://www.youtube.com/watch?v=1e7AWZy9rLY)
+
+## 获取代码
+
+https://github.com/zyy200712/SubsTracker/blob/master/index.js
+
+## CF 新建Workers
+
+部署上述代码
+
+### 绑定KV空间
+
+KV名称 SUBSCRIPTIONS_KV
+
+## 域和路由
+
+- https://dash.cloudflare.com/5e13acfeb51991ab52af94da59e959a2/workers/services/view/empty-sea-invi/production/metrics
+
+invi.zcr7.xx.kg/*
+
+## 登录
+
+默认用户名：admin
+默认密码：password
+
+- https://invi.zcr7.xx.kg/    zcrzb
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:16:08:37.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 获取Token  和 ID
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:16:10:07.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:16:13:12.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:16:14:30.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+## 测试
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:16:16:56.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:16:17:53.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+注意：此机器人是要通过搜索 `yumingxufei_bot` 后才能看到的。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/yu-ming-xu-fei-ti-xing.html</guid><pubDate>Sat, 02 Aug 2025 08:01:40 +0000</pubDate></item><item><title>域名续费提醒</title><link>https://z.zcr4.ip-ddns.com/post/yu-ming-xu-fei-ti-xing.html</link><description>## 域名续费提醒
+
+[教程](https://www.youtube.com/watch?v=1e7AWZy9rLY)
+
+## 获取代码
+
+https://github.com/zyy200712/SubsTracker/blob/master/index.js
+
+## CF 新建workers
+
+
+
+## notifyx 微信登录
+
+- https://www.notifyx.cn/console/key。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/yu-ming-xu-fei-ti-xing.html</guid><pubDate>Sat, 02 Aug 2025 08:01:00 +0000</pubDate></item><item><title>使用python脚本发送邮件</title><link>https://z.zcr4.ip-ddns.com/post/shi-yong-python-jiao-ben-fa-song-you-jian.html</link><description>## 使用python脚本发送邮件
 
   [教程](https://www.youtube.com/watch?v=hfx7ywW0QR4)
 
@@ -4009,7 +4128,14 @@ vless://79743ce9-33c0-4069-8f00-70c2a4047142@xcmjptubpjax.us-east-1.clawcloudrun
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:16:32:00.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
 ## 如何修改
-前提：选用要修改的国家IP使用一段时间后再修改。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-kan-google-zhang-hao-gui-shu-di.html</guid><pubDate>Thu, 22 May 2025 08:32:29 +0000</pubDate></item><item><title>查看 google帐号  注册时间</title><link>https://z.zcr4.ip-ddns.com/post/cha-kan-%20google-zhang-hao-%20%20-zhu-ce-shi-jian.html</link><description>## 查看 google帐号  注册时间
+前提：选用要修改的国家IP使用一段时间后再修改。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-kan-google-zhang-hao-gui-shu-di.html</guid><pubDate>Thu, 22 May 2025 08:32:29 +0000</pubDate></item><item><title>查看youtube账号用了多久</title><link>https://z.zcr4.ip-ddns.com/post/cha-kan-youtube-zhang-hao-yong-le-duo-jiu.html</link><description>## 查看youtube账号用了多久
+
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:16:18:46.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:16:20:56.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:16:21:55.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-kan-youtube-zhang-hao-yong-le-duo-jiu.html</guid><pubDate>Thu, 22 May 2025 08:22:05 +0000</pubDate></item><item><title>查看 google帐号  注册时间</title><link>https://z.zcr4.ip-ddns.com/post/cha-kan-%20google-zhang-hao-%20%20-zhu-ce-shi-jian.html</link><description>## 查看 google帐号  注册时间
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:15:59:04.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
@@ -4034,7 +4160,132 @@ vless://79743ce9-33c0-4069-8f00-70c2a4047142@xcmjptubpjax.us-east-1.clawcloudrun
 在打开的网页中查看倒数第二行，如下
 
  'created_at': '2024-09-01T02:16:16Z',
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-xun-Github-zhang-hao-de-zhu-ce-shi-jian.html</guid><pubDate>Thu, 22 May 2025 07:51:14 +0000</pubDate></item><item><title>picgo-core</title><link>https://z.zcr4.ip-ddns.com/post/picgo-core.html</link><description>##  picgo-core
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-xun-Github-zhang-hao-de-zhu-ce-shi-jian.html</guid><pubDate>Thu, 22 May 2025 07:51:14 +0000</pubDate></item><item><title>claw cloud Hysteria2</title><link>https://z.zcr4.ip-ddns.com/post/claw%20cloud%20Hysteria2.html</link><description>## Hysteria2节点搭建
+
+```
+
+###  ---------------新建 App Launchpad----------------  01
+
+hy3
+
+snowdreamtech/frps:0.59
+
+21114   udp://   udp.us-east-1.clawcloudrun.com:To be allocated
+
+Local Storage   /data
+
+###  ----------------进入终端根目录------------------  02
+
+1.查询ip（根目录状态下）： 需新建窗口，仅操作这一次
+
+ 👉  Switched to namespace ns-qs4ycm6u
+root@(ns-qs4ycm6u) ~$ curl -s ip.sb
+47.90.175.227
+root@(ns-qs4ycm6u) ~$ 
+
+###  ----------------进入终端应用程序状态----------- 03
+
+2.进入data（应用程序状态下）： 换回原先窗口
+
+cd data
+
+3.下载linux版hysteria2程序
+
+wget https://github.com/apernet/hysteria/releases/download/app%2Fv2.6.1/hysteria-linux-amd64
+
+4.给程序增加执行权限：
+
+chmod +x hysteria-linux-amd64
+
+5.创建CRT证书：
+
+openssl genrsa -out hy2.key 2048
+
+6.创建密钥：
+
+openssl req -new -x509 -key hy2.key -out hy2.crt -days 36500
+
+###  ----------------打开最右侧文件夹图标------------------- 04
+
+上传（注意文件上传后的大小不为0   134.00 B） 
+server.yaml
+注意第一行冒号跟端口号之间无空格；其余每一行冒号后面都有一个空格
+
+listen: :21115
+speedTest: true
+tls: 
+  cert: hy2.crt
+  key: hy2.key
+  sniGuard: disable
+auth:
+  type: password
+  password: zb
+
+###  --------------应用程序状态-------------------- 05
+
+8.启动server.yaml服务端：
+
+./hysteria-linux-amd64 server -c server.yaml
+
+###  ---------------V2ray操作-------------------- 06
+
+手动添加V2ray的 Hysteria2 节点
+
+hy3
+47.90.175.227
+46051
+zb
+
+开启 tls
+true
+--------------------------------------------------
+
+
+====================================================
+sh: bash: not found
+ash: cd: can't cd to dta: No such file or directory
+/ # cd data
+/data # wget https://github.com/apernet/hysteria/releases/download/app%2Fv2.6.1/hysteria-linux-amd64
+--2025-05-07 12:58:12--  https://github.com/apernet/hysteria/releases/download/app%2Fv2.6.1/hysteria-linux-amd64
+Resolving github.com (github.com)... 140.82.113.3
+Connecting to github.com (github.com)|140.82.113.3|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/257434373/f91793a3-a0fc-491d-a26e-3c873d818721?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=releaseassetproduction%2F20250507%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20250507T125812Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=56b97075ffabe5d3c4cfeccaddda5e9d48409740a7225b4415670ee89bcaf447&amp;X-Amz-SignedHeaders=host&amp;response-content-disposition=attachment%3B%20filename%3Dhysteria-linux-amd64&amp;response-content-type=application%2Foctet-stream [following]
+--2025-05-07 12:58:12--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/257434373/f91793a3-a0fc-491d-a26e-3c873d818721?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=releaseassetproduction%2F20250507%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20250507T125812Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=56b97075ffabe5d3c4cfeccaddda5e9d48409740a7225b4415670ee89bcaf447&amp;X-Amz-SignedHeaders=host&amp;response-content-disposition=attachment%3B%20filename%3Dhysteria-linux-amd64&amp;response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.108.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 18796696 (18M) [application/octet-stream]
+Saving to: 'hysteria-linux-amd64'
+
+hysteria-linux-amd64                100%[==========================&gt;]  17.93M  44.5MB/s    in 0.4s    
+2025-05-07 12:58:12 (44.5 MB/s) - 'hysteria-linux-amd64' saved [18796696/18796696]
+
+/data # chmod +x hysteria-linux-amd64
+/data # openssl genrsa -out hy2.key 2048
+/data # openssl req -new -x509 -key hy2.key -out hy2.crt -days 36500
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:
+State or Province Name (full name) [Some-State]:
+Locality Name (eg, city) []:
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:
+Organizational Unit Name (eg, section) []:
+Common Name (e.g. server FQDN or YOUR name) []:
+Email Address []:
+/data # ./hysteria-linux-amd64 server -c server.yaml
+2025-05-07T13:02:39Z    INFO    server mode
+2025-05-07T13:02:39Z    INFO    server up and running   {'listen': ':21115'}
+2025-05-07T13:04:13Z    INFO    client connected        {'addr': '172.16.0.190:50362', 'id': 'user', 'tx': 0}
+2025-05-07T13:04:44Z    INFO    client disconnected     {'addr': '172.16.0.190:50362', 'id': 'user', 'error': 'accepting stream failed: timeout: no recent network activity'}
+
+=====================================================
+```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/claw%20cloud%20Hysteria2.html</guid><pubDate>Thu, 08 May 2025 07:03:07 +0000</pubDate></item><item><title>picgo-core</title><link>https://z.zcr4.ip-ddns.com/post/picgo-core.html</link><description>##  picgo-core
 
 -  config.json 配置文件如下
 
