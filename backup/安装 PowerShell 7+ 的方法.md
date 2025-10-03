@@ -12,3 +12,7 @@ winget install --id Microsoft.Powershell --source winget
 ```
 
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:18:19.png" style="width:400px;"></p><br>
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:20:06.png" style="width:400px;"></p><br>
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:19:32.png" style="width:400px;"></p><br>
