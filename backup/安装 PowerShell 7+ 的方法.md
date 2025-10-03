@@ -40,7 +40,13 @@ PowerShell-7.x.x-win-x64.msi
 
 Windows PowerShell 5.1（系统自带），这个版本已经停更了。要用 -Join 这种新参数，需要安装 PowerShell 7+（也叫 PowerShell Core）。
 
+### 查看版本
 
+```
+
+$PSVersionTable.PSVersion
+
+```
 
 
 
