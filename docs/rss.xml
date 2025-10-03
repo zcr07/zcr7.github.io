@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Fri, 03 Oct 2025 05:20:46 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>安装 PowerShell 7+ 的方法</title><link>https://z.zcr4.ip-ddns.com/post/an-zhuang-%20PowerShell%207%2B%20-de-fang-fa.html</link><description>## 安装 PowerShell 7+ 的方法
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Fri, 03 Oct 2025 05:23:43 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>安装 PowerShell 7+ 的方法</title><link>https://z.zcr4.ip-ddns.com/post/an-zhuang-%20PowerShell%207%2B%20-de-fang-fa.html</link><description>## 安装 PowerShell 7+ 的方法
 
-方法一：用 Winget（推荐，最简单）
+### 方法一：用 Winget（推荐，最简单）
 
 如果你的 Windows 里已经有 winget 包管理器（Win10 / Win11 默认带有）：
 在命令提示符或 PowerShell 输入：
@@ -16,7 +16,20 @@ winget install --id Microsoft.Powershell --source winget
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:20:06.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:19:32.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/an-zhuang-%20PowerShell%207%2B%20-de-fang-fa.html</guid><pubDate>Fri, 03 Oct 2025 05:18:35 +0000</pubDate></item><item><title>合并Txt文件</title><link>https://z.zcr4.ip-ddns.com/post/he-bing-Txt-wen-jian.html</link><description>
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:19:32.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+
+### 方法二：手动下载安装
+
+https://github.com/PowerShell/PowerShell/releases
+
+PowerShell-7.x.x-win-x64.msi
+
+下载并安装，安装时建议勾选：
+
+✅ 添加到 PATH
+
+✅ 在 Windows Terminal 中注册。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/an-zhuang-%20PowerShell%207%2B%20-de-fang-fa.html</guid><pubDate>Fri, 03 Oct 2025 05:18:35 +0000</pubDate></item><item><title>合并Txt文件</title><link>https://z.zcr4.ip-ddns.com/post/he-bing-Txt-wen-jian.html</link><description>
 
 ## 合并Txt文件
 
