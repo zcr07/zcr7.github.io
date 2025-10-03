@@ -31,3 +31,24 @@ PowerShell-7.x.x-win-x64.msi
 ✅ 在 Windows Terminal 中注册
 
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:24:48.png" style="width:400px;"></p><br>
+
+## 验证版本
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:26:20.png" style="width:400px;"></p><br>
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:28:22.png" style="width:400px;"></p><br>
+
+Windows PowerShell 5.1（系统自带），这个版本已经停更了。要用 -Join 这种新参数，需要安装 PowerShell 7+（也叫 PowerShell Core）。
+
+
+
+
+
+
+
+
+
+
+
+
+
