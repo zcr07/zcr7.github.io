@@ -29,3 +29,5 @@ PowerShell-7.x.x-win-x64.msi
 ✅ 添加到 PATH
 
 ✅ 在 Windows Terminal 中注册
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:24:48.png" style="width:400px;"></p><br>
