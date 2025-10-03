@@ -1,6 +1,6 @@
 ## 右键添加 (管理员) powershell 7
 
-右键菜单 目录背景
+#### 右键菜单 目录背景
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell
 
@@ -25,7 +25,7 @@ command
 
 =================================================
 
-## 右键菜单 文件夹图标
+#### 右键菜单 文件夹图标
 
 HKEY_CLASSES_ROOT\Directory\shell\PowerShell7Admin\command
 
@@ -53,7 +53,7 @@ powershell -Command "Start-Process 'pwsh' -Verb RunAs -WorkingDirectory '%1'"
 
 ## 右键添加  powershell 7
 
-右键菜单 目录背景
+#### 右键菜单 目录背景
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell
 
@@ -78,7 +78,7 @@ pwsh.exe -noexit -WorkingDirectory "%V"
 
 =================================================
 
-## 右键菜单 文件夹图标
+#### 右键菜单 文件夹图标
 
 HKEY_CLASSES_ROOT\Directory\shell\PowerShell7Admin\command
 
