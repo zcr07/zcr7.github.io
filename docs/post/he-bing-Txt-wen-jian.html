@@ -10,9 +10,82 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="
+<meta name="description" content="## 合并Txt文件
 
-## 合并Txt文件
+#### 需要先进入需合并文件的文件夹
+
+```
+
+F5 & h::
+    ; 获取当前活动窗口（可能是资源管理器）
+    WinGetClass, class, A
+    if (class = 'CabinetWClass') || (class = 'ExploreWClass') ; 资源管理器
+    {
+        ; 尝试获取资源管理器当前路径
+        for window in ComObjCreate('Shell.Application').Windows
+        {
+            try
+            {
+                if (window.hwnd = WinExist('A'))
+                {
+                    targetFolder := window.Document.Folder.Self.Path
+                    break
+                }
+            }
+        }
+    }
+    
+    if !targetFolder
+    {
+        ; 如果无法获取资源管理器路径，回退到选择文件
+        FileSelectFile, selectedFile, 1, , 请选择一个txt文件, *.txt
+        if (selectedFile = '')
+            return
+        SplitPath, selectedFile, , targetFolder
+    }
+    
+    ; 检查目标目录是否有txt文件
+    FileCount := 0
+    Loop, Files, %targetFolder%\*.txt
+    {
+        FileCount++
+        break
+    }
+    
+    if (FileCount = 0)
+    {
+        MsgBox, 在目录 %targetFolder% 中未找到txt文件
+        return
+    }
+    
+    Run, powershell.exe -Command 'Set-Location '%targetFolder%'; Get-Content *.txt -Raw | Set-Content 111.txt -Encoding utf8',, Hide
+    MsgBox, 文件合并完成！结果保存在：%targetFolder%\111.txt
+return
+
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  F5 & h  合并当前目录下所有的txt ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ
+
+```
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#### 此脚本运行后，会找寻要合并的文件夹
+
+```
+
+F5 & n::
+    ; 让用户选择包含txt文件的文件夹
+    FileSelectFolder, selectedFolder, , 3, 请选择包含txt文件的文件夹
+    if (selectedFolder = '')
+        return
+    
+    ; 在选定的文件夹中执行PowerShell命令
+    Run, powershell.exe -Command 'Set-Location '%selectedFolder%'; Get-Content *.txt -Raw | Set-Content 111.txt -Encoding utf8',, Hide
+    ;MsgBox, 文件合并完成！结果保存在：%selectedFolder%\111.txt
+return
+
+```
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 <p align='center'><img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:00:32.png' style='width:400px;'></p><br> 
 
@@ -52,9 +125,82 @@ Get-Content *.txt -Raw | Out-File 111.txt -Encoding utf8
 
 。">
 <meta property="og:title" content="合并Txt文件">
-<meta property="og:description" content="
+<meta property="og:description" content="## 合并Txt文件
 
-## 合并Txt文件
+#### 需要先进入需合并文件的文件夹
+
+```
+
+F5 & h::
+    ; 获取当前活动窗口（可能是资源管理器）
+    WinGetClass, class, A
+    if (class = 'CabinetWClass') || (class = 'ExploreWClass') ; 资源管理器
+    {
+        ; 尝试获取资源管理器当前路径
+        for window in ComObjCreate('Shell.Application').Windows
+        {
+            try
+            {
+                if (window.hwnd = WinExist('A'))
+                {
+                    targetFolder := window.Document.Folder.Self.Path
+                    break
+                }
+            }
+        }
+    }
+    
+    if !targetFolder
+    {
+        ; 如果无法获取资源管理器路径，回退到选择文件
+        FileSelectFile, selectedFile, 1, , 请选择一个txt文件, *.txt
+        if (selectedFile = '')
+            return
+        SplitPath, selectedFile, , targetFolder
+    }
+    
+    ; 检查目标目录是否有txt文件
+    FileCount := 0
+    Loop, Files, %targetFolder%\*.txt
+    {
+        FileCount++
+        break
+    }
+    
+    if (FileCount = 0)
+    {
+        MsgBox, 在目录 %targetFolder% 中未找到txt文件
+        return
+    }
+    
+    Run, powershell.exe -Command 'Set-Location '%targetFolder%'; Get-Content *.txt -Raw | Set-Content 111.txt -Encoding utf8',, Hide
+    MsgBox, 文件合并完成！结果保存在：%targetFolder%\111.txt
+return
+
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  F5 & h  合并当前目录下所有的txt ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ
+
+```
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#### 此脚本运行后，会找寻要合并的文件夹
+
+```
+
+F5 & n::
+    ; 让用户选择包含txt文件的文件夹
+    FileSelectFolder, selectedFolder, , 3, 请选择包含txt文件的文件夹
+    if (selectedFolder = '')
+        return
+    
+    ; 在选定的文件夹中执行PowerShell命令
+    Run, powershell.exe -Command 'Set-Location '%selectedFolder%'; Get-Content *.txt -Raw | Set-Content 111.txt -Encoding utf8',, Hide
+    ;MsgBox, 文件合并完成！结果保存在：%selectedFolder%\111.txt
+return
+
+```
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 <p align='center'><img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:00:32.png' style='width:400px;'></p><br> 
 
@@ -164,6 +310,73 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><h2>合并Txt文件</h2>
+<h4>需要先进入需合并文件的文件夹</h4>
+<pre class="notranslate"><code class="notranslate">
+F5 &amp; h::
+    ; 获取当前活动窗口（可能是资源管理器）
+    WinGetClass, class, A
+    if (class = "CabinetWClass") || (class = "ExploreWClass") ; 资源管理器
+    {
+        ; 尝试获取资源管理器当前路径
+        for window in ComObjCreate("Shell.Application").Windows
+        {
+            try
+            {
+                if (window.hwnd = WinExist("A"))
+                {
+                    targetFolder := window.Document.Folder.Self.Path
+                    break
+                }
+            }
+        }
+    }
+    
+    if !targetFolder
+    {
+        ; 如果无法获取资源管理器路径，回退到选择文件
+        FileSelectFile, selectedFile, 1, , 请选择一个txt文件, *.txt
+        if (selectedFile = "")
+            return
+        SplitPath, selectedFile, , targetFolder
+    }
+    
+    ; 检查目标目录是否有txt文件
+    FileCount := 0
+    Loop, Files, %targetFolder%\*.txt
+    {
+        FileCount++
+        break
+    }
+    
+    if (FileCount = 0)
+    {
+        MsgBox, 在目录 %targetFolder% 中未找到txt文件
+        return
+    }
+    
+    Run, powershell.exe -Command "Set-Location '%targetFolder%'; Get-Content *.txt -Raw | Set-Content 111.txt -Encoding utf8",, Hide
+    MsgBox, 文件合并完成！结果保存在：%targetFolder%\111.txt
+return
+
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  F5 &amp; h  合并当前目录下所有的txt ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ
+
+</code></pre>
+<p>^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</p>
+<h4>此脚本运行后，会找寻要合并的文件夹</h4>
+<pre class="notranslate"><code class="notranslate">
+F5 &amp; n::
+    ; 让用户选择包含txt文件的文件夹
+    FileSelectFolder, selectedFolder, , 3, 请选择包含txt文件的文件夹
+    if (selectedFolder = "")
+        return
+    
+    ; 在选定的文件夹中执行PowerShell命令
+    Run, powershell.exe -Command "Set-Location '%selectedFolder%'; Get-Content *.txt -Raw | Set-Content 111.txt -Encoding utf8",, Hide
+    ;MsgBox, 文件合并完成！结果保存在：%selectedFolder%\111.txt
+return
+
+</code></pre>
+<p>^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</p>
 <p align="center"><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/65b44a429651cf424afba7769a48a03fb6b6b22503f992df05404237fe723fd9/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f7a62393637382f696d6739406d61696e2f696d332f31302e30333a31333a30303a33322e706e67"><img src="https://camo.githubusercontent.com/65b44a429651cf424afba7769a48a03fb6b6b22503f992df05404237fe723fd9/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f7a62393637382f696d6739406d61696e2f696d332f31302e30333a31333a30303a33322e706e67" data-canonical-src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:00:32.png" style="max-width: 100%;"></a></p><br> 
 <p>PowerShell  进入文件夹，执行：</p>
 <pre class="notranslate"><code class="notranslate">
