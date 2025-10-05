@@ -20,13 +20,13 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
 
 ```
 
-- 在右侧空白处右键 -> 新建 -> 整数值(D)
+- 在右侧空白处右键 -> 新建 -> 字符串
 
 - 将新值的名称设置为      
 
   `DisabledHotkeys` 
 
-- 双击该值，将其数值数据设置为 58（十进制数）
+- 双击该值，将其数值数据设置为   X
 
 - 点击“确定”，然后注销并重新登录（或重启资源管理器）使设置生效。">
 <meta property="og:title" content="禁用系统的快捷键">
@@ -40,13 +40,13 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
 
 ```
 
-- 在右侧空白处右键 -> 新建 -> 整数值(D)
+- 在右侧空白处右键 -> 新建 -> 字符串
 
 - 将新值的名称设置为      
 
   `DisabledHotkeys` 
 
-- 双击该值，将其数值数据设置为 58（十进制数）
+- 双击该值，将其数值数据设置为   X
 
 - 点击“确定”，然后注销并重新登录（或重启资源管理器）使设置生效。">
 <meta property="og:type" content="article">
@@ -126,14 +126,14 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
 </code></pre>
 <ul>
 <li>
-<p>在右侧空白处右键 -&gt; 新建 -&gt; 整数值(D)</p>
+<p>在右侧空白处右键 -&gt; 新建 -&gt; 字符串</p>
 </li>
 <li>
 <p>将新值的名称设置为</p>
 <p><code class="notranslate">DisabledHotkeys</code></p>
 </li>
 <li>
-<p>双击该值，将其数值数据设置为 58（十进制数）</p>
+<p>双击该值，将其数值数据设置为   X</p>
 </li>
 <li>
 <p>点击“确定”，然后注销并重新登录（或重启资源管理器）使设置生效。</p>
@@ -142,12 +142,6 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
 <p>即禁用系统的 # &amp; x 组合键。</p>
 </li>
 </ul>
-<h2>如果您想禁用多个Win组合键：</h2>
-<p>例如要同时禁用 Win+X 和 Win+R：</p>
-<p>'X' = 0x58 = 88（十进制）</p>
-<p>'R' = 0x52 = 82（十进制）</p>
-<p>相加：88 + 82 = 170</p>
-<p><code class="notranslate">DisabledHotkeys</code>    选择"十进制"，输入 170</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/ab86cb97-850c-43a3-aa51-8d40f7fb646f"><img width="1160" height="1394" alt="Image" src="https://github.com/user-attachments/assets/ab86cb97-850c-43a3-aa51-8d40f7fb646f" style="max-width: 100%; height: auto; max-height: 1394px;"></a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
