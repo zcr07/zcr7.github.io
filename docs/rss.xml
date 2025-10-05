@@ -1,5 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Fri, 03 Oct 2025 11:07:16 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>右键添加 powershell 7</title><link>https://z.zcr4.ip-ddns.com/post/you-jian-tian-jia-%20powershell%207.html</link><description>背景菜单 → %V
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sun, 05 Oct 2025 15:11:13 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>禁用系统的快捷键</title><link>https://z.zcr4.ip-ddns.com/post/jin-yong-xi-tong-de-kuai-jie-jian.html</link><description>
+
+ ##  禁用系统的  win+x 快捷键
+
+```
+
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+
+```
+
+- 在右侧空白处右键 -&gt; 新建 -&gt; 整数值(D)
+
+- 将新值的名称设置为      
+
+  `DisabledHotkeys` 
+
+- 双击该值，将其数值数据设置为 58（十进制数）
+
+- 点击“确定”，然后注销并重新登录（或重启资源管理器）使设置生效。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/jin-yong-xi-tong-de-kuai-jie-jian.html</guid><pubDate>Sun, 05 Oct 2025 15:10:39 +0000</pubDate></item><item><title>右键添加 powershell 7</title><link>https://z.zcr4.ip-ddns.com/post/you-jian-tian-jia-%20powershell%207.html</link><description>背景菜单 → %V
 
 文件夹本身 → %1
 
