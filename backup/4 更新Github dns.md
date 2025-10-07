@@ -39,3 +39,35 @@ ws.Run "run_hidden.bat",0
 
 ```
 
+## fetch_github_hosts
+
+
+
+```
+
+_hosts=$(mktemp /tmp/hostsXXX)
+hosts=/c/Windows/System32/drivers/etc/hosts
+remote=https://gitlab.com/ineo6/hosts/-/raw/master/next-hosts
+reg='/# GitHub520 Host Start/,/# Github520 Host End/d'
+
+sed "$reg" $hosts > "$_hosts"
+curl "$remote" >> "$_hosts"
+cat "$_hosts" > "$hosts"
+
+rm "$_hosts"
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
