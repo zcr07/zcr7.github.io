@@ -1,5 +1,59 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 07 Oct 2025 08:45:23 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>制作节点订阅</title><link>https://z.zcr4.ip-ddns.com/post/zhi-zuo-jie-dian-ding-yue.html</link><description>## 制作节点订阅
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 07 Oct 2025 09:12:01 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>加序号</title><link>https://z.zcr4.ip-ddns.com/post/jia-xu-hao.html</link><description>## 加序号
+
+
+```
+
+CapsLock &amp; v::
+    if (!bzz)
+    bzz := 2                      ; 从2开始
+    Send, {Enter} 
+    SendInput, {Text}%bzz%.           ; 用{Text}确保输出字面符号
+    Send, {Space}                     ; 再单独发送空格
+    bzz++
+return
+
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ   CapsLock &amp; b  1.2.3.到无穷   ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 007-2886
+
+CapsLock &amp; b::
+    if (!bz)
+        bz := 'b'                                    ; 如果变量 bz 尚未初始化，则初始化为 'b'
+    Send, {Enter} 
+    SendInput, {Text}%bz%.           ; 用{Text}确保输出字面符号
+    Send, {Space}                     ; 再单独发送空格
+
+    ; 字母递增逻辑                                 判断是否在 'a-z' 范围 ASCII码a-z 97-122
+    if (StrLen(bz) == 1 &amp;&amp; Asc(bz) &gt;= 97 &amp;&amp; Asc(bz) &lt; 122) 
+        bz := Chr(Asc(bz) + 1)  ; 递增到下一个字母
+    else if (bz == 'z')
+        bz := 'a'  ; 如果当前是 'z'，循环回到 'a'
+Return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ   CapsLock &amp; b   a-z 循环   ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 007-2886
+
+CapsLock &amp; n::
+    	if (!azz)
+        	azz := '2'                           ; 如果变量 azz 尚未初始化，则初始化为 '2'
+    Send, {Enter} 
+    SendInput, {Text}%azz%.           ; 用{Text}确保输出字面符号
+    Send, {Space}   
+
+; 更新数字，如果超过9则重置为1
+azz := (azz &lt; 9) ? azz + 1 : 1
+Return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ   CapsLock &amp; m 如果超过9则重置为1  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 007-2886
+
+```
+
+
+
+
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/jia-xu-hao.html</guid><pubDate>Tue, 07 Oct 2025 09:11:35 +0000</pubDate></item><item><title>制作节点订阅</title><link>https://z.zcr4.ip-ddns.com/post/zhi-zuo-jie-dian-ding-yue.html</link><description>## 制作节点订阅
 
 
 ```
