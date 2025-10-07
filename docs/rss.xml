@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 07 Oct 2025 08:27:33 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>1 创建工具组窗口choice123</title><link>https://z.zcr4.ip-ddns.com/post/1%20-chuang-jian-gong-ju-zu-chuang-kou-choice123.html</link><description>## 创建工具组窗口
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 07 Oct 2025 08:31:34 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>3 快捷运行 powershell 管理员</title><link>https://z.zcr4.ip-ddns.com/post/3%20-kuai-jie-yun-xing-%20powershell%20-guan-li-yuan.html</link><description>## 快捷运行 powershell 管理员
+
+
+```
+
+F5 &amp; o::
+Run, 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+Return
+
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ   F5 &amp; o  powershell.exe  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 
+
+F5 &amp; p::
+Run, *RunAs 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+Return
+
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ   F5 &amp; p  管理员powershell  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 
+
+```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/3%20-kuai-jie-yun-xing-%20powershell%20-guan-li-yuan.html</guid><pubDate>Tue, 07 Oct 2025 08:30:52 +0000</pubDate></item><item><title>1 创建工具组窗口choice123</title><link>https://z.zcr4.ip-ddns.com/post/1%20-chuang-jian-gong-ju-zu-chuang-kou-choice123.html</link><description>## 创建工具组窗口
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.07:14:59:56.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
