@@ -10,9 +10,13 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="背景菜单 → %V
+<meta name="description" content="右键菜单 目录背景 → %V     
 
-文件夹本身 → %1
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\PowerShell7Admin\command
+
+右键菜单 目录         → %1
+
+HKEY_CLASSES_ROOT\Directory\shell\PowerShell7Admin\command
 
 
 ## 右键添加 (管理员) powershell 7
@@ -147,9 +151,13 @@ pwsh.exe -noexit -WorkingDirectory '%1'
 
 。">
 <meta property="og:title" content="右键添加 powershell 7">
-<meta property="og:description" content="背景菜单 → %V
+<meta property="og:description" content="右键菜单 目录背景 → %V     
 
-文件夹本身 → %1
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\PowerShell7Admin\command
+
+右键菜单 目录         → %1
+
+HKEY_CLASSES_ROOT\Directory\shell\PowerShell7Admin\command
 
 
 ## 右键添加 (管理员) powershell 7
@@ -343,8 +351,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>背景菜单 → %V</p>
-<p>文件夹本身 → %1</p>
+<div class="markdown-body" id="postBody"><p>右键菜单 目录背景 → %V</p>
+<p>HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\PowerShell7Admin\command</p>
+<p>右键菜单 目录         → %1</p>
+<p>HKEY_CLASSES_ROOT\Directory\shell\PowerShell7Admin\command</p>
 <h2>右键添加 (管理员) powershell 7</h2>
 <h4>右键菜单 目录背景</h4>
 <p>HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell</p>

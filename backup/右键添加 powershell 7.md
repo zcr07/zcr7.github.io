@@ -1,6 +1,10 @@
-背景菜单 → %V
+右键菜单 目录背景 → %V     
 
-文件夹本身 → %1
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\PowerShell7Admin\command
+
+右键菜单 目录         → %1
+
+HKEY_CLASSES_ROOT\Directory\shell\PowerShell7Admin\command
 
 
 ## 右键添加 (管理员) powershell 7
