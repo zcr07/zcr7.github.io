@@ -6,6 +6,10 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\PowerShell7Admin\
 
 HKEY_CLASSES_ROOT\Directory\shell\PowerShell7Admin\command
 
+桌面
+
+HKEY_CLASSES_ROOT\DesktopBackground\Shell
+
 
 ## 右键添加 (管理员) powershell 7
 
