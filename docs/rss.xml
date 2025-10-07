@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 07 Oct 2025 07:03:41 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>1 创建工具组窗口choice123</title><link>https://z.zcr4.ip-ddns.com/post/1%20-chuang-jian-gong-ju-zu-chuang-kou-choice123.html</link><description>## 创建工具组窗口
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 07 Oct 2025 07:17:07 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>1 创建工具组窗口choice123</title><link>https://z.zcr4.ip-ddns.com/post/1%20-chuang-jian-gong-ju-zu-chuang-kou-choice123.html</link><description>## 创建工具组窗口
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.07:14:59:56.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
@@ -1168,19 +1168,53 @@ send.py 文件内容如下
 
 ```
 import resend
+
+# 设置API密钥
 resend.api_key = 're_NmeuQ3z2_CzwXAgo9fCEH2r2c7PRwoBQL'
+
+# 邮件内容和格式设置
 params: resend.Emails.SendParams = {
-  'from': 'tt@zcr7.xx.kg',
-  'to': ['zcr071225@gmail.com', 'zkkev53@gmail.com'],
-  'subject': '例子（1）',
-  'html': '''
-        &lt;h2&gt;以下是代码内容：&lt;/h2&gt;                 
-        &lt;pre&gt;
-⭐ 发送命令：/newbot
-        &lt;/pre&gt;        
-              '''
+    'from': 'zb@zcr7.xx.kg',
+    'to': ['zcr071225@gmail.com', 'zkkev53@gmail.com'],
+    'subject': '2025年10月07日',
+	'html': r'''
+    &lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset='UTF-8'&gt;
+        &lt;style&gt;
+            h1 {
+                color: #d7003a;
+            }
+            pre {
+                font-size: 20px;
+                background-color: #1e1e1e;
+                color: #0078D4;
+                padding: 15px;
+                border-radius: 8px;
+                line-height: 1.6;
+                white-space: pre-wrap; /* 防止长行超出 */
+            }
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;C女士，您好！ &lt;/h1&gt;
+	&lt;pre&gt;
+        🍀 PowerShell 7.5.3
+        🍀 PS C:\Users\z\Desktop&gt; pip install resend
+        🍀 需要先安装支持
+         &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.05:01:02:59.png' style='width:700px;'&gt;&lt;/p&gt;
+        💥 重要！
+        💥 切记！
+	&lt;/pre&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+    '''
 }
+
+# 发送邮件
 email = resend.Emails.send(params)
+
+# 打印邮件发送的结果
 print(email)
 
 ```

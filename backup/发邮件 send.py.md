@@ -46,19 +46,53 @@ send.py 文件内容如下
 
 ```
 import resend
+
+# 设置API密钥
 resend.api_key = "re_NmeuQ3z2_CzwXAgo9fCEH2r2c7PRwoBQL"
+
+# 邮件内容和格式设置
 params: resend.Emails.SendParams = {
-  "from": "tt@zcr7.xx.kg",
-  "to": ["zcr071225@gmail.com", "zkkev53@gmail.com"],
-  "subject": "例子（1）",
-  "html": """
-        <h2>以下是代码内容：</h2>                 
-        <pre>
-⭐ 发送命令：/newbot
-        </pre>        
-              """
+    "from": "zb@zcr7.xx.kg",
+    "to": ["zcr071225@gmail.com", "zkkev53@gmail.com"],
+    "subject": "2025年10月07日",
+	"html": r"""
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            h1 {
+                color: #d7003a;
+            }
+            pre {
+                font-size: 20px;
+                background-color: #1e1e1e;
+                color: #0078D4;
+                padding: 15px;
+                border-radius: 8px;
+                line-height: 1.6;
+                white-space: pre-wrap; /* 防止长行超出 */
+            }
+        </style>
+    </head>
+    <body>
+        <h1>C女士，您好！ </h1>
+	<pre>
+        🍀 PowerShell 7.5.3
+        🍀 PS C:\Users\z\Desktop> pip install resend
+        🍀 需要先安装支持
+         <p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.05:01:02:59.png" style="width:700px;"></p>
+        💥 重要！
+        💥 切记！
+	</pre>
+    </body>
+    </html>
+    """
 }
+
+# 发送邮件
 email = resend.Emails.send(params)
+
+# 打印邮件发送的结果
 print(email)
 
 ```
