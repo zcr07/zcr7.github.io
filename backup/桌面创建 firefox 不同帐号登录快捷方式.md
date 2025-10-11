@@ -1,5 +1,6 @@
 ## 桌面创建 firefox 不同帐号登录快捷方式
 
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.11:13:28:21.png" style="width:400px;"></p><br>
 
 ## 1. 创建名为 kevinzhcr 的配置文件
 
@@ -30,6 +31,8 @@
 
 firefox书签
 chrome://browser/content/places/places.xhtml
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.11:13:26:58.png" style="width:400px;"></p><br>
 
 ## 注意和 chrom 书签的区别
 chrome书签
