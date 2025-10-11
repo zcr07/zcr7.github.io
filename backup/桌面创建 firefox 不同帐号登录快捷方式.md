@@ -6,6 +6,8 @@
 
 打开Firefox 输入   about:profiles
 
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.11:13:32:06.png" style="width:400px;"></p><br>
+
 点击  创建新配置文件 /  下一步 / 请输入新的配置文件名称(E)：/ kevinzhcr /  完成
 
 配置文件: kevinzhcr
