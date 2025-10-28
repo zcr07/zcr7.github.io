@@ -1,5 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 28 Oct 2025 14:56:35 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>一键启动， 一键关闭</title><link>https://z.zcr4.ip-ddns.com/post/yi-jian-qi-dong-%EF%BC%8C%20-yi-jian-guan-bi.html</link><description>## 一键启动， 一键关闭
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 28 Oct 2025 14:59:13 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>打开当前软件的源位置</title><link>https://z.zcr4.ip-ddns.com/post/da-kai-dang-qian-ruan-jian-de-yuan-wei-zhi.html</link><description>## 打开当前软件的源位置
+
+```
+
+F2 &amp; w:: 
+	WinGet, processID, PID, A                      ;--获取当前活动窗口的进程ID
+WinGet, exePath, ProcessPath, ahk_pid %processID%    ; 获取可执行文件路径 
+	SplitPath, exePath, , fileDir            ; 提取文件夹路径
+	Run, %fileDir%            ; 打开文件夹
+ 	return
+;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  F2 &amp; w 打开当前软件的源位置 ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 00005-846
+
+```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/da-kai-dang-qian-ruan-jian-de-yuan-wei-zhi.html</guid><pubDate>Tue, 28 Oct 2025 14:58:42 +0000</pubDate></item><item><title>一键启动， 一键关闭</title><link>https://z.zcr4.ip-ddns.com/post/yi-jian-qi-dong-%EF%BC%8C%20-yi-jian-guan-bi.html</link><description>## 一键启动， 一键关闭
 
 ```
 
