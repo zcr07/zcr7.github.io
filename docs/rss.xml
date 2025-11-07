@@ -1,5 +1,75 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 29 Oct 2025 08:43:40 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>混淆加密的2种方法</title><link>https://z.zcr4.ip-ddns.com/post/hun-yao-jia-mi-de-2-zhong-fang-fa.html</link><description>## 混淆加密 1
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Fri, 07 Nov 2025 05:59:47 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>*** picgo 设置 ***</title><link>https://z.zcr4.ip-ddns.com/post/---%20picgo%20-she-zhi-%20---.html</link><description># picgo 设置
+
+###  在任意目录背景下运行   Cmder Here
+
+```
+
+npm uninstall -g picgo
+
+```
+
+```
+
+npm install -g picgo
+
+```
+
+# 设置上传器为 GitHub
+
+```
+
+picgo set uploader github
+
+```
+
+
+# 设置 GitHub 仓库
+
+```
+
+picgo set githubRepo zb9678/node-3
+
+```
+
+# 设置分支
+
+```
+
+picgo set githubBranch main
+
+```
+
+# 设置仓库内存储路径
+
+```
+
+picgo set githubPath images/
+
+```
+
+# 设置自定义域名
+
+```
+
+picgo set githubCustomUrl https://node1.zcr5.qzz.io
+
+```
+
+# 设置 GitHub Token
+
+```
+
+picgo set githubToken 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
+
+```
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/---%20picgo%20-she-zhi-%20---.html</guid><pubDate>Fri, 07 Nov 2025 05:59:19 +0000</pubDate></item><item><title>混淆加密的2种方法</title><link>https://z.zcr4.ip-ddns.com/post/hun-yao-jia-mi-de-2-zhong-fang-fa.html</link><description>## 混淆加密 1
 
 - https://obfuscator.io/
 
