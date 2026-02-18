@@ -1,5 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 18 Feb 2026 04:30:00 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>^\d+\.</title><link>https://z.zcr4.ip-ddns.com/post/%5E-d%2B-..html</link><description># ^\d+\.
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Wed, 18 Feb 2026 04:46:11 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>搜索 域名 IPV4  IPV6</title><link>https://z.zcr4.ip-ddns.com/post/sou-suo-%20-yu-ming-%20IPV4%20%20IPV6.html</link><description># 搜索  IPV4  IPV6  域名
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:45:12.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt; 
+
+```
+
+; 搜索IPv6
+:*?:6'::                                        ; SendRaw  原样发送所有字符，不处理特殊符号
+    SendRaw, (\w+:)+(\w+):+(\w+:)+(\w+)
+sleep, 200
+send, {enter}
+return
+
+; :*?:6r::(\w{+}:)`+(\w{+})`::(\w{+}:)`+(\w{+})
+
+
+:*?:4'::                                          ; 搜索 IPv4
+SendRaw, \b(?:(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(?:25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\b
+Sleep, 200
+Send, {Enter}
+Return
+
+
+; 搜索域名
+:*?:y'::                                        ; SendRaw  原样发送所有字符，不处理特殊符号
+    SendRaw, \b(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}\b
+sleep, 200
+send, {enter}
+return
+
+; 搜索x和y区间的内容，不包括 x y
+:*?:b'::                                                  ; 把 X 替换为开始字符，Y 替换为结束字符。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/sou-suo-%20-yu-ming-%20IPV4%20%20IPV6.html</guid><pubDate>Wed, 18 Feb 2026 04:45:40 +0000</pubDate></item><item><title>^\d+\.</title><link>https://z.zcr4.ip-ddns.com/post/%5E-d%2B-..html</link><description># ^\d+\.
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:06:47.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/%5E-d%2B-..html</guid><pubDate>Wed, 18 Feb 2026 04:07:12 +0000</pubDate></item><item><title>^\d+(?=\.)</title><link>https://z.zcr4.ip-ddns.com/post/%5E-d%2B%28-%3D-.%29.html</link><description># ^\d+(?=\.)
 
