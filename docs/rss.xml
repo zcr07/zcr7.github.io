@@ -1,5 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Sat, 14 Mar 2026 02:01:41 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>?: 即使此热字串在另一个单词中也会被触发.</title><link>https://z.zcr4.ip-ddns.com/post/--%20-ji-shi-ci-re-zi-chuan-zai-ling-yi-ge-dan-ci-zhong-ye-hui-bei-chu-fa-..html</link><description># 正则表达式
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Thu, 19 Mar 2026 08:22:59 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>正则小知识 限定符 ? * +</title><link>https://z.zcr4.ip-ddns.com/post/zheng-ze-xiao-zhi-shi-%20-xian-ding-fu-%20-%20-%20%2B.html</link><description># ？
+
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/03.19:16:06:03.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+
+# *
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/03.19:16:09:54.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+
+# +
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/03.19:16:12:07.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+
+# {6}
+
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/03.19:16:13:33.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+
+# {2,6}
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/03.19:16:14:53.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+# {2,}
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/03.19:16:17:48.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+# (ab)+
+
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/03.19:16:21:34.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
+
+
+
+
+
+
+
+
+。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zheng-ze-xiao-zhi-shi-%20-xian-ding-fu-%20-%20-%20%2B.html</guid><pubDate>Thu, 19 Mar 2026 08:22:21 +0000</pubDate></item><item><title>?: 即使此热字串在另一个单词中也会被触发.</title><link>https://z.zcr4.ip-ddns.com/post/--%20-ji-shi-ci-re-zi-chuan-zai-ling-yi-ge-dan-ci-zhong-ye-hui-bei-chu-fa-..html</link><description># 正则表达式
 
 c    区分大小写     *   '不需要终止符'
 输出的最后有一个空格 需空格激活
