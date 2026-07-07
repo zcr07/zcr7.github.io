@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://z.zcr4.ip-ddns.com</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://z.zcr4.ip-ddns.com</link></image><lastBuildDate>Tue, 28 Apr 2026 16:52:44 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>正则小知识 限定符 ? * +</title><link>https://z.zcr4.ip-ddns.com/post/zheng-ze-xiao-zhi-shi-%20-xian-ding-fu-%20-%20-%20%2B.html</link><description># ？
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>妑🔭差</title><link>https://zc7.zcr7.qzz.io/</link><description>一些随手的笔记</description><copyright>妑🔭差</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.03:15:58:50.png</url><title>avatar</title><link>https://zc7.zcr7.qzz.io/</link></image><lastBuildDate>Tue, 07 Jul 2026 10:08:00 +0000</lastBuildDate><managingEditor>妑🔭差</managingEditor><ttl>60</ttl><webMaster>妑🔭差</webMaster><item><title>正则小知识 限定符 ? * +</title><link>https://zc7.zcr7.qzz.io//post/zheng-ze-xiao-zhi-shi-%20-xian-ding-fu-%20-%20-%20%2B.html</link><description># ？
 
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/03.19:16:06:03.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
@@ -40,13 +40,13 @@
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zheng-ze-xiao-zhi-shi-%20-xian-ding-fu-%20-%20-%20%2B.html</guid><pubDate>Thu, 19 Mar 2026 08:22:21 +0000</pubDate></item><item><title>?: 即使此热字串在另一个单词中也会被触发.</title><link>https://z.zcr4.ip-ddns.com/post/--%20-ji-shi-ci-re-zi-chuan-zai-ling-yi-ge-dan-ci-zhong-ye-hui-bei-chu-fa-..html</link><description># 正则表达式
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/zheng-ze-xiao-zhi-shi-%20-xian-ding-fu-%20-%20-%20%2B.html</guid><pubDate>Thu, 19 Mar 2026 08:22:21 +0000</pubDate></item><item><title>?: 即使此热字串在另一个单词中也会被触发.</title><link>https://zc7.zcr7.qzz.io//post/--%20-ji-shi-ci-re-zi-chuan-zai-ling-yi-ge-dan-ci-zhong-ye-hui-bei-chu-fa-..html</link><description># 正则表达式
 
 c    区分大小写     *   '不需要终止符'
 输出的最后有一个空格 需空格激活
 ::mq::john@         john@ 
 
-输出文字的最后会有一个空格，需按下空格才能激活。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/--%20-ji-shi-ci-re-zi-chuan-zai-ling-yi-ge-dan-ci-zhong-ye-hui-bei-chu-fa-..html</guid><pubDate>Sat, 14 Mar 2026 02:01:15 +0000</pubDate></item><item><title>搜索 域名 IPV4  IPV6</title><link>https://z.zcr4.ip-ddns.com/post/sou-suo-%20-yu-ming-%20IPV4%20%20IPV6.html</link><description># 搜索  IPV4  IPV6  域名
+输出文字的最后会有一个空格，需按下空格才能激活。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/--%20-ji-shi-ci-re-zi-chuan-zai-ling-yi-ge-dan-ci-zhong-ye-hui-bei-chu-fa-..html</guid><pubDate>Sat, 14 Mar 2026 02:01:15 +0000</pubDate></item><item><title>搜索 域名 IPV4  IPV6</title><link>https://zc7.zcr7.qzz.io//post/sou-suo-%20-yu-ming-%20IPV4%20%20IPV6.html</link><description># 搜索  IPV4  IPV6  域名
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:45:12.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt; 
 
@@ -77,27 +77,27 @@ send, {enter}
 return
 
 ; 搜索x和y区间的内容，不包括 x y
-:*?:b'::                                                  ; 把 X 替换为开始字符，Y 替换为结束字符。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/sou-suo-%20-yu-ming-%20IPV4%20%20IPV6.html</guid><pubDate>Wed, 18 Feb 2026 04:45:40 +0000</pubDate></item><item><title>^\d+\.</title><link>https://z.zcr4.ip-ddns.com/post/%5E-d%2B-..html</link><description># ^\d+\.
+:*?:b'::                                                  ; 把 X 替换为开始字符，Y 替换为结束字符。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/sou-suo-%20-yu-ming-%20IPV4%20%20IPV6.html</guid><pubDate>Wed, 18 Feb 2026 04:45:40 +0000</pubDate></item><item><title>^\d+\.</title><link>https://zc7.zcr7.qzz.io//post/%5E-d%2B-..html</link><description># ^\d+\.
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:06:47.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/%5E-d%2B-..html</guid><pubDate>Wed, 18 Feb 2026 04:07:12 +0000</pubDate></item><item><title>^\d+(?=\.)</title><link>https://z.zcr4.ip-ddns.com/post/%5E-d%2B%28-%3D-.%29.html</link><description># ^\d+(?=\.)
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:06:47.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/%5E-d%2B-..html</guid><pubDate>Wed, 18 Feb 2026 04:07:12 +0000</pubDate></item><item><title>^\d+(?=\.)</title><link>https://zc7.zcr7.qzz.io//post/%5E-d%2B%28-%3D-.%29.html</link><description># ^\d+(?=\.)
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:03:02.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/%5E-d%2B%28-%3D-.%29.html</guid><pubDate>Wed, 18 Feb 2026 04:03:23 +0000</pubDate></item><item><title>^.{4}</title><link>https://z.zcr4.ip-ddns.com/post/%5E.%7B4%7D.html</link><description># ^.{4}
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:03:02.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/%5E-d%2B%28-%3D-.%29.html</guid><pubDate>Wed, 18 Feb 2026 04:03:23 +0000</pubDate></item><item><title>^.{4}</title><link>https://zc7.zcr7.qzz.io//post/%5E.%7B4%7D.html</link><description># ^.{4}
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:01:10.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
 # \A.{5}
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:15:41.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/%5E.%7B4%7D.html</guid><pubDate>Wed, 18 Feb 2026 04:01:40 +0000</pubDate></item><item><title>(?&lt;=\.)\d+\z</title><link>https://z.zcr4.ip-ddns.com/post/%28--%3D-.%29-d%2B-z.html</link><description># (?&lt;=\.)\d+\z
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:15:41.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/%5E.%7B4%7D.html</guid><pubDate>Wed, 18 Feb 2026 04:01:40 +0000</pubDate></item><item><title>(?&lt;=\.)\d+\z</title><link>https://zc7.zcr7.qzz.io//post/%28--%3D-.%29-d%2B-z.html</link><description># (?&lt;=\.)\d+\z
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:11:56:01.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/%28--%3D-.%29-d%2B-z.html</guid><pubDate>Wed, 18 Feb 2026 03:56:28 +0000</pubDate></item><item><title>\.\w+\z</title><link>https://z.zcr4.ip-ddns.com/post/-.-w%2B-z.html</link><description>#  \\.\w+\z
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:11:56:01.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/%28--%3D-.%29-d%2B-z.html</guid><pubDate>Wed, 18 Feb 2026 03:56:28 +0000</pubDate></item><item><title>\.\w+\z</title><link>https://zc7.zcr7.qzz.io//post/-.-w%2B-z.html</link><description>#  \\.\w+\z
 注意要多加一个\，否则显示不出\
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:11:50:51.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
 #  \\..+$
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:20:28.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/-.-w%2B-z.html</guid><pubDate>Wed, 18 Feb 2026 03:53:03 +0000</pubDate></item><item><title>冰点还原Deep Freeze</title><link>https://z.zcr4.ip-ddns.com/post/bing-dian-huan-yuan-Deep%20Freeze.html</link><description>## 冰点还原Deep Freeze 破解方法及文件下载
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im4/02.18:12:20:28.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/-.-w%2B-z.html</guid><pubDate>Wed, 18 Feb 2026 03:53:03 +0000</pubDate></item><item><title>冰点还原Deep Freeze</title><link>https://zc7.zcr7.qzz.io//post/bing-dian-huan-yuan-Deep%20Freeze.html</link><description>## 冰点还原Deep Freeze 破解方法及文件下载
 
 https://www.youtube.com/watch?v=Y34qoVn8sy8
 
@@ -117,7 +117,7 @@ https://myqqjd.com/33880.html
 
 4.右键管理员运行 D:\0　　tool\0000\Deep Freeze Standard 9\03  Activation.bat 
 
-5. 可能不需要了，把 D:\0　　tool\0000\Deep Freeze Standard 9\x64\Persi0.sys  复制到C盘根目录下。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/bing-dian-huan-yuan-Deep%20Freeze.html</guid><pubDate>Tue, 25 Nov 2025 13:22:17 +0000</pubDate></item><item><title>picgo</title><link>https://z.zcr4.ip-ddns.com/post/picgo.html</link><description>## picgo
+5. 可能不需要了，把 D:\0　　tool\0000\Deep Freeze Standard 9\x64\Persi0.sys  复制到C盘根目录下。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/bing-dian-huan-yuan-Deep%20Freeze.html</guid><pubDate>Tue, 25 Nov 2025 13:22:17 +0000</pubDate></item><item><title>picgo</title><link>https://zc7.zcr7.qzz.io//post/picgo.html</link><description>## picgo
 
 ###   剪贴板内 `https://node1.zcr5.qzz.io/images/20251123212620786.png` 
 
@@ -173,9 +173,9 @@ https://myqqjd.com/33880.html
   }
 }
 
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/picgo.html</guid><pubDate>Sun, 23 Nov 2025 13:28:50 +0000</pubDate></item><item><title>windows企业版激活</title><link>https://z.zcr4.ip-ddns.com/post/windows-qi-ye-ban-ji-huo.html</link><description>## windows企业版激活
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/picgo.html</guid><pubDate>Sun, 23 Nov 2025 13:28:50 +0000</pubDate></item><item><title>windows企业版激活</title><link>https://zc7.zcr7.qzz.io//post/windows-qi-ye-ban-ji-huo.html</link><description>## windows企业版激活
 
- windows处于通知模式 电脑提示Windows许可证即将到期，于是上找了一些教程，但是并没有激活成功，反而由即将到期变为了通知状态，尝试了各种密钥都不行，也下载了激活工具如暴风激活工具，KMS都不管用，尝试了好多方法都失败了。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/windows-qi-ye-ban-ji-huo.html</guid><pubDate>Sun, 16 Nov 2025 05:35:29 +0000</pubDate></item><item><title>*** picgo 设置 ***</title><link>https://z.zcr4.ip-ddns.com/post/---%20picgo%20-she-zhi-%20---.html</link><description># picgo 设置
+ windows处于通知模式 电脑提示Windows许可证即将到期，于是上找了一些教程，但是并没有激活成功，反而由即将到期变为了通知状态，尝试了各种密钥都不行，也下载了激活工具如暴风激活工具，KMS都不管用，尝试了好多方法都失败了。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/windows-qi-ye-ban-ji-huo.html</guid><pubDate>Sun, 16 Nov 2025 05:35:29 +0000</pubDate></item><item><title>*** picgo 设置 ***</title><link>https://zc7.zcr7.qzz.io//post/---%20picgo%20-she-zhi-%20---.html</link><description># picgo 设置
 
 在任意位置，右键打开 cmder Here，输入以下多条命令
 
@@ -530,15 +530,15 @@ C:\Users\zb967\OneDrive\.picgo\config.json
   }
 }
 
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/---%20picgo%20-she-zhi-%20---.html</guid><pubDate>Fri, 07 Nov 2025 05:59:19 +0000</pubDate></item><item><title>混淆加密的2种方法</title><link>https://z.zcr4.ip-ddns.com/post/hun-yao-jia-mi-de-2-zhong-fang-fa.html</link><description>## 混淆加密 1
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/---%20picgo%20-she-zhi-%20---.html</guid><pubDate>Fri, 07 Nov 2025 05:59:19 +0000</pubDate></item><item><title>混淆加密的2种方法</title><link>https://zc7.zcr7.qzz.io//post/hun-yao-jia-mi-de-2-zhong-fang-fa.html</link><description>## 混淆加密 1
 
 - https://obfuscator.io/
 
-注意一个选项，Medium 必须选中，其它不用管。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/hun-yao-jia-mi-de-2-zhong-fang-fa.html</guid><pubDate>Wed, 29 Oct 2025 08:43:10 +0000</pubDate></item><item><title>Google 帐号申诉</title><link>https://z.zcr4.ip-ddns.com/post/Google%20-zhang-hao-shen-su.html</link><description>## Google 帐号申诉
+注意一个选项，Medium 必须选中，其它不用管。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/hun-yao-jia-mi-de-2-zhong-fang-fa.html</guid><pubDate>Wed, 29 Oct 2025 08:43:10 +0000</pubDate></item><item><title>Google 帐号申诉</title><link>https://zc7.zcr7.qzz.io//post/Google%20-zhang-hao-shen-su.html</link><description>## Google 帐号申诉
 
 尊敬的 Google 团队：
 
-我写信给您，是因为我的谷歌账号被错误地停用了。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Google%20-zhang-hao-shen-su.html</guid><pubDate>Wed, 29 Oct 2025 07:45:15 +0000</pubDate></item><item><title>快捷工具箱 choice3.ahk</title><link>https://z.zcr4.ip-ddns.com/post/kuai-jie-gong-ju-xiang-%20choice3.ahk.html</link><description>## 快捷工具箱  3
+我写信给您，是因为我的谷歌账号被错误地停用了。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Google%20-zhang-hao-shen-su.html</guid><pubDate>Wed, 29 Oct 2025 07:45:15 +0000</pubDate></item><item><title>快捷工具箱 choice3.ahk</title><link>https://zc7.zcr7.qzz.io//post/kuai-jie-gong-ju-xiang-%20choice3.ahk.html</link><description>## 快捷工具箱  3
 
 - choice3.ahk
 
@@ -689,7 +689,7 @@ GuiClose:
 
 ```
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.29:00:09:10.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/kuai-jie-gong-ju-xiang-%20choice3.ahk.html</guid><pubDate>Tue, 28 Oct 2025 16:08:23 +0000</pubDate></item><item><title>快捷工具箱 choice2.ahk</title><link>https://z.zcr4.ip-ddns.com/post/kuai-jie-gong-ju-xiang-%20choice2.ahk.html</link><description>##  快捷工具箱 2
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.29:00:09:10.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/kuai-jie-gong-ju-xiang-%20choice3.ahk.html</guid><pubDate>Tue, 28 Oct 2025 16:08:23 +0000</pubDate></item><item><title>快捷工具箱 choice2.ahk</title><link>https://zc7.zcr7.qzz.io//post/kuai-jie-gong-ju-xiang-%20choice2.ahk.html</link><description>##  快捷工具箱 2
 
 - choice2.ahk
 
@@ -840,11 +840,11 @@ GuiClose:
 ```
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.29:00:11:03.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/kuai-jie-gong-ju-xiang-%20choice2.ahk.html</guid><pubDate>Tue, 28 Oct 2025 16:07:09 +0000</pubDate></item><item><title>快捷工具箱  hoice1.ahk</title><link>https://z.zcr4.ip-ddns.com/post/kuai-jie-gong-ju-xiang-%20%20hoice1.ahk.html</link><description>##  快捷工具箱 1
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.29:00:11:03.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/kuai-jie-gong-ju-xiang-%20choice2.ahk.html</guid><pubDate>Tue, 28 Oct 2025 16:07:09 +0000</pubDate></item><item><title>快捷工具箱  hoice1.ahk</title><link>https://zc7.zcr7.qzz.io//post/kuai-jie-gong-ju-xiang-%20%20hoice1.ahk.html</link><description>##  快捷工具箱 1
 
 - choice1.ahk
 
-- 注意：要将ControlColor.ahk和它放在一个目录下。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/kuai-jie-gong-ju-xiang-%20%20hoice1.ahk.html</guid><pubDate>Tue, 28 Oct 2025 16:02:38 +0000</pubDate></item><item><title>如何把软件添加到防火墙出站规则里</title><link>https://z.zcr4.ip-ddns.com/post/ru-he-ba-ruan-jian-tian-jia-dao-fang-huo-qiang-chu-zhan-gui-ze-li.html</link><description>##  添加出站规则 控制是否屏蔽软件联网。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/ru-he-ba-ruan-jian-tian-jia-dao-fang-huo-qiang-chu-zhan-gui-ze-li.html</guid><pubDate>Tue, 28 Oct 2025 15:37:52 +0000</pubDate></item><item><title>打开当前软件的源位置</title><link>https://z.zcr4.ip-ddns.com/post/da-kai-dang-qian-ruan-jian-de-yuan-wei-zhi.html</link><description>## 打开当前软件的源位置
+- 注意：要将ControlColor.ahk和它放在一个目录下。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/kuai-jie-gong-ju-xiang-%20%20hoice1.ahk.html</guid><pubDate>Tue, 28 Oct 2025 16:02:38 +0000</pubDate></item><item><title>如何把软件添加到防火墙出站规则里</title><link>https://zc7.zcr7.qzz.io//post/ru-he-ba-ruan-jian-tian-jia-dao-fang-huo-qiang-chu-zhan-gui-ze-li.html</link><description>##  添加出站规则 控制是否屏蔽软件联网。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/ru-he-ba-ruan-jian-tian-jia-dao-fang-huo-qiang-chu-zhan-gui-ze-li.html</guid><pubDate>Tue, 28 Oct 2025 15:37:52 +0000</pubDate></item><item><title>打开当前软件的源位置</title><link>https://zc7.zcr7.qzz.io//post/da-kai-dang-qian-ruan-jian-de-yuan-wei-zhi.html</link><description>## 打开当前软件的源位置
 
 ```
 
@@ -856,7 +856,7 @@ WinGet, exePath, ProcessPath, ahk_pid %processID%    ; 获取可执行文件路�
  	return
 ;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  F2 &amp; w 打开当前软件的源位置 ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 00005-846
 
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/da-kai-dang-qian-ruan-jian-de-yuan-wei-zhi.html</guid><pubDate>Tue, 28 Oct 2025 14:58:42 +0000</pubDate></item><item><title>一键启动， 一键关闭</title><link>https://z.zcr4.ip-ddns.com/post/yi-jian-qi-dong-%EF%BC%8C%20-yi-jian-guan-bi.html</link><description>## 一键启动， 一键关闭
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/da-kai-dang-qian-ruan-jian-de-yuan-wei-zhi.html</guid><pubDate>Tue, 28 Oct 2025 14:58:42 +0000</pubDate></item><item><title>一键启动， 一键关闭</title><link>https://zc7.zcr7.qzz.io//post/yi-jian-qi-dong-%EF%BC%8C%20-yi-jian-guan-bi.html</link><description>## 一键启动， 一键关闭
 
 ```
 
@@ -879,7 +879,7 @@ F1 &amp; f::
 return
 ;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ    F1 &amp; m 打开 FlClash.exe ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 00007-894
 
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/yi-jian-qi-dong-%EF%BC%8C%20-yi-jian-guan-bi.html</guid><pubDate>Tue, 28 Oct 2025 14:55:51 +0000</pubDate></item><item><title>发邮件 send.py</title><link>https://z.zcr4.ip-ddns.com/post/fa-you-jian-%20send.py.html</link><description>## 发邮件 send.py
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/yi-jian-qi-dong-%EF%BC%8C%20-yi-jian-guan-bi.html</guid><pubDate>Tue, 28 Oct 2025 14:55:51 +0000</pubDate></item><item><title>发邮件 send.py</title><link>https://zc7.zcr7.qzz.io//post/fa-you-jian-%20send.py.html</link><description>## 发邮件 send.py
 
 
 重要须知：
@@ -889,7 +889,7 @@ return
 2.cmd运行  pip install resend
 
 Microsoft Windows [版本 10.0.26100.6584]
-(c) Microsoft Corporation。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/fa-you-jian-%20send.py.html</guid><pubDate>Mon, 27 Oct 2025 08:04:39 +0000</pubDate></item><item><title>一次获得 10 个 outlook 邮箱</title><link>https://z.zcr4.ip-ddns.com/post/yi-ci-huo-de-%2010%20-ge-%20outlook%20-you-xiang.html</link><description>## 一次获得 10 个 outlook 邮箱
+(c) Microsoft Corporation。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/fa-you-jian-%20send.py.html</guid><pubDate>Mon, 27 Oct 2025 08:04:39 +0000</pubDate></item><item><title>一次获得 10 个 outlook 邮箱</title><link>https://zc7.zcr7.qzz.io//post/yi-ci-huo-de-%2010%20-ge-%20outlook%20-you-xiang.html</link><description>## 一次获得 10 个 outlook 邮箱
 
 [教程](https://www.youtube.com/watch?v=EAnV03dUxrY)
 
@@ -899,14 +899,14 @@ Microsoft Windows [版本 10.0.26100.6584]
 
 &lt;img width='1439' height='687' alt='Image' src='https://github.com/user-attachments/assets/a3a3356a-de39-4892-b340-576961c0ee27' /&gt;
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/yi-ci-huo-de-%2010%20-ge-%20outlook%20-you-xiang.html</guid><pubDate>Sat, 25 Oct 2025 10:12:43 +0000</pubDate></item><item><title>在桌面建立“系统属性”的快捷方式</title><link>https://z.zcr4.ip-ddns.com/post/zai-zhuo-mian-jian-li-%E2%80%9C-xi-tong-shu-xing-%E2%80%9D-de-kuai-jie-fang-shi.html</link><description>## 在桌面建立“系统属性”的快捷方式
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/yi-ci-huo-de-%2010%20-ge-%20outlook%20-you-xiang.html</guid><pubDate>Sat, 25 Oct 2025 10:12:43 +0000</pubDate></item><item><title>在桌面建立“系统属性”的快捷方式</title><link>https://zc7.zcr7.qzz.io//post/zai-zhuo-mian-jian-li-%E2%80%9C-xi-tong-shu-xing-%E2%80%9D-de-kuai-jie-fang-shi.html</link><description>## 在桌面建立“系统属性”的快捷方式
 
 右键/新建快捷方式/目标：
 
  `sysdm.cpl ,4` 
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.24:13:34:24.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zai-zhuo-mian-jian-li-%E2%80%9C-xi-tong-shu-xing-%E2%80%9D-de-kuai-jie-fang-shi.html</guid><pubDate>Fri, 24 Oct 2025 05:30:33 +0000</pubDate></item><item><title>如何将开机启动项.ahk  固定到任务栏上？</title><link>https://z.zcr4.ip-ddns.com/post/ru-he-jiang-kai-ji-qi-dong-xiang-.ahk%20%20-gu-ding-dao-ren-wu-lan-shang-%EF%BC%9F.html</link><description>## 如何将开机启动项.ahk  固定到任务栏上？
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.24:13:34:24.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/zai-zhuo-mian-jian-li-%E2%80%9C-xi-tong-shu-xing-%E2%80%9D-de-kuai-jie-fang-shi.html</guid><pubDate>Fri, 24 Oct 2025 05:30:33 +0000</pubDate></item><item><title>如何将开机启动项.ahk  固定到任务栏上？</title><link>https://zc7.zcr7.qzz.io//post/ru-he-jiang-kai-ji-qi-dong-xiang-.ahk%20%20-gu-ding-dao-ren-wu-lan-shang-%EF%BC%9F.html</link><description>## 如何将开机启动项.ahk  固定到任务栏上？
 
 
 1.发送到桌面快捷方式
@@ -915,13 +915,13 @@ Microsoft Windows [版本 10.0.26100.6584]
 
 'C:\Program Files\AutoHotkey\AutoHotkey.exe' 'D:\ahk1.0\1\2\00   开机启动项.ahk'
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.24:13:23:50.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/ru-he-jiang-kai-ji-qi-dong-xiang-.ahk%20%20-gu-ding-dao-ren-wu-lan-shang-%EF%BC%9F.html</guid><pubDate>Fri, 24 Oct 2025 05:24:04 +0000</pubDate></item><item><title>outlook登录报错</title><link>https://z.zcr4.ip-ddns.com/post/outlook-deng-lu-bao-cuo.html</link><description>## outlook登录报错，如下
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.24:13:23:50.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/ru-he-jiang-kai-ji-qi-dong-xiang-.ahk%20%20-gu-ding-dao-ren-wu-lan-shang-%EF%BC%9F.html</guid><pubDate>Fri, 24 Oct 2025 05:24:04 +0000</pubDate></item><item><title>outlook登录报错</title><link>https://zc7.zcr7.qzz.io//post/outlook-deng-lu-bao-cuo.html</link><description>## outlook登录报错，如下
 
 
 ```
 
 发生了错误
-请稍后再试。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/outlook-deng-lu-bao-cuo.html</guid><pubDate>Fri, 24 Oct 2025 05:21:50 +0000</pubDate></item><item><title>桌面创建 firefox 不同帐号登录快捷方式</title><link>https://z.zcr4.ip-ddns.com/post/zhuo-mian-chuang-jian-%20firefox%20-bu-tong-zhang-hao-deng-lu-kuai-jie-fang-shi.html</link><description>## 桌面创建 firefox 不同帐号登录快捷方式
+请稍后再试。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/outlook-deng-lu-bao-cuo.html</guid><pubDate>Fri, 24 Oct 2025 05:21:50 +0000</pubDate></item><item><title>桌面创建 firefox 不同帐号登录快捷方式</title><link>https://zc7.zcr7.qzz.io//post/zhuo-mian-chuang-jian-%20firefox%20-bu-tong-zhang-hao-deng-lu-kuai-jie-fang-shi.html</link><description>## 桌面创建 firefox 不同帐号登录快捷方式
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.11:13:28:21.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
@@ -934,7 +934,7 @@ Microsoft Windows [版本 10.0.26100.6584]
 点击  创建新配置文件 /  下一步 / 请输入新的配置文件名称(E)：/ kevinzhcr /  完成
 
 配置文件: kevinzhcr
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zhuo-mian-chuang-jian-%20firefox%20-bu-tong-zhang-hao-deng-lu-kuai-jie-fang-shi.html</guid><pubDate>Sat, 11 Oct 2025 05:24:55 +0000</pubDate></item><item><title>加序号</title><link>https://z.zcr4.ip-ddns.com/post/jia-xu-hao.html</link><description>## 加序号
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/zhuo-mian-chuang-jian-%20firefox%20-bu-tong-zhang-hao-deng-lu-kuai-jie-fang-shi.html</guid><pubDate>Sat, 11 Oct 2025 05:24:55 +0000</pubDate></item><item><title>加序号</title><link>https://zc7.zcr7.qzz.io//post/jia-xu-hao.html</link><description>## 加序号
 
 
 ```
@@ -988,7 +988,7 @@ Return
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/jia-xu-hao.html</guid><pubDate>Tue, 07 Oct 2025 09:11:35 +0000</pubDate></item><item><title>制作节点订阅</title><link>https://z.zcr4.ip-ddns.com/post/zhi-zuo-jie-dian-ding-yue.html</link><description>## 制作节点订阅
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/jia-xu-hao.html</guid><pubDate>Tue, 07 Oct 2025 09:11:35 +0000</pubDate></item><item><title>制作节点订阅</title><link>https://zc7.zcr7.qzz.io//post/zhi-zuo-jie-dian-ding-yue.html</link><description>## 制作节点订阅
 
 
 ```
@@ -1078,7 +1078,7 @@ return
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zhi-zuo-jie-dian-ding-yue.html</guid><pubDate>Tue, 07 Oct 2025 08:44:47 +0000</pubDate></item><item><title>4 更新Github dns</title><link>https://z.zcr4.ip-ddns.com/post/4%20-geng-xin-Github%20dns.html</link><description>## 更新Github dns  
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/zhi-zuo-jie-dian-ding-yue.html</guid><pubDate>Tue, 07 Oct 2025 08:44:47 +0000</pubDate></item><item><title>4 更新Github dns</title><link>https://zc7.zcr7.qzz.io//post/4%20-geng-xin-Github%20dns.html</link><description>## 更新Github dns  
 
 
 
@@ -1151,7 +1151,7 @@ rm '$_hosts'
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/4%20-geng-xin-Github%20dns.html</guid><pubDate>Tue, 07 Oct 2025 08:36:00 +0000</pubDate></item><item><title>3 快捷运行 powershell 管理员</title><link>https://z.zcr4.ip-ddns.com/post/3%20-kuai-jie-yun-xing-%20powershell%20-guan-li-yuan.html</link><description>## 快捷运行 powershell 管理员
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/4%20-geng-xin-Github%20dns.html</guid><pubDate>Tue, 07 Oct 2025 08:36:00 +0000</pubDate></item><item><title>3 快捷运行 powershell 管理员</title><link>https://zc7.zcr7.qzz.io//post/3%20-kuai-jie-yun-xing-%20powershell%20-guan-li-yuan.html</link><description>## 快捷运行 powershell 管理员
 
 
 ```
@@ -1168,7 +1168,7 @@ Return
 
 ;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ   F5 &amp; p  管理员powershell  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 
 
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/3%20-kuai-jie-yun-xing-%20powershell%20-guan-li-yuan.html</guid><pubDate>Tue, 07 Oct 2025 08:30:52 +0000</pubDate></item><item><title>1 创建工具组窗口choice123</title><link>https://z.zcr4.ip-ddns.com/post/1%20-chuang-jian-gong-ju-zu-chuang-kou-choice123.html</link><description>## 创建工具组窗口
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/3%20-kuai-jie-yun-xing-%20powershell%20-guan-li-yuan.html</guid><pubDate>Tue, 07 Oct 2025 08:30:52 +0000</pubDate></item><item><title>1 创建工具组窗口choice123</title><link>https://zc7.zcr7.qzz.io//post/1%20-chuang-jian-gong-ju-zu-chuang-kou-choice123.html</link><description>## 创建工具组窗口
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.07:14:59:56.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
@@ -1647,7 +1647,7 @@ GuiClose:
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/1%20-chuang-jian-gong-ju-zu-chuang-kou-choice123.html</guid><pubDate>Tue, 07 Oct 2025 06:59:32 +0000</pubDate></item><item><title>2 合并当前目录下所有的txt</title><link>https://z.zcr4.ip-ddns.com/post/2%20-he-bing-dang-qian-mu-lu-xia-suo-you-de-txt.html</link><description>## 合并当前目录下所有的txt
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/1%20-chuang-jian-gong-ju-zu-chuang-kou-choice123.html</guid><pubDate>Tue, 07 Oct 2025 06:59:32 +0000</pubDate></item><item><title>2 合并当前目录下所有的txt</title><link>https://zc7.zcr7.qzz.io//post/2%20-he-bing-dang-qian-mu-lu-xia-suo-you-de-txt.html</link><description>## 合并当前目录下所有的txt
 
 ```
 
@@ -1678,7 +1678,7 @@ return
 
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.07:14:52:54.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/2%20-he-bing-dang-qian-mu-lu-xia-suo-you-de-txt.html</guid><pubDate>Tue, 07 Oct 2025 06:54:31 +0000</pubDate></item><item><title>禁用系统的快捷键</title><link>https://z.zcr4.ip-ddns.com/post/jin-yong-xi-tong-de-kuai-jie-jian.html</link><description>
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.07:14:52:54.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/2%20-he-bing-dang-qian-mu-lu-xia-suo-you-de-txt.html</guid><pubDate>Tue, 07 Oct 2025 06:54:31 +0000</pubDate></item><item><title>禁用系统的快捷键</title><link>https://zc7.zcr7.qzz.io//post/jin-yong-xi-tong-de-kuai-jie-jian.html</link><description>
 
  ##  禁用系统的  win+x 快捷键
 
@@ -1696,7 +1696,7 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
 
 - 双击该值，将其数值数据设置为   X
 
-- 点击“确定”，然后注销并重新登录（或重启资源管理器）使设置生效。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/jin-yong-xi-tong-de-kuai-jie-jian.html</guid><pubDate>Sun, 05 Oct 2025 15:10:39 +0000</pubDate></item><item><title>右键添加 powershell 7</title><link>https://z.zcr4.ip-ddns.com/post/you-jian-tian-jia-%20powershell%207.html</link><description>右键菜单 目录背景 → %V     
+- 点击“确定”，然后注销并重新登录（或重启资源管理器）使设置生效。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/jin-yong-xi-tong-de-kuai-jie-jian.html</guid><pubDate>Sun, 05 Oct 2025 15:10:39 +0000</pubDate></item><item><title>右键添加 powershell 7</title><link>https://zc7.zcr7.qzz.io//post/you-jian-tian-jia-%20powershell%207.html</link><description>右键菜单 目录背景 → %V     
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\background\shell\PowerShell7Admin\command
 
@@ -1839,7 +1839,7 @@ pwsh.exe -noexit -WorkingDirectory '%1'
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/you-jian-tian-jia-%20powershell%207.html</guid><pubDate>Fri, 03 Oct 2025 08:43:23 +0000</pubDate></item><item><title>安装 PowerShell 7+ 的方法</title><link>https://z.zcr4.ip-ddns.com/post/an-zhuang-%20PowerShell%207%2B%20-de-fang-fa.html</link><description>## 安装 PowerShell 7+ 的方法
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/you-jian-tian-jia-%20powershell%207.html</guid><pubDate>Fri, 03 Oct 2025 08:43:23 +0000</pubDate></item><item><title>安装 PowerShell 7+ 的方法</title><link>https://zc7.zcr7.qzz.io//post/an-zhuang-%20PowerShell%207%2B%20-de-fang-fa.html</link><description>## 安装 PowerShell 7+ 的方法
 
 ### 方法一：用 Winget（推荐，最简单）
 
@@ -1879,7 +1879,7 @@ PowerShell-7.x.x-win-x64.msi
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/10.03:13:28:22.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
-Windows PowerShell 5.1（系统自带），这个版本已经停更了。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/an-zhuang-%20PowerShell%207%2B%20-de-fang-fa.html</guid><pubDate>Fri, 03 Oct 2025 05:18:35 +0000</pubDate></item><item><title>立体化文字</title><link>https://z.zcr4.ip-ddns.com/post/li-ti-hua-wen-zi.html</link><description>## 立体化文字
+Windows PowerShell 5.1（系统自带），这个版本已经停更了。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/an-zhuang-%20PowerShell%207%2B%20-de-fang-fa.html</guid><pubDate>Fri, 03 Oct 2025 05:18:35 +0000</pubDate></item><item><title>立体化文字</title><link>https://zc7.zcr7.qzz.io//post/li-ti-hua-wen-zi.html</link><description>## 立体化文字
 
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.23:10:42:56.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
@@ -1917,29 +1917,29 @@ Windows PowerShell 5.1（系统自带），这个版本已经停更了。</descr
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/li-ti-hua-wen-zi.html</guid><pubDate>Tue, 23 Sep 2025 03:20:40 +0000</pubDate></item><item><title>绘制梯形 (需转曲)</title><link>https://z.zcr4.ip-ddns.com/post/hui-zhi-ti-xing-%20%28-xu-zhuan-qu-%29.html</link><description>## 绘制梯形 (需转曲)
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/li-ti-hua-wen-zi.html</guid><pubDate>Tue, 23 Sep 2025 03:20:40 +0000</pubDate></item><item><title>绘制梯形 (需转曲)</title><link>https://zc7.zcr7.qzz.io//post/hui-zhi-ti-xing-%20%28-xu-zhuan-qu-%29.html</link><description>## 绘制梯形 (需转曲)
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.23:00:34:30.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/hui-zhi-ti-xing-%20%28-xu-zhuan-qu-%29.html</guid><pubDate>Mon, 22 Sep 2025 16:35:50 +0000</pubDate></item><item><title>绘制圆柱体</title><link>https://z.zcr4.ip-ddns.com/post/hui-zhi-yuan-zhu-ti.html</link><description>##  绘制圆柱体
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.23:00:34:30.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/hui-zhi-ti-xing-%20%28-xu-zhuan-qu-%29.html</guid><pubDate>Mon, 22 Sep 2025 16:35:50 +0000</pubDate></item><item><title>绘制圆柱体</title><link>https://zc7.zcr7.qzz.io//post/hui-zhi-yuan-zhu-ti.html</link><description>##  绘制圆柱体
 
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.23:00:24:32.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/hui-zhi-yuan-zhu-ti.html</guid><pubDate>Mon, 22 Sep 2025 16:25:06 +0000</pubDate></item><item><title>快速绘制立方体</title><link>https://z.zcr4.ip-ddns.com/post/kuai-su-hui-zhi-li-fang-ti.html</link><description>##  快速绘制立方体
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.23:00:24:32.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/hui-zhi-yuan-zhu-ti.html</guid><pubDate>Mon, 22 Sep 2025 16:25:06 +0000</pubDate></item><item><title>快速绘制立方体</title><link>https://zc7.zcr7.qzz.io//post/kuai-su-hui-zhi-li-fang-ti.html</link><description>##  快速绘制立方体
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.23:00:06:38.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/kuai-su-hui-zhi-li-fang-ti.html</guid><pubDate>Mon, 22 Sep 2025 16:07:17 +0000</pubDate></item><item><title>快速复制并镜像</title><link>https://z.zcr4.ip-ddns.com/post/kuai-su-fu-zhi-bing-jing-xiang.html</link><description>## 快速复制并镜像
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.23:00:06:38.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/kuai-su-hui-zhi-li-fang-ti.html</guid><pubDate>Mon, 22 Sep 2025 16:07:17 +0000</pubDate></item><item><title>快速复制并镜像</title><link>https://zc7.zcr7.qzz.io//post/kuai-su-fu-zhi-bing-jing-xiang.html</link><description>## 快速复制并镜像
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.22:23:56:17.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/kuai-su-fu-zhi-bing-jing-xiang.html</guid><pubDate>Mon, 22 Sep 2025 15:57:18 +0000</pubDate></item><item><title>倾斜的椭圆</title><link>https://z.zcr4.ip-ddns.com/post/qing-xie-de-tuo-yuan.html</link><description>## 倾斜的椭圆
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.22:23:56:17.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/kuai-su-fu-zhi-bing-jing-xiang.html</guid><pubDate>Mon, 22 Sep 2025 15:57:18 +0000</pubDate></item><item><title>倾斜的椭圆</title><link>https://zc7.zcr7.qzz.io//post/qing-xie-de-tuo-yuan.html</link><description>## 倾斜的椭圆
 
 [教程](https://www.youtube.com/watch?v=WS4O2mwQERc)
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.22:23:47:59.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/qing-xie-de-tuo-yuan.html</guid><pubDate>Mon, 22 Sep 2025 15:49:52 +0000</pubDate></item><item><title>给就文字添加方框</title><link>https://z.zcr4.ip-ddns.com/post/gei-jiu-wen-zi-tian-jia-fang-kuang.html</link><description>##  给就文字添加方框
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.22:23:47:59.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/qing-xie-de-tuo-yuan.html</guid><pubDate>Mon, 22 Sep 2025 15:49:52 +0000</pubDate></item><item><title>给就文字添加方框</title><link>https://zc7.zcr7.qzz.io//post/gei-jiu-wen-zi-tian-jia-fang-kuang.html</link><description>##  给就文字添加方框
 
 按住shift，单击左侧工具栏的方框工具
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.22:23:35:34.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/gei-jiu-wen-zi-tian-jia-fang-kuang.html</guid><pubDate>Mon, 22 Sep 2025 15:37:10 +0000</pubDate></item><item><title>cdr 实例 2</title><link>https://z.zcr4.ip-ddns.com/post/cdr%20-shi-li-%202.html</link><description>##  cdr 实例 2
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.22:23:35:34.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/gei-jiu-wen-zi-tian-jia-fang-kuang.html</guid><pubDate>Mon, 22 Sep 2025 15:37:10 +0000</pubDate></item><item><title>cdr 实例 2</title><link>https://zc7.zcr7.qzz.io//post/cdr%20-shi-li-%202.html</link><description>##  cdr 实例 2
 
 [教程](https://www.youtube.com/watch?v=WqOAZGUgC34)
 
@@ -1974,7 +1974,7 @@ Windows PowerShell 5.1（系统自带），这个版本已经停更了。</descr
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cdr%20-shi-li-%202.html</guid><pubDate>Mon, 22 Sep 2025 12:15:56 +0000</pubDate></item><item><title>智能填充颜色</title><link>https://z.zcr4.ip-ddns.com/post/zhi-neng-tian-chong-yan-se.html</link><description>## 智能填充颜色
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/cdr%20-shi-li-%202.html</guid><pubDate>Mon, 22 Sep 2025 12:15:56 +0000</pubDate></item><item><title>智能填充颜色</title><link>https://zc7.zcr7.qzz.io//post/zhi-neng-tian-chong-yan-se.html</link><description>## 智能填充颜色
 
 
 
@@ -1984,19 +1984,19 @@ Windows PowerShell 5.1（系统自带），这个版本已经停更了。</descr
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.22:18:30:09.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.22:18:30:51.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zhi-neng-tian-chong-yan-se.html</guid><pubDate>Mon, 22 Sep 2025 10:29:06 +0000</pubDate></item><item><title>coreldraw 中，如何设置成靠近圆心时，就会显示出圆心来？</title><link>https://z.zcr4.ip-ddns.com/post/coreldraw%20-zhong-%EF%BC%8C-ru-he-she-zhi-cheng-kao-jin-yuan-xin-shi-%EF%BC%8C-jiu-hui-xian-shi-chu-yuan-xin-lai-%EF%BC%9F.html</link><description>## 如何设置成靠近圆心时，就会显示出圆心来？
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.22:18:30:51.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/zhi-neng-tian-chong-yan-se.html</guid><pubDate>Mon, 22 Sep 2025 10:29:06 +0000</pubDate></item><item><title>coreldraw 中，如何设置成靠近圆心时，就会显示出圆心来？</title><link>https://zc7.zcr7.qzz.io//post/coreldraw%20-zhong-%EF%BC%8C-ru-he-she-zhi-cheng-kao-jin-yuan-xin-shi-%EF%BC%8C-jiu-hui-xian-shi-chu-yuan-xin-lai-%EF%BC%9F.html</link><description>## 如何设置成靠近圆心时，就会显示出圆心来？
 
 [教程](https://www.youtube.com/watch?v=w01TZ2Wm4yY)
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.22:18:22:54.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/coreldraw%20-zhong-%EF%BC%8C-ru-he-she-zhi-cheng-kao-jin-yuan-xin-shi-%EF%BC%8C-jiu-hui-xian-shi-chu-yuan-xin-lai-%EF%BC%9F.html</guid><pubDate>Mon, 22 Sep 2025 10:25:12 +0000</pubDate></item><item><title>关闭五笔shift</title><link>https://z.zcr4.ip-ddns.com/post/guan-bi-wu-bi-shift.html</link><description>## 关闭五笔shift快捷键
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im3/09.22:18:22:54.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/coreldraw%20-zhong-%EF%BC%8C-ru-he-she-zhi-cheng-kao-jin-yuan-xin-shi-%EF%BC%8C-jiu-hui-xian-shi-chu-yuan-xin-lai-%EF%BC%9F.html</guid><pubDate>Mon, 22 Sep 2025 10:25:12 +0000</pubDate></item><item><title>关闭五笔shift</title><link>https://zc7.zcr7.qzz.io//post/guan-bi-wu-bi-shift.html</link><description>## 关闭五笔shift快捷键
 
-&lt;img width='1133' height='832' alt='Image' src='https://github.com/user-attachments/assets/a8ba37ce-5668-4963-8dba-fc4ccbd02f06' /&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/guan-bi-wu-bi-shift.html</guid><pubDate>Sat, 20 Sep 2025 07:12:51 +0000</pubDate></item><item><title>调整 cron 时间</title><link>https://z.zcr4.ip-ddns.com/post/diao-zheng-%20cron%20-shi-jian.html</link><description>
+&lt;img width='1133' height='832' alt='Image' src='https://github.com/user-attachments/assets/a8ba37ce-5668-4963-8dba-fc4ccbd02f06' /&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/guan-bi-wu-bi-shift.html</guid><pubDate>Sat, 20 Sep 2025 07:12:51 +0000</pubDate></item><item><title>调整 cron 时间</title><link>https://zc7.zcr7.qzz.io//post/diao-zheng-%20cron%20-shi-jian.html</link><description>
 ## 方案一：调整 cron 时间 设置为早上7:00运行
 
 - cron: '0 23 * * *'
 
-- 这个时间默认不是北京时间，它表示的是服务器系统时区的早上 7:00。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/diao-zheng-%20cron%20-shi-jian.html</guid><pubDate>Mon, 15 Sep 2025 00:47:46 +0000</pubDate></item><item><title>ASP</title><link>https://z.zcr4.ip-ddns.com/post/ASP.html</link><description>## 教程
+- 这个时间默认不是北京时间，它表示的是服务器系统时区的早上 7:00。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/diao-zheng-%20cron%20-shi-jian.html</guid><pubDate>Mon, 15 Sep 2025 00:47:46 +0000</pubDate></item><item><title>ASP</title><link>https://zc7.zcr7.qzz.io//post/ASP.html</link><description>## 教程
 https://www.youtube.com/watch?v=PGWiaf48xvU&amp;t=394s
 
 ## 准备
@@ -2131,7 +2131,7 @@ zz.Run '''D:\ahk1.0\Lib\6\BTP.bat''', 0, False
 ' zz.Run '''D:\ahk1.0\Lib\6\BTPus.bat''', 0, True
 
 
-' 这样 BTPus.bat 完成后才会执行 BTP.bat。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/ASP.html</guid><pubDate>Sat, 13 Sep 2025 05:08:29 +0000</pubDate></item><item><title>win10文件资源管理器样式选择</title><link>https://z.zcr4.ip-ddns.com/post/win10-wen-jian-zi-yuan-guan-li-qi-yang-shi-xuan-ze.html</link><description>## 管理员运行　文件资源管理器样式选择.bat
+' 这样 BTPus.bat 完成后才会执行 BTP.bat。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/ASP.html</guid><pubDate>Sat, 13 Sep 2025 05:08:29 +0000</pubDate></item><item><title>win10文件资源管理器样式选择</title><link>https://zc7.zcr7.qzz.io//post/win10-wen-jian-zi-yuan-guan-li-qi-yang-shi-xuan-ze.html</link><description>## 管理员运行　文件资源管理器样式选择.bat
 
 
 ```
@@ -2184,7 +2184,7 @@ pause
 ##  win11
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/09.03:23:25:53.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/win10-wen-jian-zi-yuan-guan-li-qi-yang-shi-xuan-ze.html</guid><pubDate>Wed, 03 Sep 2025 15:24:38 +0000</pubDate></item><item><title>发邮件 send.py</title><link>https://z.zcr4.ip-ddns.com/post/fa-you-jian-%20send.py.html</link><description>## 发邮件send.py
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/09.03:23:25:53.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/win10-wen-jian-zi-yuan-guan-li-qi-yang-shi-xuan-ze.html</guid><pubDate>Wed, 03 Sep 2025 15:24:38 +0000</pubDate></item><item><title>发邮件 send.py</title><link>https://zc7.zcr7.qzz.io//post/fa-you-jian-%20send.py.html</link><description>## 发邮件send.py
 
 - https://www.youtube.com/watch?v=hfx7ywW0QR4
 
@@ -2294,7 +2294,7 @@ print(email)
 
 ##说明：
 
-tt@zcr7.xx.kg   因为zcr7.xx.kg被添加到了自定义域，所以名字为任意  比如：qwfasdfahh@zcr7.xx.kg 也可以。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/fa-you-jian-%20send.py.html</guid><pubDate>Tue, 02 Sep 2025 14:43:06 +0000</pubDate></item><item><title>注册表法 禁用系统组合键 win+x</title><link>https://z.zcr4.ip-ddns.com/post/zhu-ce-biao-fa-%20-jin-yong-xi-tong-zu-he-jian-%20win%2Bx.html</link><description>## 注册表法 禁用系统组合键 win+x
+tt@zcr7.xx.kg   因为zcr7.xx.kg被添加到了自定义域，所以名字为任意  比如：qwfasdfahh@zcr7.xx.kg 也可以。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/fa-you-jian-%20send.py.html</guid><pubDate>Tue, 02 Sep 2025 14:43:06 +0000</pubDate></item><item><title>注册表法 禁用系统组合键 win+x</title><link>https://zc7.zcr7.qzz.io//post/zhu-ce-biao-fa-%20-jin-yong-xi-tong-zu-he-jian-%20win%2Bx.html</link><description>## 注册表法 禁用系统组合键 win+x
 
 
 HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
@@ -2303,7 +2303,7 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
 
 将新值的名称设置为       DisabledHotkeys
 
-双击该值，将其数值数据设置为 58（十进制数）。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zhu-ce-biao-fa-%20-jin-yong-xi-tong-zu-he-jian-%20win%2Bx.html</guid><pubDate>Mon, 01 Sep 2025 15:22:57 +0000</pubDate></item><item><title>合并N个 txt 文件</title><link>https://z.zcr4.ip-ddns.com/post/he-bing-N-ge-%20txt%20-wen-jian.html</link><description>## 合并N个 txt 文件
+双击该值，将其数值数据设置为 58（十进制数）。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/zhu-ce-biao-fa-%20-jin-yong-xi-tong-zu-he-jian-%20win%2Bx.html</guid><pubDate>Mon, 01 Sep 2025 15:22:57 +0000</pubDate></item><item><title>合并N个 txt 文件</title><link>https://zc7.zcr7.qzz.io//post/he-bing-N-ge-%20txt%20-wen-jian.html</link><description>## 合并N个 txt 文件
 
 shift+右键文件夹  选 PowerShell
 
@@ -2320,7 +2320,7 @@ shift+右键文件夹  选 PowerShell
 
 ##  批处理文件
 
-- 合并txt.bat  放到txt文件夹中。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/he-bing-N-ge-%20txt%20-wen-jian.html</guid><pubDate>Sun, 31 Aug 2025 12:46:36 +0000</pubDate></item><item><title>系统用户 添加环境变量 批处理文件</title><link>https://z.zcr4.ip-ddns.com/post/xi-tong-yong-hu-%20-tian-jia-huan-jing-bian-liang-%20-pi-chu-li-wen-jian.html</link><description>
+- 合并txt.bat  放到txt文件夹中。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/he-bing-N-ge-%20txt%20-wen-jian.html</guid><pubDate>Sun, 31 Aug 2025 12:46:36 +0000</pubDate></item><item><title>系统用户 添加环境变量 批处理文件</title><link>https://zc7.zcr7.qzz.io//post/xi-tong-yong-hu-%20-tian-jia-huan-jing-bian-liang-%20-pi-chu-li-wen-jian.html</link><description>
 ## 变量名(N)：zf5 变量值(V): 0712 变量名(N)：zf6 变量值(V): @Zb8506 变量名(N)：zf7 变量值(V): Zb8506 变量名(N)：zf8 变量值(V): @zb8506 
 
 将以上内容添加到系统变量的bat文件AddCustomSystemVars.bat
@@ -2348,7 +2348,7 @@ echo   zf6=@Zb8506
 echo   zf7=Zb8506
 echo   zf8=@zb8506
 echo.
-echo 你需要重新打开 CMD 或 PowerShell 才能使用这些变量。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/xi-tong-yong-hu-%20-tian-jia-huan-jing-bian-liang-%20-pi-chu-li-wen-jian.html</guid><pubDate>Tue, 26 Aug 2025 03:32:36 +0000</pubDate></item><item><title>博客Notion</title><link>https://z.zcr4.ip-ddns.com/post/bo-ke-Notion.html</link><description>## 博客Notion
+echo 你需要重新打开 CMD 或 PowerShell 才能使用这些变量。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/xi-tong-yong-hu-%20-tian-jia-huan-jing-bian-liang-%20-pi-chu-li-wen-jian.html</guid><pubDate>Tue, 26 Aug 2025 03:32:36 +0000</pubDate></item><item><title>博客Notion</title><link>https://zc7.zcr7.qzz.io//post/bo-ke-Notion.html</link><description>## 博客Notion
 
 [教程](https://www.youtube.com/watch?v=ZuXamAhSFeQ&amp;t=1249s)
 
@@ -2456,7 +2456,7 @@ https://77.zcr5.xx.kg/
 https://77.zcr7.qzz.io/
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.06:21:15:52.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/bo-ke-Notion.html</guid><pubDate>Wed, 06 Aug 2025 10:32:04 +0000</pubDate></item><item><title>查看windows11 序列号</title><link>https://z.zcr4.ip-ddns.com/post/cha-kan-windows11%20-xu-lie-hao.html</link><description>## 查看windows11 序列号
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/bo-ke-Notion.html</guid><pubDate>Wed, 06 Aug 2025 10:32:04 +0000</pubDate></item><item><title>查看windows11 序列号</title><link>https://zc7.zcr7.qzz.io//post/cha-kan-windows11%20-xu-lie-hao.html</link><description>## 查看windows11 序列号
 
 VK7JG-NPHTM-C97JM-9MPGT-3V66T
 DNH2Q-2FBYM-RJCVH-XDP3D-JHVRX
@@ -2477,7 +2477,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtecti
 ` (Get-WmiObject –query ‘select * from SoftwareLicensingService’).OA3xOriginalProductKey  `
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im2/08.04:23:19:32.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-kan-windows11%20-xu-lie-hao.html</guid><pubDate>Mon, 04 Aug 2025 15:05:05 +0000</pubDate></item><item><title>给邮箱添加新帐号</title><link>https://z.zcr4.ip-ddns.com/post/gei-you-xiang-tian-jia-xin-zhang-hao.html</link><description>## 给邮箱添加新帐号
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/cha-kan-windows11%20-xu-lie-hao.html</guid><pubDate>Mon, 04 Aug 2025 15:05:05 +0000</pubDate></item><item><title>给邮箱添加新帐号</title><link>https://zc7.zcr7.qzz.io//post/gei-you-xiang-tian-jia-xin-zhang-hao.html</link><description>## 给邮箱添加新帐号
 
 [教程](https://www.youtube.com/watch?v=sPXzi0SyYmA)
 
@@ -2535,7 +2535,7 @@ zcr0712925@gmail.com
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/gei-you-xiang-tian-jia-xin-zhang-hao.html</guid><pubDate>Mon, 04 Aug 2025 04:19:33 +0000</pubDate></item><item><title>给邮件设置过滤</title><link>https://z.zcr4.ip-ddns.com/post/gei-you-jian-she-zhi-guo-lv.html</link><description>## 给邮件设置过滤
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/gei-you-xiang-tian-jia-xin-zhang-hao.html</guid><pubDate>Mon, 04 Aug 2025 04:19:33 +0000</pubDate></item><item><title>给邮件设置过滤</title><link>https://zc7.zcr7.qzz.io//post/gei-you-jian-she-zhi-guo-lv.html</link><description>## 给邮件设置过滤
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.04:11:12:31.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
@@ -2560,7 +2560,7 @@ zcr0712925@gmail.com
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/gei-you-jian-she-zhi-guo-lv.html</guid><pubDate>Mon, 04 Aug 2025 03:15:45 +0000</pubDate></item><item><title>直接在第52秒打开油管视频的方法</title><link>https://z.zcr4.ip-ddns.com/post/zhi-jie-zai-di-52-miao-da-kai-you-guan-shi-pin-de-fang-fa.html</link><description>##  直接在第52秒打开油管视频的方法
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/gei-you-jian-she-zhi-guo-lv.html</guid><pubDate>Mon, 04 Aug 2025 03:15:45 +0000</pubDate></item><item><title>直接在第52秒打开油管视频的方法</title><link>https://zc7.zcr7.qzz.io//post/zhi-jie-zai-di-52-miao-da-kai-you-guan-shi-pin-de-fang-fa.html</link><description>##  直接在第52秒打开油管视频的方法
 
 - https://www.youtube.com/watch?v=hfx7ywW0QR4
 
@@ -2570,7 +2570,7 @@ zcr0712925@gmail.com
 
 https://www.youtube.com/watch?v=hfx7ywW0QR4&amp;t=52s
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.03:23:44:34.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zhi-jie-zai-di-52-miao-da-kai-you-guan-shi-pin-de-fang-fa.html</guid><pubDate>Sun, 03 Aug 2025 15:43:37 +0000</pubDate></item><item><title>send.py</title><link>https://z.zcr4.ip-ddns.com/post/send.py.html</link><description>## 发送邮件 send.py
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.03:23:44:34.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/zhi-jie-zai-di-52-miao-da-kai-you-guan-shi-pin-de-fang-fa.html</guid><pubDate>Sun, 03 Aug 2025 15:43:37 +0000</pubDate></item><item><title>send.py</title><link>https://zc7.zcr7.qzz.io//post/send.py.html</link><description>## 发送邮件 send.py
 
 ```
 F1 &amp; p:: 
@@ -2666,7 +2666,7 @@ resend.api_key = 're_btprifPM_GKtJH6v9fA7uNt5pEECUwrw8'
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/send.py.html</guid><pubDate>Sun, 03 Aug 2025 11:20:44 +0000</pubDate></item><item><title>域名续费提醒</title><link>https://z.zcr4.ip-ddns.com/post/yu-ming-xu-fei-ti-xing.html</link><description>## 域名续费提醒
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/send.py.html</guid><pubDate>Sun, 03 Aug 2025 11:20:44 +0000</pubDate></item><item><title>域名续费提醒</title><link>https://zc7.zcr7.qzz.io//post/yu-ming-xu-fei-ti-xing.html</link><description>## 域名续费提醒
 
 - https://invi.zcr7.xx.kg/   zcrzb
 
@@ -2713,7 +2713,7 @@ invi.zcr7.xx.kg/*
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/08.02:16:17:53.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
-注意：此机器人是要通过搜索 `yumingxufei_bot` 后才能看到的。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/yu-ming-xu-fei-ti-xing.html</guid><pubDate>Sat, 02 Aug 2025 08:01:40 +0000</pubDate></item><item><title>域名续费提醒</title><link>https://z.zcr4.ip-ddns.com/post/yu-ming-xu-fei-ti-xing.html</link><description>## 域名续费提醒
+注意：此机器人是要通过搜索 `yumingxufei_bot` 后才能看到的。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/yu-ming-xu-fei-ti-xing.html</guid><pubDate>Sat, 02 Aug 2025 08:01:40 +0000</pubDate></item><item><title>域名续费提醒</title><link>https://zc7.zcr7.qzz.io//post/yu-ming-xu-fei-ti-xing.html</link><description>## 域名续费提醒
 
 [教程](https://www.youtube.com/watch?v=1e7AWZy9rLY)
 
@@ -2727,7 +2727,7 @@ https://github.com/zyy200712/SubsTracker/blob/master/index.js
 
 ## notifyx 微信登录
 
-- https://www.notifyx.cn/console/key。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/yu-ming-xu-fei-ti-xing.html</guid><pubDate>Sat, 02 Aug 2025 08:01:00 +0000</pubDate></item><item><title>使用python脚本发送邮件</title><link>https://z.zcr4.ip-ddns.com/post/shi-yong-python-jiao-ben-fa-song-you-jian.html</link><description>## 使用python脚本发送邮件
+- https://www.notifyx.cn/console/key。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/yu-ming-xu-fei-ti-xing.html</guid><pubDate>Sat, 02 Aug 2025 08:01:00 +0000</pubDate></item><item><title>使用python脚本发送邮件</title><link>https://zc7.zcr7.qzz.io//post/shi-yong-python-jiao-ben-fa-song-you-jian.html</link><description>## 使用python脚本发送邮件
 
   [教程](https://www.youtube.com/watch?v=hfx7ywW0QR4)
 
@@ -2833,10 +2833,10 @@ return
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/shi-yong-python-jiao-ben-fa-song-you-jian.html</guid><pubDate>Sat, 02 Aug 2025 07:54:05 +0000</pubDate></item><item><title>火绒安全软件无法修改hosts文件</title><link>https://z.zcr4.ip-ddns.com/post/huo-rong-an-quan-ruan-jian-wu-fa-xiu-gai-hosts-wen-jian.html</link><description>##  火绒安全软件无法修改hosts文件
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/shi-yong-python-jiao-ben-fa-song-you-jian.html</guid><pubDate>Sat, 02 Aug 2025 07:54:05 +0000</pubDate></item><item><title>火绒安全软件无法修改hosts文件</title><link>https://zc7.zcr7.qzz.io//post/huo-rong-an-quan-ruan-jian-wu-fa-xiu-gai-hosts-wen-jian.html</link><description>##  火绒安全软件无法修改hosts文件
 
 
-- 点击&lt;a href='https://bbs.huorong.cn/forum.php?mod=viewthread&amp;action=printable&amp;tid=141158'&gt;这里&lt;/a&gt;查看原帖。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/huo-rong-an-quan-ruan-jian-wu-fa-xiu-gai-hosts-wen-jian.html</guid><pubDate>Sun, 27 Jul 2025 16:02:35 +0000</pubDate></item><item><title>安装Windows和Office</title><link>https://z.zcr4.ip-ddns.com/post/an-zhuang-Windows-he-Office.html</link><description>## 安装Windows和Office
+- 点击&lt;a href='https://bbs.huorong.cn/forum.php?mod=viewthread&amp;action=printable&amp;tid=141158'&gt;这里&lt;/a&gt;查看原帖。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/huo-rong-an-quan-ruan-jian-wu-fa-xiu-gai-hosts-wen-jian.html</guid><pubDate>Sun, 27 Jul 2025 16:02:35 +0000</pubDate></item><item><title>安装Windows和Office</title><link>https://zc7.zcr7.qzz.io//post/an-zhuang-Windows-he-Office.html</link><description>## 安装Windows和Office
 
 - https://massgrave.dev/
 
@@ -2866,7 +2866,7 @@ return
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.24:23:27:46.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/an-zhuang-Windows-he-Office.html</guid><pubDate>Thu, 24 Jul 2025 15:30:17 +0000</pubDate></item><item><title>微软账号登录时0x80190001报错</title><link>https://z.zcr4.ip-ddns.com/post/wei-ruan-zhang-hao-deng-lu-shi-0x80190001-bao-cuo.html</link><description>## 微软账号登录时0x80190001报错
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/an-zhuang-Windows-he-Office.html</guid><pubDate>Thu, 24 Jul 2025 15:30:17 +0000</pubDate></item><item><title>微软账号登录时0x80190001报错</title><link>https://zc7.zcr7.qzz.io//post/wei-ruan-zhang-hao-deng-lu-shi-0x80190001-bao-cuo.html</link><description>## 微软账号登录时0x80190001报错
 
 - https://blog.csdn.net/qq_66040869/article/details/143462719
 
@@ -2884,7 +2884,7 @@ return
 ### 登录成功
 
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.24:23:13:05.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/wei-ruan-zhang-hao-deng-lu-shi-0x80190001-bao-cuo.html</guid><pubDate>Thu, 24 Jul 2025 15:12:10 +0000</pubDate></item><item><title>Ahk2.ahk  7.13</title><link>https://z.zcr4.ip-ddns.com/post/Ahk2.ahk%20%207.13.html</link><description>```
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.24:23:13:05.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/wei-ruan-zhang-hao-deng-lu-shi-0x80190001-bao-cuo.html</guid><pubDate>Thu, 24 Jul 2025 15:12:10 +0000</pubDate></item><item><title>Ahk2.ahk  7.13</title><link>https://zc7.zcr7.qzz.io//post/Ahk2.ahk%20%207.13.html</link><description>```
 
 #Requires AutoHotkey v1.1.36
 Menu, Tray, Icon, %A_ScriptDir%\Lib\0\Library.ico  ; 自定义托盘图标
@@ -3609,7 +3609,7 @@ ProcessExist(exe){		   ;一个自定义函数,根据自定义函数的返回值�
 }
 ;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  Rctrl &amp; 4  打开 微信    ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 00014-1062
 
-;#Persistent                     ;确保脚本常驻：保证脚本不因长时间未使用而自动退出。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Ahk2.ahk%20%207.13.html</guid><pubDate>Sun, 13 Jul 2025 07:44:41 +0000</pubDate></item><item><title>ahk777.ahk</title><link>https://z.zcr4.ip-ddns.com/post/ahk777.ahk.html</link><description>```
+;#Persistent                     ;确保脚本常驻：保证脚本不因长时间未使用而自动退出。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Ahk2.ahk%20%207.13.html</guid><pubDate>Sun, 13 Jul 2025 07:44:41 +0000</pubDate></item><item><title>ahk777.ahk</title><link>https://zc7.zcr7.qzz.io//post/ahk777.ahk.html</link><description>```
 
 CoordMode, Mouse, Screen
 
@@ -3697,7 +3697,7 @@ and cos_class != 'ConsoleWindowClass')
 {
 	SendInput {Ctrl Down}c{Ctrl Up}
 	ClipWait, , 1   
-; 等待，一直到剪贴板包含数据。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/ahk777.ahk.html</guid><pubDate>Sun, 13 Jul 2025 07:43:05 +0000</pubDate></item><item><title>Ahk1.1.ahk  老版  1_2</title><link>https://z.zcr4.ip-ddns.com/post/Ahk1.1.ahk%20%20-lao-ban-%20%201_2.html</link><description>```
+; 等待，一直到剪贴板包含数据。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/ahk777.ahk.html</guid><pubDate>Sun, 13 Jul 2025 07:43:05 +0000</pubDate></item><item><title>Ahk1.1.ahk  老版  1_2</title><link>https://zc7.zcr7.qzz.io//post/Ahk1.1.ahk%20%20-lao-ban-%20%201_2.html</link><description>```
 
 &lt;!1::
 send, {home}{shiftdown}{end}{shiftup}^c
@@ -3890,7 +3890,7 @@ Return
 F5 &amp; o::
 	MouseGetPos, mouseX, mouseY
 PixelGetColor, color, %mouseX%, %mouseY%, RGB ; 调用 PixelGetColor 函数，获得 RGB 值，并赋值给 color                     
-StringRight color,color,6    ; 截取 color（第二个 color）右边的6个字符，因为获得的值是这样的：0x8700FF，一般我们只需要 8700FF 部分。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Ahk1.1.ahk%20%20-lao-ban-%20%201_2.html</guid><pubDate>Sun, 13 Jul 2025 07:41:41 +0000</pubDate></item><item><title>Ahk1.1.ahk  老版  1_1</title><link>https://z.zcr4.ip-ddns.com/post/Ahk1.1.ahk%20%20-lao-ban-%20%201_1.html</link><description>```
+StringRight color,color,6    ; 截取 color（第二个 color）右边的6个字符，因为获得的值是这样的：0x8700FF，一般我们只需要 8700FF 部分。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Ahk1.1.ahk%20%20-lao-ban-%20%201_2.html</guid><pubDate>Sun, 13 Jul 2025 07:41:41 +0000</pubDate></item><item><title>Ahk1.1.ahk  老版  1_1</title><link>https://zc7.zcr7.qzz.io//post/Ahk1.1.ahk%20%20-lao-ban-%20%201_1.html</link><description>```
 #Requires AutoHotkey v1.1.36
 Menu, Tray, Icon, %A_ScriptDir%\Lib\0\Library.ico  ; 自定义托盘图标
 Menu, Tray, Tip, Ahk1.1                                    ; 托盘提示
@@ -4351,7 +4351,7 @@ b100(timeout = 400)                                           ; timeout 表示�
     {
         t := A_TickCount                                          ; 记录当前的时间戳（单位：毫秒），用于计算按键按住的时长
         KeyWait %key%                                           ; 等待按键 key 被释放,   阻塞代码运行，直到用户松开按键
-        Pattern .= A_TickCount - t &gt; timeout          ; 检测按住的时间是否超过 timeout, 如果按住时长大于 timeout，则 Pattern 添加一个 1。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Ahk1.1.ahk%20%20-lao-ban-%20%201_1.html</guid><pubDate>Sun, 13 Jul 2025 07:40:59 +0000</pubDate></item><item><title>关闭CapsLock键的声音</title><link>https://z.zcr4.ip-ddns.com/post/guan-bi-CapsLock-jian-de-sheng-yin.html</link><description>## 关闭CapsLock键的声音
+        Pattern .= A_TickCount - t &gt; timeout          ; 检测按住的时间是否超过 timeout, 如果按住时长大于 timeout，则 Pattern 添加一个 1。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Ahk1.1.ahk%20%20-lao-ban-%20%201_1.html</guid><pubDate>Sun, 13 Jul 2025 07:40:59 +0000</pubDate></item><item><title>关闭CapsLock键的声音</title><link>https://zc7.zcr7.qzz.io//post/guan-bi-CapsLock-jian-de-sheng-yin.html</link><description>## 关闭CapsLock键的声音
 
 1.打开控制面板  轻松使用
 
@@ -4364,11 +4364,11 @@ b100(timeout = 400)                                           ; timeout 表示�
 
 3. 关闭`启用切换键`
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.13:15:19:39.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/guan-bi-CapsLock-jian-de-sheng-yin.html</guid><pubDate>Sun, 13 Jul 2025 07:19:45 +0000</pubDate></item><item><title>提取PPT中的文字内容到WORD</title><link>https://z.zcr4.ip-ddns.com/post/ti-qu-PPT-zhong-de-wen-zi-nei-rong-dao-WORD.html</link><description>## 提取PPT中的文字内容到WORD
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.13:15:19:39.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/guan-bi-CapsLock-jian-de-sheng-yin.html</guid><pubDate>Sun, 13 Jul 2025 07:19:45 +0000</pubDate></item><item><title>提取PPT中的文字内容到WORD</title><link>https://zc7.zcr7.qzz.io//post/ti-qu-PPT-zhong-de-wen-zi-nei-rong-dao-WORD.html</link><description>## 提取PPT中的文字内容到WORD
 
 1、打开PPT文件，按 `Alt + F11`  键打开[VBA编辑器
 
-2、点击【工具】-【引用】，找到 `Microsoft Word 16.0 Object Library ` `勾选添加。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/ti-qu-PPT-zhong-de-wen-zi-nei-rong-dao-WORD.html</guid><pubDate>Sun, 13 Jul 2025 05:11:43 +0000</pubDate></item><item><title>IPv6节点的获取</title><link>https://z.zcr4.ip-ddns.com/post/IPv6-jie-dian-de-huo-qu.html</link><description>##  IPv6节点的获取
+2、点击【工具】-【引用】，找到 `Microsoft Word 16.0 Object Library ` `勾选添加。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/ti-qu-PPT-zhong-de-wen-zi-nei-rong-dao-WORD.html</guid><pubDate>Sun, 13 Jul 2025 05:11:43 +0000</pubDate></item><item><title>IPv6节点的获取</title><link>https://zc7.zcr7.qzz.io//post/IPv6-jie-dian-de-huo-qu.html</link><description>##  IPv6节点的获取
 
 ## IP测速，取得高速节点
 
@@ -4407,7 +4407,7 @@ b100(timeout = 400)                                           ; timeout 表示�
 
 104.16.238.255
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.12:00:10:24.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/IPv6-jie-dian-de-huo-qu.html</guid><pubDate>Fri, 11 Jul 2025 16:04:47 +0000</pubDate></item><item><title>config.json 7.10  补充worker.js</title><link>https://z.zcr4.ip-ddns.com/post/config.json%207.10%20%20-bu-chong-worker.js.html</link><description>## config.json 7.10  补充worker.js
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.12:00:10:24.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/IPv6-jie-dian-de-huo-qu.html</guid><pubDate>Fri, 11 Jul 2025 16:04:47 +0000</pubDate></item><item><title>config.json 7.10  补充worker.js</title><link>https://zc7.zcr7.qzz.io//post/config.json%207.10%20%20-bu-chong-worker.js.html</link><description>## config.json 7.10  补充worker.js
 
 ###  `worker.js ` 内容如下
 
@@ -5173,11 +5173,11 @@ export default {
     if (requestPath === '/') {
       return new Response(
         '欢迎来到文件托管集群！(File Hosting Cluster)\n' +
-        '这是一个分布式存储集群项目，旨在提供高效的文件存储和管理服务。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/config.json%207.10%20%20-bu-chong-worker.js.html</guid><pubDate>Fri, 11 Jul 2025 02:39:16 +0000</pubDate></item><item><title>config.json  7.10</title><link>https://z.zcr4.ip-ddns.com/post/config.json%20%207.10.html</link><description>## config.json
+        '这是一个分布式存储集群项目，旨在提供高效的文件存储和管理服务。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/config.json%207.10%20%20-bu-chong-worker.js.html</guid><pubDate>Fri, 11 Jul 2025 02:39:16 +0000</pubDate></item><item><title>config.json  7.10</title><link>https://zc7.zcr7.qzz.io//post/config.json%20%207.10.html</link><description>## config.json
 
 ### 如剪贴板中已显示有链接，但此链接却打开错误
 
-- 有链接显示，证明图片已上传至Github，链接打开显示错误则证明cloufare中的worker.js中的Token出了问题 。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/config.json%20%207.10.html</guid><pubDate>Thu, 10 Jul 2025 10:54:30 +0000</pubDate></item><item><title>config.toml  7.10</title><link>https://z.zcr4.ip-ddns.com/post/config.toml%20%207.10.html</link><description>## config.toml
+- 有链接显示，证明图片已上传至Github，链接打开显示错误则证明cloufare中的worker.js中的Token出了问题 。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/config.json%20%207.10.html</guid><pubDate>Thu, 10 Jul 2025 10:54:30 +0000</pubDate></item><item><title>config.toml  7.10</title><link>https://zc7.zcr7.qzz.io//post/config.toml%20%207.10.html</link><description>## config.toml
 
 ###  私库
 
@@ -5240,7 +5240,7 @@ username = 'zb9678'
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/config.toml%20%207.10.html</guid><pubDate>Thu, 10 Jul 2025 10:40:19 +0000</pubDate></item><item><title>如何在官网下载win10系统</title><link>https://z.zcr4.ip-ddns.com/post/ru-he-zai-guan-wang-xia-zai-win10-xi-tong.html</link><description>## 如何在官网下载win10系统
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/config.toml%20%207.10.html</guid><pubDate>Thu, 10 Jul 2025 10:40:19 +0000</pubDate></item><item><title>如何在官网下载win10系统</title><link>https://zc7.zcr7.qzz.io//post/ru-he-zai-guan-wang-xia-zai-win10-xi-tong.html</link><description>## 如何在官网下载win10系统
 
 - https://www.microsoft.com/zh-cn/software-download/windows10
 
@@ -5290,7 +5290,7 @@ ctrl+R  刷新页面，页面出现 `ISO文件` 字样
 
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img9@main/im1/07.10:19:16:21.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/ru-he-zai-guan-wang-xia-zai-win10-xi-tong.html</guid><pubDate>Wed, 09 Jul 2025 14:49:26 +0000</pubDate></item><item><title>热字串</title><link>https://z.zcr4.ip-ddns.com/post/re-zi-chuan.html</link><description>## 热字串
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/ru-he-zai-guan-wang-xia-zai-win10-xi-tong.html</guid><pubDate>Wed, 09 Jul 2025 14:49:26 +0000</pubDate></item><item><title>热字串</title><link>https://zc7.zcr7.qzz.io//post/re-zi-chuan.html</link><description>## 热字串
 
 - 每个热字串缩写的长度不能超过 40 个字符. 超出此长度后程序会向您提出警告. 
 
@@ -5372,23 +5372,23 @@ return
 - 输入1111  输出
 11xx1xx1xx
 
-造成这样的结果的原因，111  连续输入1，第2个1会成为第3个1的起始。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/re-zi-chuan.html</guid><pubDate>Sat, 28 Jun 2025 12:14:11 +0000</pubDate></item><item><title>匹配行尾N个空格</title><link>https://z.zcr4.ip-ddns.com/post/pi-pei-xing-wei-N-ge-kong-ge.html</link><description>## 匹配行尾N个空格
+造成这样的结果的原因，111  连续输入1，第2个1会成为第3个1的起始。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/re-zi-chuan.html</guid><pubDate>Sat, 28 Jun 2025 12:14:11 +0000</pubDate></item><item><title>匹配行尾N个空格</title><link>https://zc7.zcr7.qzz.io//post/pi-pei-xing-wei-N-ge-kong-ge.html</link><description>## 匹配行尾N个空格
 
 ` \s*\z `
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.23:00:11:16.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/pi-pei-xing-wei-N-ge-kong-ge.html</guid><pubDate>Sun, 22 Jun 2025 16:11:47 +0000</pubDate></item><item><title>匹配行首N个空格</title><link>https://z.zcr4.ip-ddns.com/post/pi-pei-xing-shou-N-ge-kong-ge.html</link><description>## 匹配行首N个空格
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.23:00:11:16.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/pi-pei-xing-wei-N-ge-kong-ge.html</guid><pubDate>Sun, 22 Jun 2025 16:11:47 +0000</pubDate></item><item><title>匹配行首N个空格</title><link>https://zc7.zcr7.qzz.io//post/pi-pei-xing-shou-N-ge-kong-ge.html</link><description>## 匹配行首N个空格
 
 ` \A\s* `
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.23:00:07:57.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/pi-pei-xing-shou-N-ge-kong-ge.html</guid><pubDate>Sun, 22 Jun 2025 16:09:05 +0000</pubDate></item><item><title>正则 选中拼音</title><link>https://z.zcr4.ip-ddns.com/post/zheng-ze-%20-xuan-zhong-pin-yin.html</link><description>## 正则 选中拼音
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.23:00:07:57.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/pi-pei-xing-shou-N-ge-kong-ge.html</guid><pubDate>Sun, 22 Jun 2025 16:09:05 +0000</pubDate></item><item><title>正则 选中拼音</title><link>https://zc7.zcr7.qzz.io//post/zheng-ze-%20-xuan-zhong-pin-yin.html</link><description>## 正则 选中拼音
 
 注意：轻声无法解决
 
 ` [a-z]*[ā-ǜà-ü][a-z]* `
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.22:23:55:04.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zheng-ze-%20-xuan-zhong-pin-yin.html</guid><pubDate>Sun, 22 Jun 2025 15:56:09 +0000</pubDate></item><item><title>一次性二维码</title><link>https://z.zcr4.ip-ddns.com/post/yi-ci-xing-er-wei-ma.html</link><description>## 一次性二维码
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.22:23:55:04.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/zheng-ze-%20-xuan-zhong-pin-yin.html</guid><pubDate>Sun, 22 Jun 2025 15:56:09 +0000</pubDate></item><item><title>一次性二维码</title><link>https://zc7.zcr7.qzz.io//post/yi-ci-xing-er-wei-ma.html</link><description>## 一次性二维码
 
-即二维码在第一次扫描时，会正常打开网页，而从第二次扫描开始，你虽然可以成功扫描出链接，但链接打开后显示404。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/yi-ci-xing-er-wei-ma.html</guid><pubDate>Sun, 22 Jun 2025 07:48:45 +0000</pubDate></item><item><title>建立私库图床</title><link>https://z.zcr4.ip-ddns.com/post/jian-li-si-ku-tu-chuang.html</link><description>
+即二维码在第一次扫描时，会正常打开网页，而从第二次扫描开始，你虽然可以成功扫描出链接，但链接打开后显示404。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/yi-ci-xing-er-wei-ma.html</guid><pubDate>Sun, 22 Jun 2025 07:48:45 +0000</pubDate></item><item><title>建立私库图床</title><link>https://zc7.zcr7.qzz.io//post/jian-li-si-ku-tu-chuang.html</link><description>
 [教程](https://www.youtube.com/watch?v=eRqIpeeo9SA)
 
 ## Github
@@ -5504,7 +5504,7 @@ async function handleRequest(request) {
 
 ## 重要
 
-后期如果上传失败，则需更新Token，共需修改2处。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/jian-li-si-ku-tu-chuang.html</guid><pubDate>Thu, 19 Jun 2025 02:09:28 +0000</pubDate></item><item><title>github图床私库 gitLab备份</title><link>https://z.zcr4.ip-ddns.com/post/github-tu-chuang-si-ku-%20gitLab-bei-fen.html</link><description>## github图床  私库 gitLab备份
+后期如果上传失败，则需更新Token，共需修改2处。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/jian-li-si-ku-tu-chuang.html</guid><pubDate>Thu, 19 Jun 2025 02:09:28 +0000</pubDate></item><item><title>github图床私库 gitLab备份</title><link>https://zc7.zcr7.qzz.io//post/github-tu-chuang-si-ku-%20gitLab-bei-fen.html</link><description>## github图床  私库 gitLab备份
 
 [教程](https://www.youtube.com/watch?v=eRqIpeeo9SA)
 
@@ -5718,7 +5718,7 @@ jobs:
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.18:09:47:47.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
-已成功备份到了gitLab上了。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/github-tu-chuang-si-ku-%20gitLab-bei-fen.html</guid><pubDate>Wed, 18 Jun 2025 01:48:13 +0000</pubDate></item><item><title>nat.freecloud</title><link>https://z.zcr4.ip-ddns.com/post/nat.freecloud.html</link><description>
+已成功备份到了gitLab上了。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/github-tu-chuang-si-ku-%20gitLab-bei-fen.html</guid><pubDate>Wed, 18 Jun 2025 01:48:13 +0000</pubDate></item><item><title>nat.freecloud</title><link>https://zc7.zcr7.qzz.io//post/nat.freecloud.html</link><description>
 [教程](https://www.youtube.com/watch?v=C-oF1bszGMM)
 
 nat.freecloud VPS：[https://nat.freecloud.ltd/](https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqbTQ0UWtONnBQcjRBUU9MM1ktMk5fa3RPZmFhZ3xBQ3Jtc0tuc01kR2V1MDI5MUJWSE9mUzZjZDJfeGZoTzh1Q1NXTkJZdDdJbFhCLTVyX3gwSk0wWEFrT2hXX2ZFRmEwRnZsX1MwVG04R3hGTDdHRnRtVzVZRVVJd0I2Ri1ab1dGUExVbUlvWVE1UnZqUXZ4bHlVSQ&amp;q=https%3A%2F%2Fnat.freecloud.ltd%2F&amp;v=C-oF1bszGMM)
@@ -5792,7 +5792,7 @@ FinalShell：[https://www.hostbuf.com/t/988.html](https://www.youtube.com/redire
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/nat.freecloud.html</guid><pubDate>Sun, 15 Jun 2025 04:17:11 +0000</pubDate></item><item><title>Clawcloud GRPC 0.02</title><link>https://z.zcr4.ip-ddns.com/post/Clawcloud%20GRPC%200.02.html</link><description>
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/nat.freecloud.html</guid><pubDate>Sun, 15 Jun 2025 04:17:11 +0000</pubDate></item><item><title>Clawcloud GRPC 0.02</title><link>https://zc7.zcr7.qzz.io//post/Clawcloud%20GRPC%200.02.html</link><description>
 [教程](https://www.youtube.com/watch?v=K4fowx-8zP8)
 
 https://kjgx668.blogspot.com/2025/04/freevps-freenodes-youtube4k-tikotok-chatgpt-clawcloud.html
@@ -5875,7 +5875,7 @@ https://kjgx668.blogspot.com/2025/04/freevps-freenodes-youtube4k-tikotok-chatgpt
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Clawcloud%20GRPC%200.02.html</guid><pubDate>Sat, 14 Jun 2025 04:14:44 +0000</pubDate></item><item><title>Clawcloud 7ser 固定隧道</title><link>https://z.zcr4.ip-ddns.com/post/Clawcloud%207ser%20-gu-ding-sui-dao.html</link><description>
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Clawcloud%20GRPC%200.02.html</guid><pubDate>Sat, 14 Jun 2025 04:14:44 +0000</pubDate></item><item><title>Clawcloud 7ser 固定隧道</title><link>https://zc7.zcr7.qzz.io//post/Clawcloud%207ser%20-gu-ding-sui-dao.html</link><description>
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.13:17:03:19.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
@@ -5887,7 +5887,7 @@ vless-reality  vmess（TCP）
 
 非固定隧道
 
-重启后，原节点就不能用了，需重新复制粘贴到V2ray中。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Clawcloud%207ser%20-gu-ding-sui-dao.html</guid><pubDate>Fri, 13 Jun 2025 08:53:32 +0000</pubDate></item><item><title>Clawcloud  7serv非固定</title><link>https://z.zcr4.ip-ddns.com/post/Clawcloud%20%207serv-fei-gu-ding.html</link><description>
+重启后，原节点就不能用了，需重新复制粘贴到V2ray中。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Clawcloud%207ser%20-gu-ding-sui-dao.html</guid><pubDate>Fri, 13 Jun 2025 08:53:32 +0000</pubDate></item><item><title>Clawcloud  7serv非固定</title><link>https://zc7.zcr7.qzz.io//post/Clawcloud%20%207serv-fei-gu-ding.html</link><description>
 [教程](https://www.youtube.com/watch?v=feVB38bQqLM)
 
 ##  只需改2处
@@ -5903,7 +5903,7 @@ vless-reality  vmess（TCP）
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.13:16:17:50.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.13:16:19:22.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Clawcloud%20%207serv-fei-gu-ding.html</guid><pubDate>Fri, 13 Jun 2025 08:19:22 +0000</pubDate></item><item><title>Clawcloud $0.06</title><link>https://z.zcr4.ip-ddns.com/post/Clawcloud%20%240.06.html</link><description>
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Clawcloud%20%207serv-fei-gu-ding.html</guid><pubDate>Fri, 13 Jun 2025 08:19:22 +0000</pubDate></item><item><title>Clawcloud $0.06</title><link>https://zc7.zcr7.qzz.io//post/Clawcloud%20%240.06.html</link><description>
 [教程](https://www.youtube.com/watch?v=xOQV_E1-C84)
 
 ##  启用tuic（UDP）
@@ -5952,7 +5952,7 @@ true
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Clawcloud%20%240.06.html</guid><pubDate>Fri, 13 Jun 2025 07:05:12 +0000</pubDate></item><item><title>Clawcloud $0.02</title><link>https://z.zcr4.ip-ddns.com/post/Clawcloud%20%240.02.html</link><description>## 教程
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Clawcloud%20%240.06.html</guid><pubDate>Fri, 13 Jun 2025 07:05:12 +0000</pubDate></item><item><title>Clawcloud $0.02</title><link>https://zc7.zcr7.qzz.io//post/Clawcloud%20%240.02.html</link><description>## 教程
 
 -  https://www.youtube.com/watch?v=xOQV_E1-C84
 
@@ -5975,7 +5975,7 @@ true
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/06.13:14:38:11.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Clawcloud%20%240.02.html</guid><pubDate>Fri, 13 Jun 2025 06:38:24 +0000</pubDate></item><item><title>Clawcloud  $0.01</title><link>https://z.zcr4.ip-ddns.com/post/Clawcloud%20%20%240.01.html</link><description>## 教程
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Clawcloud%20%240.02.html</guid><pubDate>Fri, 13 Jun 2025 06:38:24 +0000</pubDate></item><item><title>Clawcloud  $0.01</title><link>https://zc7.zcr7.qzz.io//post/Clawcloud%20%20%240.01.html</link><description>## 教程
 
 https://www.youtube.com/watch?v=xOQV_E1-C84
 
@@ -6034,7 +6034,7 @@ vless://79743ce9-33c0-4069-8f00-70c2a4047142@xcmjptubpjax.us-east-1.clawcloudrun
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Clawcloud%20%20%240.01.html</guid><pubDate>Fri, 13 Jun 2025 05:58:37 +0000</pubDate></item><item><title>查看google帐号归属地</title><link>https://z.zcr4.ip-ddns.com/post/cha-kan-google-zhang-hao-gui-shu-di.html</link><description>## 查看google帐号归属地
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Clawcloud%20%20%240.01.html</guid><pubDate>Fri, 13 Jun 2025 05:58:37 +0000</pubDate></item><item><title>查看google帐号归属地</title><link>https://zc7.zcr7.qzz.io//post/cha-kan-google-zhang-hao-gui-shu-di.html</link><description>## 查看google帐号归属地
 
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:16:30:21.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
@@ -6042,21 +6042,21 @@ vless://79743ce9-33c0-4069-8f00-70c2a4047142@xcmjptubpjax.us-east-1.clawcloudrun
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:16:32:00.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
 ## 如何修改
-前提：选用要修改的国家IP使用一段时间后再修改。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-kan-google-zhang-hao-gui-shu-di.html</guid><pubDate>Thu, 22 May 2025 08:32:29 +0000</pubDate></item><item><title>查看youtube账号用了多久</title><link>https://z.zcr4.ip-ddns.com/post/cha-kan-youtube-zhang-hao-yong-le-duo-jiu.html</link><description>## 查看youtube账号用了多久
+前提：选用要修改的国家IP使用一段时间后再修改。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/cha-kan-google-zhang-hao-gui-shu-di.html</guid><pubDate>Thu, 22 May 2025 08:32:29 +0000</pubDate></item><item><title>查看youtube账号用了多久</title><link>https://zc7.zcr7.qzz.io//post/cha-kan-youtube-zhang-hao-yong-le-duo-jiu.html</link><description>## 查看youtube账号用了多久
 
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:16:18:46.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:16:20:56.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
-&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:16:21:55.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-kan-youtube-zhang-hao-yong-le-duo-jiu.html</guid><pubDate>Thu, 22 May 2025 08:22:05 +0000</pubDate></item><item><title>查看 google帐号  注册时间</title><link>https://z.zcr4.ip-ddns.com/post/cha-kan-%20google-zhang-hao-%20%20-zhu-ce-shi-jian.html</link><description>## 查看 google帐号  注册时间
+&lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:16:21:55.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/cha-kan-youtube-zhang-hao-yong-le-duo-jiu.html</guid><pubDate>Thu, 22 May 2025 08:22:05 +0000</pubDate></item><item><title>查看 google帐号  注册时间</title><link>https://zc7.zcr7.qzz.io//post/cha-kan-%20google-zhang-hao-%20%20-zhu-ce-shi-jian.html</link><description>## 查看 google帐号  注册时间
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:15:59:04.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.22:16:01:07.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
 - 只下载
-- Google 账号与注册和账号活动有关的数据。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-kan-%20google-zhang-hao-%20%20-zhu-ce-shi-jian.html</guid><pubDate>Thu, 22 May 2025 08:08:37 +0000</pubDate></item><item><title>查询Github账号的注册时间</title><link>https://z.zcr4.ip-ddns.com/post/cha-xun-Github-zhang-hao-de-zhu-ce-shi-jian.html</link><description>## 查询Github账号的注册时间
+- Google 账号与注册和账号活动有关的数据。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/cha-kan-%20google-zhang-hao-%20%20-zhu-ce-shi-jian.html</guid><pubDate>Thu, 22 May 2025 08:08:37 +0000</pubDate></item><item><title>查询Github账号的注册时间</title><link>https://zc7.zcr7.qzz.io//post/cha-xun-Github-zhang-hao-de-zhu-ce-shi-jian.html</link><description>## 查询Github账号的注册时间
 
 
 - https://api.github.com/users/      zcr07     用户名
@@ -6064,7 +6064,7 @@ vless://79743ce9-33c0-4069-8f00-70c2a4047142@xcmjptubpjax.us-east-1.clawcloudrun
 在打开的网页中查看倒数第二行，如下
 
  'created_at': '2024-09-01T02:16:16Z',
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/cha-xun-Github-zhang-hao-de-zhu-ce-shi-jian.html</guid><pubDate>Thu, 22 May 2025 07:51:14 +0000</pubDate></item><item><title>claw cloud Hysteria2</title><link>https://z.zcr4.ip-ddns.com/post/claw%20cloud%20Hysteria2.html</link><description>## Hysteria2节点搭建
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/cha-xun-Github-zhang-hao-de-zhu-ce-shi-jian.html</guid><pubDate>Thu, 22 May 2025 07:51:14 +0000</pubDate></item><item><title>claw cloud Hysteria2</title><link>https://zc7.zcr7.qzz.io//post/claw%20cloud%20Hysteria2.html</link><description>## Hysteria2节点搭建
 
 ```
 
@@ -6189,7 +6189,7 @@ Email Address []:
 2025-05-07T13:04:44Z    INFO    client disconnected     {'addr': '172.16.0.190:50362', 'id': 'user', 'error': 'accepting stream failed: timeout: no recent network activity'}
 
 =====================================================
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/claw%20cloud%20Hysteria2.html</guid><pubDate>Thu, 08 May 2025 07:03:07 +0000</pubDate></item><item><title>picgo-core</title><link>https://z.zcr4.ip-ddns.com/post/picgo-core.html</link><description>##  picgo-core
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/claw%20cloud%20Hysteria2.html</guid><pubDate>Thu, 08 May 2025 07:03:07 +0000</pubDate></item><item><title>picgo-core</title><link>https://zc7.zcr7.qzz.io//post/picgo-core.html</link><description>##  picgo-core
 
 -  config.json 配置文件如下
 
@@ -6333,7 +6333,7 @@ Email Address []:
 	filePath := Clipboard  ; 获取剪贴板内容
 	if (!FileExist(filePath))
        {
-   	 MsgBox, 16, 错误, 剪贴板内容无效，请复制文件后再试。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/picgo-core.html</guid><pubDate>Tue, 06 May 2025 04:47:32 +0000</pubDate></item><item><title>upgit.exe</title><link>https://z.zcr4.ip-ddns.com/post/upgit.exe.html</link><description>## upgit.exe
+   	 MsgBox, 16, 错误, 剪贴板内容无效，请复制文件后再试。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/picgo-core.html</guid><pubDate>Tue, 06 May 2025 04:47:32 +0000</pubDate></item><item><title>upgit.exe</title><link>https://zc7.zcr7.qzz.io//post/upgit.exe.html</link><description>## upgit.exe
 
 - config.toml 配置文件如下
 
@@ -6368,7 +6368,7 @@ username = 'zb9678'
 LWin::return
 #t::
 
-Run, 'D:\ahk1.0\Lib\0 tool\ScreenCapture\ScreenCapture.exe', , , pid    ; pid: 这是一个变量名，作用: 执行 kscrcap.exe 并将它的进程 ID 保存到变量 pid 中。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/upgit.exe.html</guid><pubDate>Tue, 06 May 2025 04:43:24 +0000</pubDate></item><item><title>电报新建频道并添加 Bot</title><link>https://z.zcr4.ip-ddns.com/post/dian-bao-xin-jian-pin-dao-bing-tian-jia-%20Bot.html</link><description>##  电报新建频道并添加 Bot
+Run, 'D:\ahk1.0\Lib\0 tool\ScreenCapture\ScreenCapture.exe', , , pid    ; pid: 这是一个变量名，作用: 执行 kscrcap.exe 并将它的进程 ID 保存到变量 pid 中。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/upgit.exe.html</guid><pubDate>Tue, 06 May 2025 04:43:24 +0000</pubDate></item><item><title>电报新建频道并添加 Bot</title><link>https://zc7.zcr7.qzz.io//post/dian-bao-xin-jian-pin-dao-bing-tian-jia-%20Bot.html</link><description>##  电报新建频道并添加 Bot
 
 ### 首先要在电报中添加2个帐号
 
@@ -6427,7 +6427,7 @@ Run, 'D:\ahk1.0\Lib\0 tool\ScreenCapture\ScreenCapture.exe', , , pid    ; pid: �
 
 &lt;p align='center'&gt;&lt;img src='https://cdn.jsdelivr.net/gh/zb9678/img@main/im8/05.05:22:01:18.png' style='width:400px;'&gt;&lt;/p&gt;&lt;br&gt;
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/dian-bao-xin-jian-pin-dao-bing-tian-jia-%20Bot.html</guid><pubDate>Mon, 05 May 2025 14:15:04 +0000</pubDate></item><item><title>重启脚本</title><link>https://z.zcr4.ip-ddns.com/post/zhong-qi-jiao-ben.html</link><description>## 重启脚本
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/dian-bao-xin-jian-pin-dao-bing-tian-jia-%20Bot.html</guid><pubDate>Mon, 05 May 2025 14:15:04 +0000</pubDate></item><item><title>重启脚本</title><link>https://zc7.zcr7.qzz.io//post/zhong-qi-jiao-ben.html</link><description>## 重启脚本
 
 ```
 NumpadEnter::
@@ -6445,7 +6445,7 @@ sleep,1000
 	reload                   ; 如果你只是修改了脚本内容，想让新内容生效 ⇒ 只需要 reload
 return
 ;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  NumpadEnter 重启脚本 ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 000005-330
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/zhong-qi-jiao-ben.html</guid><pubDate>Sun, 04 May 2025 08:37:21 +0000</pubDate></item><item><title>右键属性</title><link>https://z.zcr4.ip-ddns.com/post/you-jian-shu-xing.html</link><description>## 右键属性
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/zhong-qi-jiao-ben.html</guid><pubDate>Sun, 04 May 2025 08:37:21 +0000</pubDate></item><item><title>右键属性</title><link>https://zc7.zcr7.qzz.io//post/you-jian-shu-xing.html</link><description>## 右键属性
 
 ```
 F1 &amp; y::
@@ -6463,7 +6463,7 @@ return
 `Gmeek-html&lt;iframe src='//player.bilibili.com/player.html?isOutside=true&amp;aid=1604800941&amp;bvid=BV1qm421M7Xs&amp;cid=1557311907&amp;p=1&amp;autoplay=0' scrolling='no' border='0' frameborder='no' framespacing='0' allowfullscreen='true' width='100%' height='460px'&gt;&lt;/iframe&gt;`
 
 `Gmeek-html&lt;iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/17phhZDn6oGtzMe56NuWvj?utm_source=generator' width='100%' height='352' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'&gt;&lt;/iframe&gt;`
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/you-jian-shu-xing.html</guid><pubDate>Sun, 04 May 2025 08:17:35 +0000</pubDate></item><item><title>复制文件路径</title><link>https://z.zcr4.ip-ddns.com/post/fu-zhi-wen-jian-lu-jing.html</link><description>## 复制文件路径
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/you-jian-shu-xing.html</guid><pubDate>Sun, 04 May 2025 08:17:35 +0000</pubDate></item><item><title>复制文件路径</title><link>https://zc7.zcr7.qzz.io//post/fu-zhi-wen-jian-lu-jing.html</link><description>## 复制文件路径
 
 ```
  &gt;^z::   
@@ -6472,7 +6472,7 @@ sleep,200
 clipboard=%clipboard%
 return
 ;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ&gt;^z 复制文件路径  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 06-380
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/fu-zhi-wen-jian-lu-jing.html</guid><pubDate>Sun, 04 May 2025 08:16:15 +0000</pubDate></item><item><title>单 新建文件夹 双 TxT文件  名为剪贴板</title><link>https://z.zcr4.ip-ddns.com/post/dan-%20-xin-jian-wen-jian-jia-%20-shuang-%20TxT-wen-jian-%20%20-ming-wei-jian-tie-ban.html</link><description>## 单 新建文件夹 双 TxT文件  名为剪贴板
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/fu-zhi-wen-jian-lu-jing.html</guid><pubDate>Sun, 04 May 2025 08:16:15 +0000</pubDate></item><item><title>单 新建文件夹 双 TxT文件  名为剪贴板</title><link>https://zc7.zcr7.qzz.io//post/dan-%20-xin-jian-wen-jian-jia-%20-shuang-%20TxT-wen-jian-%20%20-ming-wei-jian-tie-ban.html</link><description>## 单 新建文件夹 双 TxT文件  名为剪贴板
 
 ```
  &gt;^b::
@@ -6514,7 +6514,7 @@ send, {enter}
 wincc_presses = 0
 return
 ;ΞΞΞΞΞΞΞΞΞΞΞΞ   &gt;^b  单 新建文件夹 双 TxT文件  名为剪贴板    ΞΞΞΞΞΞΞΞΞΞΞΞΞ 06-373
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/dan-%20-xin-jian-wen-jian-jia-%20-shuang-%20TxT-wen-jian-%20%20-ming-wei-jian-tie-ban.html</guid><pubDate>Sun, 04 May 2025 08:08:01 +0000</pubDate></item><item><title>Gmeek.yml 中随写随上传代码部分</title><link>https://z.zcr4.ip-ddns.com/post/Gmeek.yml%20-zhong-sui-xie-sui-shang-chuan-dai-ma-bu-fen.html</link><description>## Gmeek.yml 中随写随上传代码部分
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/dan-%20-xin-jian-wen-jian-jia-%20-shuang-%20TxT-wen-jian-%20%20-ming-wei-jian-tie-ban.html</guid><pubDate>Sun, 04 May 2025 08:08:01 +0000</pubDate></item><item><title>Gmeek.yml 中随写随上传代码部分</title><link>https://zc7.zcr7.qzz.io//post/Gmeek.yml%20-zhong-sui-xie-sui-shang-chuan-dai-ma-bu-fen.html</link><description>## Gmeek.yml 中随写随上传代码部分
 
 - https://github.com/zcr07/zcr7.github.io/blob/main/.github/workflows/Gmeek.yml
 
@@ -6620,7 +6620,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Gmeek.yml%20-zhong-sui-xie-sui-shang-chuan-dai-ma-bu-fen.html</guid><pubDate>Sun, 04 May 2025 08:02:35 +0000</pubDate></item><item><title>复制文件名 有后缀和无后缀</title><link>https://z.zcr4.ip-ddns.com/post/fu-zhi-wen-jian-ming-%20-you-hou-zhui-he-wu-hou-zhui.html</link><description>## 复制文件名 有后缀和无后缀
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Gmeek.yml%20-zhong-sui-xie-sui-shang-chuan-dai-ma-bu-fen.html</guid><pubDate>Sun, 04 May 2025 08:02:35 +0000</pubDate></item><item><title>复制文件名 有后缀和无后缀</title><link>https://zc7.zcr7.qzz.io//post/fu-zhi-wen-jian-ming-%20-you-hou-zhui-he-wu-hou-zhui.html</link><description>## 复制文件名 有后缀和无后缀
 
 ```
  &gt;^c::                                              
@@ -6646,7 +6646,7 @@ ClipWait, 1                                                           ; -------�
 	return
 ;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ  &gt;^v 对文件夹文件粘贴文件名  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 06-333
 ```
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/fu-zhi-wen-jian-ming-%20-you-hou-zhui-he-wu-hou-zhui.html</guid><pubDate>Sun, 04 May 2025 07:58:44 +0000</pubDate></item><item><title>将选中N个文件的文件名复制到桌面的1.txt</title><link>https://z.zcr4.ip-ddns.com/post/jiang-xuan-zhong-N-ge-wen-jian-de-wen-jian-ming-fu-zhi-dao-zhuo-mian-de-1.txt.html</link><description>## 将选中N个文件的文件名复制到桌面的1.txt
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/fu-zhi-wen-jian-ming-%20-you-hou-zhui-he-wu-hou-zhui.html</guid><pubDate>Sun, 04 May 2025 07:58:44 +0000</pubDate></item><item><title>将选中N个文件的文件名复制到桌面的1.txt</title><link>https://zc7.zcr7.qzz.io//post/jiang-xuan-zhong-N-ge-wen-jian-de-wen-jian-ming-fu-zhi-dao-zhuo-mian-de-1.txt.html</link><description>## 将选中N个文件的文件名复制到桌面的1.txt
 
 ```
 &gt;^x:: 
@@ -6673,7 +6673,7 @@ if (Clipboard) {
 return
 
 ;ΞΞΞΞΞΞΞΞΞ&gt;^x 将选中N个文件的文件名复制到桌面的1.txt  ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 06-314
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/jiang-xuan-zhong-N-ge-wen-jian-de-wen-jian-ming-fu-zhi-dao-zhuo-mian-de-1.txt.html</guid><pubDate>Sun, 04 May 2025 07:48:03 +0000</pubDate></item><item><title>&gt;! 2345sdf复制wertxcv粘   ghjk剪 bnm粘</title><link>https://z.zcr4.ip-ddns.com/post/-%21%202345sdf-fu-zhi-wertxcv-zhan-%20%20%20ghjk-jian-%20bnm-zhan.html</link><description>## &gt;! 2345sdf复制  wertxcv 粘贴 ghjk剪 bnm,粘
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/jiang-xuan-zhong-N-ge-wen-jian-de-wen-jian-ming-fu-zhi-dao-zhuo-mian-de-1.txt.html</guid><pubDate>Sun, 04 May 2025 07:48:03 +0000</pubDate></item><item><title>&gt;! 2345sdf复制wertxcv粘   ghjk剪 bnm粘</title><link>https://zc7.zcr7.qzz.io//post/-%21%202345sdf-fu-zhi-wertxcv-zhan-%20%20%20ghjk-jian-%20bnm-zhan.html</link><description>## &gt;! 2345sdf复制  wertxcv 粘贴 ghjk剪 bnm,粘
 
 ```
 #Persistent
@@ -6748,7 +6748,7 @@ Paste(clipboardID)
 ;-----------------------------------------------------------------------------------
 return
 ;ΞΞΞΞΞΞΞΞΞΞ &gt;! 2345sdf复制  wertxcv 粘贴 ghjk剪 bnm,粘 ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 05-295
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/-%21%202345sdf-fu-zhi-wertxcv-zhan-%20%20%20ghjk-jian-%20bnm-zhan.html</guid><pubDate>Sun, 04 May 2025 07:46:57 +0000</pubDate></item><item><title>批量复制粘贴工具&gt;!q</title><link>https://z.zcr4.ip-ddns.com/post/pi-liang-fu-zhi-zhan-tie-gong-ju--%21q.html</link><description>## 批量复制粘贴工具
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/-%21%202345sdf-fu-zhi-wertxcv-zhan-%20%20%20ghjk-jian-%20bnm-zhan.html</guid><pubDate>Sun, 04 May 2025 07:46:57 +0000</pubDate></item><item><title>批量复制粘贴工具&gt;!q</title><link>https://zc7.zcr7.qzz.io//post/pi-liang-fu-zhi-zhan-tie-gong-ju--%21q.html</link><description>## 批量复制粘贴工具
 
 ```
 global MyClipData
@@ -6900,7 +6900,7 @@ else if (Cmd='' and s!='')
 }
 return
 ;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ art+q 批量复制粘贴   ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 4-216
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/pi-liang-fu-zhi-zhan-tie-gong-ju--%21q.html</guid><pubDate>Sun, 04 May 2025 07:45:03 +0000</pubDate></item><item><title>corn</title><link>https://z.zcr4.ip-ddns.com/post/corn.html</link><description>## corn
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/pi-liang-fu-zhi-zhan-tie-gong-ju--%21q.html</guid><pubDate>Sun, 04 May 2025 07:45:03 +0000</pubDate></item><item><title>corn</title><link>https://zc7.zcr7.qzz.io//post/corn.html</link><description>## corn
 
 - https://crontab.guru/examples.html
 
@@ -7016,7 +7016,7 @@ then at 2025-05-09 00:00:00
  
 ```
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/corn.html</guid><pubDate>Sun, 04 May 2025 03:44:47 +0000</pubDate></item><item><title>Tools</title><link>https://z.zcr4.ip-ddns.com/post/Tools.html</link><description>&lt;!DOCTYPE html&gt;
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/corn.html</guid><pubDate>Sun, 04 May 2025 03:44:47 +0000</pubDate></item><item><title>Tools</title><link>https://zc7.zcr7.qzz.io//post/Tools.html</link><description>&lt;!DOCTYPE html&gt;
 &lt;html data-color-mode='light' data-dark-theme='dark_colorblind' data-light-theme='light' lang='zh-CN'&gt;
 &lt;head&gt;
     &lt;meta content='text/html; charset=utf-8' http-equiv='content-type' /&gt;
@@ -7556,7 +7556,7 @@ zcr25.x10.mx             zcr
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/Tools.html</guid><pubDate>Sat, 03 May 2025 14:59:22 +0000</pubDate></item><item><title>限制单进程运行</title><link>https://z.zcr4.ip-ddns.com/post/xian-zhi-dan-jin-cheng-yun-xing.html</link><description>## 限制单进程运行
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/Tools.html</guid><pubDate>Sat, 03 May 2025 14:59:22 +0000</pubDate></item><item><title>限制单进程运行</title><link>https://zc7.zcr7.qzz.io//post/xian-zhi-dan-jin-cheng-yun-xing.html</link><description>## 限制单进程运行
 
 ```
 #SingleInstance Off
@@ -7588,7 +7588,7 @@ return
   }
 
 ;ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ   限制单进程运行    ΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞΞ 3-63
-```。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/post/xian-zhi-dan-jin-cheng-yun-xing.html</guid><pubDate>Sat, 03 May 2025 07:43:48 +0000</pubDate></item><item><title>Tool2</title><link>https://z.zcr4.ip-ddns.com/Tool2.html</link><description>## 域名邮箱
+```。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//post/xian-zhi-dan-jin-cheng-yun-xing.html</guid><pubDate>Sat, 03 May 2025 07:43:48 +0000</pubDate></item><item><title>Tool2</title><link>https://zc7.zcr7.qzz.io//Tool2.html</link><description>## 域名邮箱
 
 🧿🧿🧿🧿🧿🧿🧿🧿🧿🧿  域名邮箱 🧿🧿🧿🧿🧿🧿🧿🧿🧿🧿
 
@@ -8520,4 +8520,4 @@ https://zh.zcr4.ip-ddns.com/https://z.zcr4.ip-ddns.com/Tool2.html#desec.io
 
 
 
-。</description><guid isPermaLink="true">https://z.zcr4.ip-ddns.com/Tool2.html</guid><pubDate>Sat, 03 May 2025 15:00:56 +0000</pubDate></item></channel></rss>
+。</description><guid isPermaLink="true">https://zc7.zcr7.qzz.io//Tool2.html</guid><pubDate>Sat, 03 May 2025 15:00:56 +0000</pubDate></item></channel></rss>
